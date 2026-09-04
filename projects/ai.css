@@ -1,0 +1,663 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+
+height:100vh;
+
+background:
+radial-gradient(circle at 75% 25%,
+rgba(0,210,255,.28),
+transparent 35%),
+
+radial-gradient(circle at 35% 55%,
+rgba(0,90,255,.22),
+transparent 40%),
+
+radial-gradient(circle at 50% 20%,
+rgba(120,70,255,.18),
+transparent 35%),
+
+linear-gradient(
+#000510,
+#020b25,
+#00030c);
+
+color:white;
+font-family:'Poppins',sans-serif;
+overflow:hidden;
+
+}
+
+/* GALAXY STARS */
+
+body::before{
+
+    content:"";
+
+    position:fixed;
+
+    inset:0;
+
+    background-image:
+    radial-gradient(white 1px,transparent 1px);
+
+    background-size:65px 65px;
+
+    opacity:.35;
+
+    animation:starMove 50s linear infinite;
+
+    z-index:-1;
+
+}
+
+
+@keyframes starMove{
+
+    to{
+        background-position:600px 600px;
+    }
+
+}
+
+/* ================= NAV ================= */
+
+nav{
+    height:65px;
+    padding:
+    0 70px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.logo{
+    font-family:'Cinzel';
+    color:#7df9ff;
+    font-size:23px;
+}
+
+nav ul{
+    display:flex;
+    list-style:none;
+    gap:40px;
+}
+
+nav li{
+    list-style:none;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    font-size:14px;
+}
+
+nav a:hover{
+    color:#7df9ff;
+}
+
+.back-btn{
+    display:inline-block;
+
+    margin-left:65px;
+    margin-top:0px;
+    margin-bottom:20px;
+
+    padding:5px 18px;
+
+    border:1px solid rgba(12, 94, 114, 0.6);
+    border-radius:25px;
+
+    color:#7df9ff;
+    text-decoration:none;
+
+    background:rgba(0,0,0,.25);
+
+    transition:.3s;
+}
+
+.back-link:hover{
+    background:rgba(255,215,107,.12);
+    box-shadow:0 0 18px rgba(255,215,107,.25);
+    transform:translateX(-4px);
+}
+/* ================= HERO ================= */
+
+
+.project-hero{
+    height:60vh;
+    padding:10px 75px 0;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.tag{
+    color:#3368d2;
+    margin-bottom:0px;
+}
+
+h1{
+font-family:'Orbitron', sans-serif;
+
+font-size:2.8rem;
+
+line-height:1;
+
+letter-spacing:3px;
+
+color:#8ff6ff;
+
+text-shadow:
+0 0 10px #00eaff,
+0 0 25px #00bfff,
+0 0 45px rgba(0,150,255,.8);
+
+text-transform:uppercase;
+}
+
+.subtitle{
+    margin:8px 0;
+    font-size:16px;
+    font-family:'Cinzel';
+}
+
+/* CHIPS */
+
+.chips span{
+
+display:inline-block;
+padding:6px 16px;
+margin:4px;
+
+border-radius:40px;
+
+border:
+1px solid rgba(0,220,255,.7);
+
+background:
+rgba(0,180,255,.08);
+
+box-shadow:
+0 0 15px rgba(0,180,255,.15);
+
+font-size:12px;
+
+}
+
+
+/* PLANET AREA */
+
+.planet-zone{
+    width:450px;
+    height:280px;
+    position:relative;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+/* ACTUAL PLANET */
+.planet{
+    width:380px;
+    position:absolute;
+    right:-550px;
+    top:-250px;
+    animation:planetFloat 6s infinite ease-in-out;
+    filter:
+    drop-shadow(0 0 35px #00eaff)
+    drop-shadow(0 0 80px rgba(0,150,255,.7));
+}
+
+
+/* SNAPSHOT */
+
+.snapshot-card{
+    position:absolute;
+    right:-930px;
+    top:-220px;
+    width:400px;
+    height:225px;
+    overflow:hidden;
+    padding:15px;
+    background:rgba(3,3,20,.72);
+    border:1px solid rgba(0,220,255,.8);
+    border-radius:20px;
+    backdrop-filter:blur(18px);
+    box-shadow:0 0 35px rgba(0,180,255,.35);
+}
+
+.snapshot-card h3{
+    color:#7df9ff;
+    font-family:'Cinzel';
+    margin-bottom:12px;
+    font-size: 15px;
+}
+
+.snapshot-card p{
+    margin-bottom:8px;
+    font-size:12px;
+    line-height:1.4;
+}
+
+@keyframes planetFloat{
+    50%{
+        transform:
+        translateY(5px);
+    }
+}
+
+/* ================= GRID SIZING ================= */
+.archive-grid {
+    display: grid;
+    grid-template-columns: 5fr 5fr 5fr; 
+    gap: 22px;
+    padding: 0 65px;
+    margin-top: -230px;
+}
+
+.card-icon{
+
+    display:flex;
+
+    align-items:center;
+    justify-content:center;
+
+    width:25px;
+    height:25px;
+
+    font-size:22px;
+
+    transform:none;
+
+}
+
+/* ================= PROJECT OVERVIEW ================= */
+
+.overview-card{
+    height:160px;
+    padding:15px;
+}
+
+/* overview paragraph */
+
+.overview-card p{
+    font-size:12px;
+    line-height:1.5;
+    margin-top: 20px;
+}
+
+/* STATS INSIDE OVERVIEW */
+
+.overview-stats{
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    gap:10px;
+    margin-top:10px;
+}
+
+.mini-stat{
+
+    height:90px;
+
+    padding:10px 5px;
+
+    background:
+    linear-gradient(
+    145deg,
+    rgba(30,10,60,.8),
+    rgba(5,2,15,.9)
+    );
+
+    border:
+    1px solid rgba(139,92,255,.3);
+
+    border-radius:12px;
+
+    text-align:center;
+
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+
+}
+
+.mini-stat h4{
+
+    order:1;
+
+    color:#7df9ff;
+
+    font-size:16px;
+
+    margin-top:15px;
+
+}
+
+.stat-icon{
+    order:2;
+    font-size:18px;
+    margin-bottom:-10px;
+}
+
+
+.mini-stat p{
+    order:3;
+    font-size:8px;
+    line-height:1.15;
+    color:#aaa;
+    margin-bottom:20px;
+}
+
+/* ================= METHODOLOGY SUBGRID ================= */
+
+.method-subgrid{
+    display:grid;
+    grid-template-columns:
+    repeat(3,1fr);
+    gap:12px;
+    height:auto;
+    margin-top:20px;
+}
+
+.method-box{
+    height:200px;
+    border:1px solid rgba(0,220,255,.35);
+    border-radius:12px;
+    padding:20px 10px;
+    text-align:center;
+    background:
+    rgba(0,0,0,.35);
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    margin-bottom:200px;
+}
+
+.method-box h4{
+    color:#7df9ff;
+    font-size:11px;
+    line-height:1.3;
+    margin-bottom:8px;
+}
+
+.method-svg{
+    width:100%;
+    height:45px;
+    margin:
+    5px 0;
+    filter:
+    drop-shadow(0 0 12px rgba(139,92,255,.35));
+}
+
+.method-box p{
+    font-size:11px;
+    line-height:1.3;
+    color:#ccc;
+    margin-top:5px;
+}
+
+.method-box:hover .method-svg{
+    transform:
+    scale(1.08);
+}
+
+/* ================= RESULTS PREVIEW ================= */
+
+.results-card{
+    display:flex;
+    flex-direction:column;
+}
+
+
+/* GRAPH */
+
+.chart-placeholder{
+    height:250px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    margin-bottom:200px;
+}
+
+
+/* GRAPH SVG */
+
+.results-chart-svg{
+    width:100%;
+    height:250px !important;
+    filter:
+    drop-shadow(0 0 12px rgba(255,215,107,.15));
+}
+
+.chart-title{
+    font-size:11px;
+    color:#ccc;
+    text-align:left;
+    margin-top:10px; 
+    margin-bottom:10px;
+}
+
+/* NUMBERS UNDER GRAPH */
+
+.results-text-stats{
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    gap:15px;
+    margin-top:-15px;
+    text-align:center;
+}
+
+
+.results-text-stats h4{
+    color:#7df9ff;
+    font-size:18px;
+    margin-bottom:-5px;
+}
+
+
+.results-text-stats p{
+
+    font-size:10px;
+    line-height:1.2;
+    color:#aaa;
+
+}
+
+/* ================= BOTTOM GRID ================= */
+.bottom-grid {
+    display: grid;
+    grid-template-columns: 2fr 1fr; 
+    gap: 20px;
+    padding:0px 65px;
+    margin-top: -55px;
+    align-items:start;
+}
+
+.resources-card{
+    height:130;
+    min-height: 150px;
+    padding:auto;
+    display:flex;
+    flex-direction:column;
+    justify-content:flex-start;
+}
+
+.resource-buttons {
+    display: flex;
+    gap: 12px;
+    margin-top:12px;
+}
+
+.res-btn {
+    height:50px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 6px 12px;
+    background: transparent;
+    border: 1px solid rgba(255, 215, 107, 0.2);
+    border-radius: 12px;
+    text-decoration: none;
+    color: #d8d9e8;
+    transition: 0.3s;
+    flex: 1; /* Makes all buttons equal width */
+}
+
+.res-btn:hover {
+    border-color: #7df9ff;
+    background: rgba(255, 215, 107, 0.08);
+    transform: translateY(-3px);
+}
+
+.res-icon {
+    font-size: 22px;
+    margin-bottom:18px;
+}
+
+.res-text strong {
+    display: block;
+    font-size: 11px;
+    color:#7df9ff;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    margin-bottom: 2px;
+}
+
+.res-text span {
+    font-size: 10px;
+    color: #999;
+}
+
+.results-chart-svg {
+    width: 100%; 
+    height: 120px !important; /* Shrunk chart height */
+    filter: drop-shadow(0 0 10px rgba(255, 215, 107, 0.1));
+}
+
+/* ================= QUOTE CARD ================= */
+.quote-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+    position: relative;
+    border:1px solid rgba(0,220,255,.35);
+    box-shadow:
+    0 0 25px rgba(0,200,255,.15);
+    border-radius: 18px;
+    background: rgba(10, 5, 25, 0.4);
+    height:115px;
+}
+
+.quote-content {
+    text-align: center;
+    font-style: italic;
+    color: #ccc;
+    line-height: 1.5;
+    font-family: 'Cinzel', serif;
+    font-size: 15px;
+    position: relative;
+}
+
+.quote-content::before {
+    content: "“";
+    position: absolute;
+    left: -35px;
+    top: -25px;
+    color: #8b5cff;
+    font-size: 60px;
+    font-family: serif;
+    opacity: 0.5;
+}
+
+.quote-content::after {
+    content: "”";
+    position: absolute;
+    right: -25px;
+    bottom: -50px;
+    color: #8b5cff;
+    font-size: 60px;
+    font-family: serif;
+    opacity: 0.5;
+}
+
+.glass-card {
+    background:
+    linear-gradient(
+    145deg,
+    rgba(0,20,50,.75),
+    rgba(0,5,20,.85)
+    );
+
+    border:
+    1px solid rgba(0,220,255,.55);
+
+    border-radius:6px;
+    clip-path:
+    polygon(
+    15px 0,
+    100% 0,
+    100% calc(100% - 15px),
+    calc(100% - 15px) 100%,
+    0 100%,
+    0 15px
+    );
+
+    backdrop-filter:blur(18px);
+
+    box-shadow:
+    inset 0 0 30px rgba(0,255,255,.06),
+    0 0 35px rgba(0,170,255,.25);
+    display: flex;
+    flex-direction: column;
+    min-height:100;
+    height:260px;
+    margin-bottom: 70px;
+}
+
+h2 {
+    color:#7df9ff;
+    margin-bottom: -15px;
+    font-size: 15px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+}
+
+/* FORCE FIX RESOURCE CARD */
+
+.bottom-grid .resources-card{
+    height:115px !important;
+    min-height:0 !important;
+    padding:18px !important;
+    overflow:hidden;
+}
+
+
+/* remove extra stretching */
+.bottom-grid{
+    align-items:start !important;
+}
+
+
+/* resource button row */
+.resource-buttons{
+    height:70px;
+    margin-top:12px;
+}
+
+
+/* individual buttons */
+.res-btn{
+    height:55px;
+    padding:8px 15px;
+}

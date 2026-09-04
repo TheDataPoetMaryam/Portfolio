@@ -1,0 +1,2517 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Poppins:wght@300;400;500;600&display=swap');
+
+/* =====================================================
+   RESET & FOUNDATION
+===================================================== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: linear-gradient(
+        to bottom,
+        #02040F,
+        #060C1D,
+        #0A1024
+    );
+
+    min-height:100vh;
+}
+
+.hero{
+    position: relative;
+    width:100%;
+    height:100vh;
+    overflow:hidden;
+    opacity:0;
+    animation:
+    heroAppear 2s forwards;
+}
+
+@keyframes heroAppear{
+
+    from{
+
+        opacity:0;
+
+        filter:blur(8px);
+
+    }
+
+    to{
+
+        opacity:1;
+
+        filter:blur(0);
+
+    }
+
+}
+
+.hero::after{
+    content:"";
+    position:absolute;
+    inset:0;
+    background:radial-gradient(
+        circle,
+        transparent 45%,
+        rgba(0,0,0,.35) 100%
+    );
+    pointer-events:none;
+}
+
+/* =====================================================
+   Hero Content (Texts)
+===================================================== */
+
+.hero-content{
+    position:absolute;
+
+    top:54%;
+    left:50%;
+
+    transform:translate(-50%,-50%);
+
+    text-align:center;
+
+    z-index:100;
+}
+
+.welcome{
+
+    font-family:"Poppins",sans-serif;
+
+    color:#f5e9b7;
+
+    font-size:1.4rem;
+
+    letter-spacing:2px;
+
+    margin-bottom:5px;
+
+    opacity:.95;
+
+}
+
+.hero-title{
+
+    font-family:"Cinzel",serif;
+
+    font-size:7rem;
+
+    font-weight:700;
+
+    letter-spacing:8px;
+
+    margin-bottom:18px;
+
+    background:linear-gradient(
+        45deg,
+        #fff7d1,
+        #ffe07a,
+        #c9931a
+    );
+
+    -webkit-background-clip:text;
+
+    color:transparent;
+
+    text-shadow:
+        0 0 20px rgba(255,220,120,.35),
+        0 0 40px rgba(255,190,70,.2);
+
+}
+
+.hero-subtitle{
+
+    font-family:"Poppins",sans-serif;
+
+    color:#f5f5f5;
+
+    font-size:1.45rem;
+
+    letter-spacing:3px;
+
+    margin-bottom:45px;
+
+    margin-top:10px;
+
+    opacity:.9;
+
+}
+
+.explore-btn{
+
+    background:transparent;
+
+    color:#ffe07a;
+
+    border:2px solid #d7b347;
+
+    padding:18px 50px;
+
+    border-radius:40px;
+
+    font-size:1rem;
+
+    font-family:"Poppins",sans-serif;
+
+    cursor:pointer;
+
+    transition:.35s;
+
+}
+
+.explore-btn:hover{
+
+    background:#d7b347;
+
+    color:#081220;
+
+    transform:translateY(-5px);
+
+    box-shadow:
+        0 0 25px rgba(255,220,120,.6);
+
+}
+
+/* ==========================
+   Navbar
+=============================*/
+
+.navbar{
+
+    position:fixed;
+
+    top:0;
+    left:0;
+
+    width:100%;
+
+    padding:25px 70px;
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    z-index:9999;
+
+    background:rgba(4,8,18,.08);
+
+    backdrop-filter:blur(8px);
+
+}
+
+.logo{
+
+    font-family:"Cinzel",serif;
+
+    font-size:1.4rem;
+
+    color:#f5d36b;
+
+    font-weight:700;
+
+    letter-spacing:1px;
+
+    cursor:pointer;
+
+    text-shadow:0 0 12px rgba(255,220,120,.4);
+
+}
+
+.nav-links{
+
+    display:flex;
+
+    list-style:none;
+
+    gap:38px;
+
+}
+
+.nav-links a{
+
+    color:white;
+
+    text-decoration:none;
+
+    font-family:"Poppins",sans-serif;
+
+    font-size:.9rem;
+
+    transition:.35s;
+
+    position:relative;
+
+}
+
+.nav-links a::after{
+
+    content:"";
+
+    position:absolute;
+
+    left:0;
+    bottom:-6px;
+
+    width:0;
+
+    height:2px;
+
+    background:#f5d36b;
+
+    transition:.35s;
+
+}
+
+.nav-links a:hover{
+
+    color:#f5d36b;
+
+}
+.nav-links a:hover::after{
+
+    width:100%;
+
+}
+
+.logo:hover{
+
+    transform:scale(1.03);
+
+    transition:.4s;
+
+}
+/* =====================================================
+   Scroll Indicator
+===================================================== */
+
+.scroll-indicator{
+
+    position:absolute;
+
+    bottom:20px;
+
+    left:50%;
+
+    transform:translateX(-50%);
+
+    display:flex;
+
+    flex-direction:column;
+
+    align-items:center;
+
+    z-index:100;
+
+    color:#ddd;
+
+    animation:floatIndicator 2s ease-in-out infinite;
+
+}
+
+.mouse{
+
+    width:18px;
+
+    height:30px;
+
+    border:1.5px solid rgba(255,220,120,.8);
+
+    border-radius:15px;
+
+    position:relative;
+
+}
+
+.wheel{
+
+    width:3px;
+
+    height:5px;
+
+    background:#ffe07a;
+
+    border-radius:50%;
+
+    position:absolute;
+
+    left:50%;
+
+    top:5px;
+
+    transform:translateX(-50%);
+
+    animation:scrollWheel 2s infinite;
+
+}
+
+.scroll-indicator p{
+
+    margin-top:6px;
+
+    font-size:.65rem;
+
+    letter-spacing:1.5px;
+
+    font-family:"Poppins",sans-serif;
+
+    color:rgba(255,255,255,.75);
+
+}
+
+@keyframes scrollWheel{
+
+    0%{
+        opacity:1;
+        top:5px;
+    }
+
+    100%{
+        opacity:0;
+        top:14px;
+    }
+
+}
+
+@keyframes floatIndicator{
+
+    0%,100%{
+
+        transform:translateX(-50%) translateY(0);
+
+    }
+
+    50%{
+
+        transform:translateX(-50%) translateY(8px);
+
+    }
+
+}
+
+html{
+
+    scroll-behavior:smooth;
+
+}
+
+
+/* =====================================================
+   THE IMAGES (Glued in place!)
+===================================================== */
+
+.hero-moon {
+    position: absolute;
+    top: 15%;            /* Down from the top */
+    left: 50%;           /* Centered horizontally */
+    transform: translateX(-50%); /* Keeps it perfectly centered */
+    width: 165px;
+    z-index: 10;          /* Floats above the sky */
+    filter:
+        drop-shadow(0 0 18px rgba(255,215,120,.5))
+        drop-shadow(0 0 45px rgba(255,215,120,.25));
+    animation:
+    moonGlow 8s ease-in-out infinite,
+    floatMoon 6s ease-in-out infinite;
+}
+
+@keyframes moonGlow{
+
+    0%,100%{
+        filter:
+        drop-shadow(0 0 18px rgba(255,215,120,.45))
+        drop-shadow(0 0 40px rgba(255,215,120,.20));
+    }
+
+    50%{
+        filter:
+        drop-shadow(0 0 28px rgba(255,215,120,.8))
+        drop-shadow(0 0 70px rgba(255,215,120,.45));
+    }
+
+}
+
+@keyframes floatMoon{
+
+    0%,100%{
+        transform:translate(-50%,0);
+    }
+
+    50%{
+        transform:translate(-50%,-10px);
+    }
+
+}
+
+.hero-mountains {
+    position: absolute;
+    bottom: -2px;        /* Pinned completely to the bottom */
+    left: 0;
+    width: 100%;         /* Stretches all the way across */
+    z-index: 20;         /* Sits in front of everything */
+    pointer-events: none;
+}
+
+/* ========================================
+   STARS
+======================================== */
+
+.hero-star{
+
+    box-shadow:
+    0 0 10px white,
+    0 0 25px white,
+    0 0 60px rgba(255,255,255,.8);
+
+}
+
+#stars-far,
+#stars-mid,
+#stars-near{
+
+    position:absolute;
+
+    inset:0;
+
+    overflow:hidden;
+
+    pointer-events:none;
+
+}
+
+#stars-far{
+
+    z-index:2;
+
+}
+
+#stars-mid{
+
+    z-index:3;
+
+}
+
+#stars-near{
+
+    z-index:4;
+
+}
+
+.star{
+
+    position:absolute;
+
+    background:white;
+
+    border-radius:50%;
+
+    animation:twinkle ease-in-out infinite;
+
+}
+
+.glow{
+
+    background:#FFF8DC;
+
+    box-shadow:
+        0 0 8px white,
+        0 0 18px #ffe9a8,
+        0 0 30px #ffd86b;
+
+}
+
+.diamond{
+
+    transform:rotate(45deg);
+
+    border-radius:1px;
+
+}
+
+.cross{
+    width:4px !important;
+    height:4px !important;
+
+    box-shadow:
+        0 0 10px white,
+        0 0 20px #fff5b5;
+
+    background:white;
+
+    border-radius:50%;
+
+}
+
+.flash{
+
+    transform:scale(2);
+
+    opacity:1;
+
+    box-shadow:
+    0 0 10px white,
+    0 0 25px white;
+
+}
+
+.cross::before,
+.cross::after{
+
+    content:"";
+
+    position:absolute;
+
+    background:white;
+
+    left:50%;
+    top:50%;
+
+    transform:translate(-50%,-50%);
+
+}
+
+.cross::before{
+
+    width:1px;
+    height:10px;
+
+}
+
+.cross::after{
+
+    width:10px;
+    height:1px;
+
+}
+
+@keyframes twinkle{
+
+    0%,100%{
+
+        opacity:.3;
+
+        transform:scale(.8);
+
+    }
+
+    50%{
+
+        opacity:1;
+
+        transform:scale(1.2);
+
+    }
+
+}
+
+/* ===============================
+   SHOOTING STAR
+================================= */
+
+.shooting-star{
+
+    position:absolute;
+
+    height:2px;
+
+    background:linear-gradient(
+
+        to left,
+
+        rgba(255,255,255,0),
+
+        rgba(255,255,255,.25),
+
+        rgba(255,255,255,.7),
+
+        white
+
+    );
+
+    border-radius:50px;
+
+    filter:
+
+        drop-shadow(0 0 6px white)
+
+        drop-shadow(0 0 18px rgba(255,255,255,.7));
+
+    z-index:4;
+
+    pointer-events:none;
+
+}
+
+.shooting-star::after{
+    content:"";
+    position:absolute;
+    left:-5px;
+    top:-3px;
+    width:8px;
+    height:8px;
+    border-radius:50%;
+    background:white;
+
+    box-shadow:
+        0 0 8px white,
+        0 0 18px white,
+        0 0 35px white;
+}
+
+/* ===========================
+        NEBULA
+=========================== */
+
+.nebula{
+
+    position:absolute;
+
+    border-radius:50%;
+
+    filter:blur(120px);
+
+    opacity:.18;
+
+    pointer-events:none;
+
+    animation:floatNebula 45s ease-in-out infinite alternate;
+
+    z-index:1;
+
+}
+
+/* Purple */
+
+.nebula1{
+
+    width:700px;
+    height:450px;
+
+    background:radial-gradient(circle,
+    rgba(130,80,255,.45),
+    transparent 70%);
+
+    top:10%;
+    left:-120px;
+
+}
+
+/* Blue */
+
+.nebula2{
+
+    width:650px;
+    height:420px;
+
+    background:radial-gradient(circle,
+    rgba(80,140,255,.30),
+    transparent 70%);
+
+    top:35%;
+    right:-150px;
+
+    animation-duration:55s;
+
+}
+
+/* Pink */
+
+.nebula3{
+
+    width:550px;
+    height:350px;
+
+    background:radial-gradient(circle,
+    rgba(255,120,220,.20),
+    transparent 70%);
+
+    bottom:-80px;
+    left:25%;
+
+    animation-duration:60s;
+
+}
+
+@keyframes floatNebula{
+
+    from{
+
+        transform:
+        translate(0px,0px)
+        scale(1);
+
+    }
+
+    to{
+
+        transform:
+        translate(60px,-40px)
+        scale(1.08);
+
+    }
+
+}
+
+/* ===============================
+   ABOUT SECTION
+================================= */
+
+.about{
+
+    height:100vh;
+
+    padding:80px 8% 80px;
+
+    position:relative;
+
+    overflow:hidden;
+
+}
+
+.about-container,
+.section-title{
+
+    position:relative;
+    z-index:5;
+
+}
+
+.section-title{
+
+    text-align:center;
+
+    margin-bottom:25px;
+
+}
+
+.section-title h2{
+
+    font-family:"Cinzel";
+
+    font-size:3.5rem;
+
+    color:#f6d97b;
+
+}
+
+.title-line{
+
+    width:120px;
+
+    height:2px;
+
+    background:#d7b347;
+
+    margin:18px auto;
+
+    position:relative;
+
+}
+
+.title-line::after{
+
+    content:"✦";
+
+    position:absolute;
+
+    left:50%;
+
+    top:-12px;
+
+    transform:translateX(-50%);
+
+    color:#f6d97b;
+
+}
+
+.about-container{
+
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+
+    gap:70px;
+
+    align-items:center;
+
+    transform:translate(170px,-50px);
+
+}
+
+.about-text h3{
+
+    color:#f6d97b;
+
+    font-size:2rem;
+
+    margin-bottom:25px;
+
+}
+
+.about-text p{
+
+    color:#ddd;
+
+    line-height:1.6;
+
+    margin-bottom:5px;
+
+    font-size:1.05rem;
+
+}
+
+.about-text h3::after{
+    content:"";
+    display:block;
+
+    width:80px;
+    height:2px;
+
+    background:#d7b347;
+
+    margin-top:15px;
+}
+
+.about-text{
+
+    display:flex;
+    flex-direction:column;
+    gap:15px;
+    position:relative;
+    z-index:5;
+    max-width:650px;
+     transform:translateY(-40px);
+
+}
+
+.about-window{
+
+    width:360px;
+    height:470px;
+
+    border-radius:190px 190px 20px 20px;
+
+    overflow:hidden;
+    position:relative;
+
+    border:
+    3px solid rgba(255,215,100,.8);
+
+    box-shadow:
+    inset 0 0 40px rgba(255,255,255,.12),
+    inset 0 0 80px rgba(0,0,0,.7),
+
+    0 0 35px rgba(255,210,90,.35),
+    0 0 80px rgba(255,210,90,.12),
+
+    0 35px 80px rgba(0,0,0,.7),
+
+    inset 0 0 30px rgba(255,220,120,.15);
+
+}
+
+@keyframes windowFloat{
+    50%{
+
+        transform:translateY(-12px);
+
+    }
+
+}
+
+.about-visual{
+
+    display:flex;
+
+    justify-content:center;
+    align-items:center;
+
+}
+
+.about::after{
+
+    content:"";
+
+    position:absolute;
+
+    bottom:0;
+    left:0;
+
+    width:100%;
+    height:260px;
+
+    background:
+    linear-gradient(
+        to top,
+        rgba(20,15,12,.95),
+        rgba(20,15,12,.4),
+        transparent
+    );
+
+    z-index:0;
+
+}
+
+.about-text::before{
+
+    content:"";
+    position:absolute;
+
+    width:300px;
+    height:300px;
+
+    background:rgba(255,200,100,.08);
+    filter:blur(80px);
+
+    z-index:-1;
+
+}
+
+
+.about-window::before{
+
+    content:"";
+
+    position:absolute;
+
+    inset:0;
+
+    background:
+    linear-gradient(
+    120deg,
+    rgba(255,255,255,.25),
+    transparent 30%,
+    transparent 70%
+    );
+
+    z-index:20;
+
+    pointer-events:none;
+
+}
+
+.window-glow{
+
+    position:absolute;
+
+    inset:0;
+
+    box-shadow:
+
+    inset 0 0 80px rgba(255,220,120,.08);
+
+}
+
+.window-bg{
+
+    position:absolute;
+
+    inset:0;
+
+    width:100%;
+    height:115%;
+
+    object-fit:cover;
+
+    object-position:center top;
+
+    transform:translateY(-45px);
+
+    z-index:1;
+
+}
+
+.window-real-moon{
+
+    position:absolute;
+
+    width:115px;
+
+    top:60px;
+    right:51px;
+
+    z-index:5;
+
+    animation:moonFloat 10s ease-in-out infinite;
+
+    filter:
+    drop-shadow(0 0 20px #ffd76b)
+    drop-shadow(0 0 60px #ffd76b);
+
+}
+
+
+@keyframes moonFloat{
+
+    50%{
+        transform:translateY(-12px);
+    }
+
+}
+
+.window-shooting-stars{
+
+    position:absolute;
+
+    inset:0;
+
+    overflow:hidden;
+
+    border-radius:220px 220px 25px 25px;
+
+    pointer-events:none;
+
+    z-index:20;
+
+}
+
+
+.window-meteor{
+
+    position:absolute;
+
+    width:80px;
+    height:2px;
+
+    background:linear-gradient(
+        90deg,
+        white,
+        transparent
+    );
+
+    border-radius:50%;
+
+    filter:
+    drop-shadow(0 0 8px white);
+
+    animation:
+    windowMeteor 1.8s linear forwards;
+
+}
+
+@keyframes windowMeteor{
+
+    from{
+        transform:
+        translate(0,0)
+        rotate(-35deg);
+
+        opacity:1;
+    }
+
+    to{
+        transform:
+        translate(-250px,180px)
+        rotate(-35deg);
+
+        opacity:0;
+    }
+
+}
+
+.curtain{
+
+    position:absolute;
+
+    top:0;
+
+    width:50%;
+    height:100%;
+
+    background:
+    linear-gradient(
+    90deg,
+
+    #050817,
+    #111b3d,
+    #1d2b60,
+    #0b1028
+
+    );
+
+    z-index:50;
+
+    transition:
+    transform 3.5s cubic-bezier(.77,0,.18,1);
+
+    box-shadow:
+    inset 0 0 40px rgba(255,215,120,.15);
+
+    animation:
+    curtainFlow 5s ease-in-out infinite;
+
+    transform-origin:center;
+
+    border-bottom-left-radius:40% 5%;
+    border-bottom-right-radius:40% 5%;
+
+    opacity:.92;
+    backdrop-filter:blur(2px);
+
+}
+
+@keyframes curtainFlow{
+
+    0%,100%{
+
+        filter:
+        brightness(1);
+
+    }
+
+    50%{
+
+        filter:
+        brightness(1.2);
+
+    }
+
+}
+
+.left-curtain{
+
+    left:0;
+
+    border-radius:
+    190px 0 0 20px;
+    border-right:
+    2px solid rgba(255,215,120,.8);
+    box-shadow:
+    15px 0 30px rgba(0,0,0,.6);
+    border-right:2px solid rgba(255,220,120,.6);
+
+}
+
+.right-curtain{
+
+    right:0;
+
+    border-radius:
+    0 190px 20px 0;
+    border-left:
+    2px solid rgba(255,215,120,.8);
+    box-shadow:
+    -15px 0 30px rgba(0,0,0,.6);
+    border-left:2px solid rgba(255,220,120,.6)
+
+}
+
+.curtain-left,
+.curtain-right{
+    box-shadow:
+    inset 0 0 25px rgba(0,0,0,.6),
+    0 0 15px rgba(20,40,120,.4);
+    transition:transform 2.5s ease-in-out;
+}
+
+.curtain::after{
+
+    content:"";
+
+    position:absolute;
+
+    inset:0;
+
+    background:
+    repeating-linear-gradient(
+    90deg,
+
+    rgba(255,255,255,.15) 0px,
+
+    rgba(255,255,255,.03) 12px,
+
+    rgba(0,0,0,.35) 25px,
+
+    rgba(255,255,255,.08) 40px
+
+    );
+
+    animation:
+    silkMove 4s ease-in-out infinite;
+
+}
+
+
+@keyframes silkMove{
+
+    0%,100%{
+
+        transform:
+        translateX(0);
+
+    }
+
+    50%{
+
+        transform:
+        translateX(8px);
+
+    }
+
+}
+
+.about-window.open 
+.left-curtain{
+
+    transform:
+    translateX(-96%);
+
+}
+
+
+.about-window.open 
+.right-curtain{
+
+    transform:
+    translateX(96%);
+
+}
+
+.room-bg{
+
+    position:absolute;
+
+    inset:0;
+
+    background:
+
+    /* wall corner light */
+    radial-gradient(
+        circle at 15% 60%,
+        rgba(255,210,120,.12),
+        transparent 25%
+    ),
+
+    /* window reflection */
+    radial-gradient(
+        circle at 75% 55%,
+        rgba(255,220,120,.10),
+        transparent 25%
+    ),
+
+    linear-gradient(
+        to bottom,
+        #020817,
+        #030615 75%,
+        #010207
+    );
+
+    z-index:-1;
+
+}
+
+.about-container,
+.section-title{
+
+    position:relative;
+    z-index:2;
+
+}
+
+.room-corner{
+
+    position:absolute;
+
+    left:5px;
+    bottom:0;
+
+    width:720px;
+
+    opacity:.9;
+
+    z-index:1;
+
+    pointer-events:none;
+
+}
+
+/* =====================================================
+              MY CONSTELLATIONS
+===================================================== */
+
+.constellations{
+
+    min-height:100vh;
+
+    padding:110px 8% 80px;
+
+    position:relative;
+
+    overflow:hidden;
+
+    background:
+
+    radial-gradient(
+        circle at 15% 60%,
+        rgba(100,50,200,.35),
+        transparent 35%
+    ),
+
+    radial-gradient(
+        circle at 80% 35%,
+        rgba(255,210,100,.08),
+        transparent 30%
+    ),
+
+    linear-gradient(
+        #010512,
+        #020817,
+        #01030b
+    );
+
+}
+
+
+/* tiny galaxy particles */
+
+.constellations::before{
+
+    content:"";
+
+    position:absolute;
+
+    inset:0;
+
+    background-image:
+    radial-gradient(white 1px, transparent 1px);
+
+    background-size:
+    70px 70px;
+
+    opacity:.25;
+
+}
+
+
+/* ================= TITLE ================= */
+
+
+.constellation-title{
+
+    position:relative;
+
+    z-index:2;
+
+    text-align:center;
+
+}
+
+
+.constellation-title h2{
+
+    font-family:"Cinzel",serif;
+
+    font-size:3.4rem;
+
+    color:#f8d978;
+
+    text-shadow:
+    0 0 25px rgba(255,210,100,.5);
+
+}
+
+
+.constellation-line{
+
+    width:120px;
+
+    height:2px;
+
+    background:#d8b54b;
+
+    margin:18px auto;
+
+    position:relative;
+
+}
+
+
+.constellation-line::after{
+
+    content:"✦";
+
+    position:absolute;
+
+    top:-13px;
+
+    left:50%;
+
+    transform:translateX(-50%);
+
+    color:#ffd76b;
+
+}
+
+
+.section-subtitle{
+
+    color:#ddd;
+
+    font-family:"Poppins";
+
+}
+
+
+
+/* ================= MAP ================= */
+
+.constellation-map{
+
+    width:1200px;
+
+    height:470px;
+
+    margin:-40px auto 0;
+
+    position:relative;
+
+    z-index:2;
+
+}
+
+/* ================= CONSTELLATION LINES ================= */
+
+.star-lines{
+
+    position:absolute;
+
+    inset:0;
+
+    width:100%;
+    height:100%;
+
+    overflow:visible;
+
+    pointer-events:none;
+
+    z-index:1;
+
+}
+
+.star-lines path {
+    fill:none;
+
+    stroke:url(#lineGradient);
+
+    stroke-width:.2;
+
+    opacity:.55;
+
+    stroke-linecap:round;
+    stroke-linejoin:round;
+
+    filter:
+    drop-shadow(0 0 4px #b48cff)
+    drop-shadow(0 0 12px rgba(180,140,255,.6));
+
+    stroke-dasharray:700;
+    stroke-dashoffset:700;
+
+    animation:
+    drawConstellation 4s ease forwards;
+}
+
+
+@keyframes drawConstellation {
+
+    to{
+        stroke-dashoffset:0;
+    }
+
+}
+
+
+/* ================= STAR POINTS ================= */
+
+
+.project-star{
+
+    position:absolute;
+
+    width:14px;
+
+    height:14px;
+
+    z-index:5;
+
+}
+
+
+/* actual star */
+
+.real-star{
+
+    position:absolute;
+
+    width:8px;
+    height:8px;
+
+    left:50%;
+    top:50%;
+
+    transform:
+    translate(-50%,-50%);
+
+    background:#fff9d8;
+
+    border-radius:50%;
+
+    box-shadow:
+    0 0 10px white,
+    0 0 25px #ffd76b,
+    0 0 60px rgba(255,215,100,.8);
+
+    animation:
+    starPulse 2.8s infinite;
+
+}
+
+
+.real-star::before,
+.real-star::after{
+
+    content:"";
+
+    position:absolute;
+
+    left:50%;
+    top:50%;
+
+    transform:
+    translate(-50%,-50%);
+
+
+    background:
+    linear-gradient(
+        transparent,
+        white,
+        transparent
+    );
+
+}
+
+
+.real-star::before{
+
+    width:1px;
+
+    height:28px;
+
+}
+
+
+.real-star::after{
+
+    width:28px;
+
+    height:1px;
+
+
+    background:
+    linear-gradient(
+        90deg,
+        transparent,
+        white,
+        transparent
+    );
+
+}
+
+
+@keyframes starPulse{
+
+    50%{
+
+        opacity:.65;
+
+    }
+
+}
+
+.project-star:nth-child(even) .real-star{
+    animation-delay:1.2s;
+}
+
+/* ================= POSITIONS ================= */
+
+.dmart{
+
+    left:12%;
+    top:45%;
+
+}
+
+
+.gene{
+
+    left:35%;
+    top:72%;
+
+}
+
+
+.ai{
+
+    left:47%;
+    top:38%;
+
+}
+
+
+.mary-core{
+
+    left:63%;
+    top:60%;
+
+}
+
+
+.iris{
+
+    left:82%;
+    top:45%;
+
+}
+
+
+.analytics{
+
+    left:75%;
+    top:18%;
+
+}
+
+/* ================= PROJECT TEXT ================= */
+
+
+.project-card{
+
+    position:absolute;
+
+    width:210px;
+
+    top:28px;
+
+    left:50%;
+
+    transform:translateX(-50%);
+
+
+    text-align:center;
+
+
+    background:none;
+
+    border:none;
+
+}
+
+.project-card h3{
+
+    font-family:"Cinzel";
+
+    color:#ffd76b;
+
+    font-size:.95rem;
+
+    text-shadow:
+    0 0 12px rgba(255,215,100,.5);
+
+}
+
+
+.project-card p{
+
+    color:#d8d9e8;
+
+    font-size:.7rem;
+
+}
+
+
+.project-card span{
+
+    color:#d7b347;
+
+    font-size:.62rem;
+
+}
+
+/* magic hover */
+
+.project-star:hover .real-star{
+
+    transform:
+    translate(-50%,-50%)
+    scale(1.4);
+
+}
+
+.project-star:hover h3{
+
+    text-shadow:
+    0 0 15px #ffd76b;
+
+}
+
+.project-star:hover .project-info{
+    transform:translateY(-10px);
+}
+
+.project-star:active .real-star{
+
+    transform:
+    translate(-50%,-50%)
+    scale(2);
+
+}
+/* ================= HINT ================= */
+
+
+.constellation-hint{
+
+    position:relative;
+
+    z-index:2;
+
+    text-align:center;
+
+    color:#ccc;
+
+    font-family:"Poppins";
+
+    font-size:.85rem;
+
+}
+
+.discovery-card{
+
+    position:absolute;
+
+    width:240px;
+
+    padding:18px 20px;
+
+    background:
+    linear-gradient(
+        135deg,
+        rgba(20,18,40,.75),
+        rgba(5,8,20,.85)
+    );
+
+    backdrop-filter: blur(18px);
+
+    border:
+    1px solid rgba(255,215,107,.35);
+
+    border-radius:22px;
+
+    color:white;
+
+    box-shadow:
+    0 0 25px rgba(255,215,107,.25),
+    inset 0 0 25px rgba(255,255,255,.03);
+
+    opacity:0;
+
+    transform:
+    translateY(15px)
+    scale(.85);
+
+    pointer-events:none;
+
+    transition:
+    .35s ease;
+
+    z-index:20;
+}
+
+
+.discovery-card.active{
+
+    opacity:1;
+
+    transform:
+    translateY(0)
+    scale(1);
+
+    pointer-events:auto;
+    animation: telescopeOpen .35s ease forwards;
+}
+
+@keyframes telescopeOpen{
+
+    from{
+        opacity:0;
+        transform:scale(.8) translateY(15px);
+    }
+
+    to{
+        opacity:1;
+        transform:scale(1) translateY(0);
+    }
+
+}
+
+.discovery-card h4{
+
+    font-size:14px;
+
+    color:#ffd76b;
+
+    margin-bottom:8px;
+}
+
+
+.discovery-card h2{
+
+    font-size:24px;
+
+    color:white;
+
+    margin-bottom:12px;
+}
+
+
+.discovery-card p{
+
+    font-size:13px;
+
+    line-height:1.5;
+
+    opacity:.85;
+}
+
+
+.discovery-card button{
+
+    margin-top:35px;
+
+    padding:
+    9px 18px;
+
+    border:none;
+
+    border-radius:30px;
+
+    background:#ffd76b;
+
+    cursor:pointer;
+
+    font-size:13px;
+
+    transition:.3s;
+
+}
+
+
+.discovery-card button:hover{
+
+    transform:scale(1.08);
+
+    box-shadow:
+    0 0 20px #ffd76b;
+}
+
+.project-link{
+
+    display:inline-block;
+
+    margin-top:15px;
+
+    padding:10px 22px;
+
+    border-radius:60px;
+
+    background:#ffd76b;
+
+    color:black;
+
+    text-decoration:none;
+
+}
+
+.view-project-btn{
+
+    display:inline-block;
+
+    padding:8px 32px;
+
+    border-radius:50px;
+
+    background:#ffd866;
+
+    color:#111;
+
+    text-decoration:none;
+
+    font-weight:600;
+
+    box-shadow:
+    0 0 12px rgba(255,216,102,.35);
+
+    transition:.3s ease;
+
+}
+
+
+.view-project-btn:hover{
+
+    transform:scale(1.05);
+
+    box-shadow:
+    0 0 20px rgba(255,216,102,.6);
+
+}
+
+.view-project-btn:active{
+
+    animation:starPulse .4s;
+
+}
+
+
+@keyframes starPulse{
+
+    50%{
+
+        transform:scale(.9);
+
+        box-shadow:
+        0 0 100px #fff;
+
+    }
+
+}
+/* =====================================================
+   MOBILE RESPONSIVE FIX — MARY'S UNIVERSE
+   Desktop rules remain unchanged.
+===================================================== */
+
+@media (max-width: 900px) {
+
+    /* NAVBAR */
+    .navbar {
+        padding: 16px 20px;
+        gap: 18px;
+        align-items: flex-start;
+    }
+
+    .logo {
+        font-size: 1.05rem;
+        line-height: 1.25;
+        max-width: 145px;
+        flex-shrink: 0;
+    }
+
+    .nav-links {
+        gap: 16px;
+        flex-wrap: nowrap;
+        overflow-x: auto;
+        max-width: calc(100vw - 165px);
+        padding-bottom: 4px;
+        scrollbar-width: none;
+    }
+
+    .nav-links::-webkit-scrollbar {
+        display: none;
+    }
+
+    .nav-links a {
+        font-size: 0.78rem;
+        white-space: nowrap;
+    }
+
+    /* HOME */
+    .hero {
+        min-height: 100svh;
+        height: 100svh;
+    }
+
+    .hero-moon {
+        width: 105px;
+        top: 13%;
+    }
+
+    .hero-content {
+        width: 92%;
+        top: 54%;
+    }
+
+    .welcome {
+        font-size: 0.95rem;
+        letter-spacing: 1.5px;
+    }
+
+    .hero-title {
+        font-size: clamp(3rem, 15vw, 4.8rem);
+        letter-spacing: 3px;
+        line-height: 1;
+        margin-bottom: 16px;
+        white-space: normal;
+    }
+
+    .hero-subtitle {
+        font-size: 0.9rem;
+        line-height: 1.7;
+        letter-spacing: 1.5px;
+        margin-bottom: 28px;
+    }
+
+    .explore-btn {
+        padding: 13px 28px;
+        font-size: 0.85rem;
+    }
+
+    .scroll-indicator {
+        bottom: 12px;
+    }
+
+    /* ABOUT */
+    .about {
+        height: auto;
+        min-height: 100svh;
+        padding: 105px 20px 70px;
+        overflow: hidden;
+    }
+
+    .section-title {
+        margin-bottom: 20px;
+    }
+
+    .section-title h2 {
+        font-size: clamp(2rem, 9vw, 3rem);
+        line-height: 1.1;
+    }
+
+    .about-container {
+        display: flex;
+        flex-direction: column;
+        gap: 35px;
+        width: 100%;
+        transform: none;
+        align-items: center;
+    }
+
+    .about-text {
+        width: 100%;
+        max-width: 520px;
+        transform: none;
+        gap: 12px;
+        order: 1;
+    }
+
+    .about-text h3 {
+        font-size: 1.45rem;
+        margin-bottom: 15px;
+    }
+
+    .about-text p {
+        font-size: 0.95rem;
+        line-height: 1.7;
+    }
+
+    .about-visual {
+        width: 100%;
+        order: 2;
+    }
+
+    .about-window {
+        width: min(82vw, 330px);
+        height: min(108vw, 430px);
+    }
+
+    /* ABOUT MOON — scale the overlay with the window.
+       The background artwork contains its own moon, so the
+       separate full-moon image must scale by the same ratio. */
+    .window-real-moon {
+        width: 110px;
+        top: 50px;
+        right: 47px;
+    }
+
+    .room-corner {
+        width: 150%;
+        max-width: none;
+        left: -25%;
+    }
+
+    /* CONSTELLATIONS */
+    .constellations {
+        min-height: 100svh;
+        height: auto;
+        padding: 105px 18px 70px;
+        overflow-x: hidden;
+        overflow-y: visible;
+    }
+
+    .constellation-title h2 {
+        font-size: clamp(2rem, 9vw, 3rem);
+        line-height: 1.1;
+    }
+
+    .section-subtitle {
+        font-size: 0.82rem;
+        line-height: 1.6;
+        padding: 0 15px;
+    }
+
+    .constellation-map {
+        width: 100%;
+        max-width: 420px;
+        height: 620px;
+        margin: 35px auto 0;
+    }
+
+    .constellation-map .dmart {
+        left: 20%;
+        top: 15%;
+    }
+
+    .constellation-map .gene {
+        left: 72%;
+        top: 28%;
+    }
+
+    .constellation-map .ai {
+        left: 48%;
+        top: 43%;
+    }
+
+    .constellation-map .mary-core {
+        left: 22%;
+        top: 60%;
+    }
+
+    .constellation-map .iris {
+        left: 75%;
+        top: 70%;
+    }
+
+    .constellation-map .analytics {
+        left: 48%;
+        top: 84%;
+    }
+
+    .project-card {
+        width: 150px;
+        top: 24px;
+    }
+
+    .project-card h3 {
+        font-size: 0.78rem;
+        line-height: 1.25;
+    }
+
+    .project-card p {
+        font-size: 0.62rem;
+        line-height: 1.4;
+    }
+
+    .project-card span {
+        font-size: 0.55rem;
+    }
+
+    .project-star {
+        width: 12px;
+        height: 12px;
+    }
+
+    .real-star {
+        width: 7px;
+        height: 7px;
+    }
+
+    .constellation-hint {
+        font-size: 0.72rem;
+        line-height: 1.5;
+        padding: 0 15px;
+    }
+
+    .discovery-card {
+        width: min(88vw, 320px);
+        left: 50% !important;
+        transform: translate(-50%, 15px) scale(.85);
+    }
+
+    .discovery-card.active {
+        transform: translate(-50%, 0) scale(1);
+    }
+}
+
+@media (max-width: 480px) {
+
+    .navbar {
+        padding: 14px 16px;
+    }
+
+    .logo {
+        font-size: 0.92rem;
+        max-width: 125px;
+    }
+
+    .nav-links {
+        gap: 13px;
+        max-width: calc(100vw - 145px);
+    }
+
+    .nav-links a {
+        font-size: 0.72rem;
+    }
+
+    .hero-moon {
+        width: 88px;
+    }
+
+    .hero-content {
+        width: 94%;
+    }
+
+    .hero-title {
+        font-size: clamp(2.7rem, 16vw, 4rem);
+        letter-spacing: 2px;
+    }
+
+    .hero-subtitle {
+        font-size: 0.78rem;
+        letter-spacing: 1px;
+    }
+
+    .explore-btn {
+        padding: 12px 24px;
+    }
+
+    .about {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    .about-window {
+        width: 86vw;
+        height: calc(86vw * 470 / 360);
+        max-height: 449px;
+        aspect-ratio: 360 / 470;
+    }
+
+    .constellations {
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+
+    .constellation-map {
+        height: 590px;
+    }
+
+    .project-card {
+        width: 135px;
+    }
+
+    .project-card h3 {
+        font-size: 0.7rem;
+    }
+
+    .project-card p {
+        font-size: 0.56rem;
+    }
+
+    .project-card span {
+        font-size: 0.5rem;
+    }
+}
+
+
+/* =====================================================
+   MOBILE NAVBAR — CLEAN, USABLE, TOUCH FRIENDLY
+   Desktop navbar remains unchanged.
+===================================================== */
+
+@media (max-width: 700px) {
+
+    .navbar {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        min-height: 64px;
+        padding: 10px 14px;
+        display: flex;
+        align-items: center;
+        gap: 14px;
+        z-index: 9999;
+        box-sizing: border-box;
+    }
+
+    .logo {
+        flex: 0 0 auto;
+        width: 108px;
+        max-width: 108px;
+        font-size: 0.78rem;
+        line-height: 1.15;
+        white-space: normal;
+    }
+
+    .nav-links {
+        flex: 1 1 auto;
+        min-width: 0;
+        width: auto;
+        max-width: none;
+        display: flex;
+        align-items: center;
+        gap: 18px;
+        margin: 0;
+        padding: 0 4px 2px 0;
+        overflow-x: auto;
+        overflow-y: hidden;
+        white-space: nowrap;
+        -webkit-overflow-scrolling: touch;
+        scrollbar-width: none;
+        touch-action: pan-x;
+    }
+
+    .nav-links::-webkit-scrollbar {
+        display: none;
+    }
+
+    .nav-links li {
+        flex: 0 0 auto;
+    }
+
+    .nav-links a {
+        display: block;
+        padding: 8px 0;
+        font-size: 0.74rem;
+        line-height: 1;
+        white-space: nowrap;
+    }
+}
+
+@media (max-width: 480px) {
+
+    .navbar {
+        min-height: 62px;
+        padding: 9px 12px;
+        gap: 12px;
+    }
+
+    .logo {
+        width: 96px;
+        max-width: 96px;
+        font-size: 0.72rem;
+    }
+
+    .nav-links {
+        gap: 16px;
+    }
+
+    .nav-links a {
+        font-size: 0.70rem;
+    }
+}
+
+
+/* =====================================================
+   MOBILE NAVBAR SCROLL CUE
+   Makes it obvious that more links continue to the right.
+===================================================== */
+
+@media (max-width: 700px) {
+
+    .navbar {
+        position: fixed;
+    }
+
+    /* Soft fade over the right edge of the navigation. */
+    .navbar::after {
+        content: "";
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 58px;
+        height: 100%;
+        pointer-events: none;
+        background: linear-gradient(
+            to right,
+            rgba(4, 8, 18, 0),
+            rgba(4, 8, 18, .94)
+        );
+        z-index: 2;
+    }
+
+    /* Small gold cue arrow: "there is more →" */
+    .navbar::before {
+        content: "›";
+        position: absolute;
+        right: 8px;
+        top: 50%;
+        transform: translateY(-54%);
+        z-index: 3;
+        color: #f5d36b;
+        font-family: "Cinzel", serif;
+        font-size: 25px;
+        line-height: 1;
+        text-shadow: 0 0 10px rgba(245, 211, 107, .75);
+        pointer-events: none;
+        animation: mobileNavHint 1.8s ease-in-out infinite;
+    }
+
+    .nav-links {
+        position: relative;
+        z-index: 1;
+        padding-right: 28px;
+    }
+}
+
+@keyframes mobileNavHint {
+    0%, 100% {
+        transform: translate(0, -54%);
+        opacity: .55;
+    }
+
+    50% {
+        transform: translate(4px, -54%);
+        opacity: 1;
+    }
+}
+
+@media (max-width: 480px) {
+
+    .navbar::after {
+        width: 52px;
+    }
+
+    .navbar::before {
+        right: 6px;
+        font-size: 23px;
+    }
+
+    .nav-links {
+        padding-right: 24px;
+    }
+}
+
+/* =====================================================
+   MOBILE CONSTELLATIONS — SMOOTH PAGE SCROLL
+   ===================================================== */
+
+@media (max-width: 700px) {
+
+    .constellations {
+        overflow-x: hidden;
+        overflow-y: visible;
+        touch-action: pan-y;
+    }
+
+    .constellation-map {
+        touch-action: pan-y;
+    }
+
+    .project-star {
+        touch-action: manipulation;
+    }
+
+}

@@ -1,0 +1,2149 @@
+/* =========================================
+   RESEARCH GALAXY
+========================================= */
+
+.research-section {
+    position: relative;
+
+    width: 100%;
+    height: 100vh;
+
+    overflow: hidden;
+
+    padding: 0;
+    margin: 0;
+
+    background: #02020d;
+}
+
+
+/* GALAXY IMAGE */
+
+.research-galaxy-bg {
+    position: absolute;
+
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+    object-position: center;
+
+    display: block;
+
+    z-index: 1;
+}
+
+/* Dark overlay over galaxy */
+.research-section::after {
+    content: "";
+
+    position: absolute;
+
+    inset: 0;
+
+    background: rgba(0, 0, 20, 0.40);
+
+    z-index: 2;
+
+    pointer-events: none;
+}
+
+/* =========================================
+   RESEARCH CARD
+========================================= */
+
+.research-card {
+    position: absolute;
+
+    width: 138px;
+    height: 200px;
+
+    top: 22%;
+    left: 15%;
+
+    perspective: 1000px;
+
+    z-index: 3;
+
+    cursor: pointer;
+}
+
+
+.research-card-inner {
+    position: relative;
+
+    width: 100%;
+    height: 100%;
+
+    transform-style: preserve-3d;
+
+    transition: transform 0.8s ease;
+}
+
+
+/* FLIP */
+
+.research-card.flipped .research-card-inner {
+    transform: rotateY(180deg);
+}
+
+
+/* BOTH SIDES */
+
+.research-card-front,
+.research-card-back {
+    position: absolute;
+
+    inset: 0;
+
+    width: 100%;
+    height: 100%;
+
+    backface-visibility: hidden;
+}
+
+
+/* FRONT */
+
+.research-card-front img {
+    width: 100%;
+    height: 100%;
+
+    display: block;
+
+    object-fit: cover;
+
+    border-radius: 12px;
+}
+
+
+/* BACK */
+
+.research-card-back {
+
+    position: relative;
+
+    display: flex;
+
+    flex-direction: column;
+
+    justify-content: center;
+
+    align-items: center;
+
+    padding: 18px 14px;
+
+    box-sizing: border-box;
+
+    text-align: center;
+
+    border-radius: 12px;
+
+    overflow: hidden;
+
+    background:
+        radial-gradient(
+            ellipse at center,
+            rgba(65, 25, 105, 0.95),
+            rgba(15, 5, 35, 0.99) 70%,
+            rgba(5, 2, 18, 1)
+        );
+
+    border: 1px solid rgba(212, 175, 85, 0.85);
+
+    box-shadow:
+        0 0 18px rgba(170, 100, 255, 0.35),
+        inset 0 0 18px rgba(170, 100, 255, 0.12);
+
+    transform: rotateY(180deg);
+}
+
+.research-card-back::before {
+
+    content: "";
+
+    position: absolute;
+
+    inset: 7px;
+
+    border: 1px solid rgba(212, 175, 85, 0.45);
+
+    border-radius: 9px;
+
+    pointer-events: none;
+
+    box-shadow:
+        inset 0 0 8px rgba(212, 175, 85, 0.12);
+}
+
+.card-symbol {
+
+    font-size: 25px;
+
+    color: #f8d978;
+
+    margin-bottom: 12px;
+
+    text-shadow:
+        0 0 15px rgba(255,215,110,.8);
+}
+
+
+.research-card-back p {
+
+    margin: 0;
+
+    color: #eee5ff;
+
+    font-family: "Cinzel", serif;
+
+    font-size: 10px;
+
+    line-height: 1;
+}
+
+.corner-star {
+    position: absolute;
+    color: #f4cf72;
+    font-size: 10px;
+    text-shadow: 0 0 8px rgba(255, 215, 100, 0.8);
+}
+
+.top-left {
+    top: 14px;
+    left: 14px;
+}
+
+.top-right {
+    top: 14px;
+    right: 14px;
+}
+
+.bottom-left {
+    bottom: 14px;
+    left: 14px;
+}
+
+.bottom-right {
+    bottom: 14px;
+    right: 14px;
+}
+
+
+.card-divider {
+    position: relative;
+    z-index: 2;
+
+    width: 75%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3px;
+
+    margin: 8px 0;
+
+    color: #d8b45a;
+
+    font-size: 8px;
+}
+
+.card-divider span {
+    display: block;
+
+    width: 28px;
+    height: 1px;
+
+    background: linear-gradient(
+        to right,
+        transparent,
+        #d8b45a,
+        transparent
+    );
+}
+
+
+.back-footer {
+    position: relative;
+    z-index: 2;
+
+    margin: 0;
+
+    color: #d9c7f0;
+
+    font-family: "Cinzel", serif;
+
+    font-size: 4px;
+
+    line-height: 1;
+
+    letter-spacing: .3px;
+
+    text-transform: n;
+}
+
+.card-two {
+    top: 22%;
+    left: 36.5%;
+}
+
+/* hidden */
+
+.card-three {
+    top: 22%;
+    left: 57.5%;
+}
+
+.card-four {
+    top: 55%;
+    left: 65%;
+}
+
+/* hidden */
+
+.card-five {
+    top: 55%;
+    left: 45%;
+}
+
+.card-six {
+    top: 55%;
+    left: 25%;
+}
+
+.card-seven {
+    top: 22%;
+    left: 77.5%;
+}
+
+/* =========================================
+   RESEARCH HEADING
+========================================= */
+
+.research-heading {
+    position: absolute;
+
+    top: 30px;
+    left: 50%;
+
+    transform: translateX(-50%);
+
+    width: min(900px, 80%);
+
+    text-align: center;
+
+    z-index: 4;
+
+    pointer-events: none;
+}
+
+.research-heading h2 {
+    margin: 0;
+
+    font-family: "Cinzel", serif;
+
+    font-size: clamp(34px, 3.2vw, 48px);
+
+    font-weight: 600;
+
+    letter-spacing: 5px;
+
+    color: #f8d978;
+
+    text-shadow:
+        0 0 8px rgba(248, 217, 120, 0.55),
+        0 0 22px rgba(170, 100, 255, 0.30);
+}
+
+.research-heading p {
+    margin: 7px 0 8px;
+
+    font-family: "Cinzel", serif;
+
+    font-size: 10px;
+
+    letter-spacing: 3px;
+
+    color: #eee5ff;
+
+    text-shadow:
+        0 0 8px rgba(210, 190, 255, 0.35);
+}
+
+.research-heading-line {
+    width: 120px;
+
+    margin: 0 auto;
+
+    color: #d8b45a;
+
+    font-size: 14px;
+
+    line-height: 1;
+
+    text-shadow:
+        0 0 10px rgba(216, 180, 90, 0.75);
+}
+/* =========================================
+   RESEARCH DISCOVERY CARD
+========================================= */
+
+.research-discovery {
+    padding: 14px 12px;
+    justify-content: center;
+}
+
+.discovery-label {
+    position: relative;
+    z-index: 2;
+
+    font-family: "Cinzel", serif;
+    font-size: 6px;
+    letter-spacing: 1px;
+
+    color: #d8b45a;
+
+    margin-bottom: 7px;
+}
+
+.discovery-icon {
+    position: relative;
+    z-index: 2;
+
+    font-size: 24px;
+
+    margin-bottom: 6px;
+
+    filter:
+        drop-shadow(0 0 8px rgba(180, 100, 255, .8));
+}
+
+.research-discovery h3 {
+    position: relative;
+    z-index: 2;
+
+    margin: 0 0 4px;
+
+    font-family: "Cinzel", serif;
+
+    font-size: 11px;
+    line-height: 1.15;
+
+    color: #f8d978;
+
+    text-align: center;
+
+    text-shadow:
+        0 0 8px rgba(255, 215, 100, .25);
+}
+
+.research-discovery .discovery-type {
+    position: relative;
+    z-index: 2;
+
+    margin: 0 0 8px;
+
+    font-family: "Poppins", sans-serif;
+
+    font-size: 7px;
+
+    color: #cbb7e8;
+
+    text-transform: uppercase;
+
+    letter-spacing: .5px;
+}
+
+.discovery-details {
+    position: relative;
+    z-index: 2;
+
+    display: flex;
+    flex-direction: column;
+
+    gap: 3px;
+
+    margin-bottom: 10px;
+
+    text-align: center;
+}
+
+.discovery-details span {
+    color: #eee5ff;
+
+    font-family: "Poppins", sans-serif;
+
+    font-size: 7px;
+
+    line-height: 1.2;
+}
+
+.discovery-btn {
+    position: relative;
+    z-index: 4;
+
+    display: inline-block;
+
+    padding: 5px 9px;
+
+    border: 1px solid rgba(216, 180, 90, .7);
+
+    border-radius: 4px;
+
+    color: #f8d978;
+
+    font-family: "Cinzel", serif;
+
+    font-size: 6px;
+
+    letter-spacing: .4px;
+
+    text-decoration: none;
+
+    background: rgba(20, 8, 45, .75);
+
+    transition: .3s ease;
+}
+
+.discovery-btn:hover {
+    background: rgba(216, 180, 90, .15);
+
+    box-shadow:
+        0 0 10px rgba(216, 180, 90, .35);
+}
+
+/* =========================================
+   RESEARCH SCORE
+========================================= */
+
+.research-score {
+
+    position: absolute;
+
+    bottom: 18px;
+    left: 50%;
+
+    transform: translateX(-50%);
+
+    z-index: 5;
+
+    padding: 8px 18px;
+
+    border: 1px solid rgba(212, 175, 85, 0.55);
+
+    border-radius: 20px;
+
+    background: rgba(5, 2, 20, 0.72);
+
+    color: #f8d978;
+
+    font-family: "Cinzel", serif;
+
+    font-size: 9px;
+
+    letter-spacing: 1px;
+
+    box-shadow:
+        0 0 12px rgba(170, 100, 255, 0.25),
+        inset 0 0 10px rgba(170, 100, 255, 0.08);
+
+    backdrop-filter: blur(4px);
+
+}
+
+/* =========================================
+   SCORE GLOW
+========================================= */
+
+.research-score.updated {
+    animation: scoreGlow 0.7s ease;
+}
+
+@keyframes scoreGlow {
+
+    0% {
+        transform: translateX(-50%) scale(1);
+    }
+
+    50% {
+        transform: translateX(-50%) scale(1.08);
+        text-shadow:
+            0 0 8px rgba(255, 215, 100, 0.9),
+            0 0 18px rgba(170, 100, 255, 0.7);
+    }
+
+    100% {
+        transform: translateX(-50%) scale(1);
+    }
+
+}
+
+/* =========================================
+   RESEARCH DISCOVERY PANEL
+========================================= */
+
+.research-panel {
+
+    position: absolute;
+
+    inset: 0;
+
+    z-index: 20;
+
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+
+    padding: 30px;
+
+    box-sizing: border-box;
+
+    background: rgba(2, 1, 15, 0.82);
+
+    backdrop-filter: blur(8px);
+
+    opacity: 0;
+
+    visibility: hidden;
+
+    transition:
+        opacity 0.4s ease,
+        visibility 0.4s ease;
+}
+
+
+.research-panel.active {
+
+    opacity: 1;
+
+    visibility: visible;
+}
+
+
+.panel-content {
+
+    position: relative;
+
+    width: min(600px, 90%);
+
+    padding: 42px 45px;
+
+    text-align: center;
+
+    border-radius: 18px;
+
+    background:
+        radial-gradient(
+            ellipse at center,
+            rgba(65, 25, 105, 0.92),
+            rgba(10, 4, 30, 0.98)
+        );
+
+    border: 1px solid rgba(212, 175, 85, 0.75);
+
+    box-shadow:
+        0 0 35px rgba(150, 80, 255, 0.3),
+        inset 0 0 25px rgba(150, 80, 255, 0.08);
+}
+
+
+.panel-label {
+
+    font-family: "Cinzel", serif;
+
+    font-size: 10px;
+
+    letter-spacing: 2px;
+
+    color: #d8b45a;
+}
+
+
+.panel-content h2 {
+
+    margin: 14px 0 5px;
+
+    font-family: "Cinzel", serif;
+
+    font-size: 30px;
+
+    color: #f8d978;
+
+    text-shadow:
+        0 0 15px rgba(255, 215, 100, 0.3);
+}
+
+
+#panelSubtitle {
+
+    margin: 0;
+
+    color: #cbb7e8;
+
+    font-family: "Poppins", sans-serif;
+
+    font-size: 12px;
+
+    letter-spacing: 1px;
+}
+
+
+.panel-divider {
+
+    margin: 18px auto;
+
+    color: #d8b45a;
+
+    font-size: 16px;
+}
+
+
+#panelDescription {
+
+    max-width: 480px;
+
+    margin: 0 auto 25px;
+
+    color: #eee5ff;
+
+    font-family: "Poppins", sans-serif;
+
+    font-size: 13px;
+
+    line-height: 1.7;
+}
+
+
+.panel-methods {
+
+    display: grid;
+
+    grid-template-columns:
+        repeat(3, 1fr);
+
+    gap: 10px;
+
+    margin-bottom: 25px;
+}
+
+
+.panel-methods div {
+
+    padding: 12px 8px;
+
+    border: 1px solid
+        rgba(212, 175, 85, 0.25);
+
+    border-radius: 8px;
+
+    background:
+        rgba(20, 8, 45, 0.5);
+}
+
+
+.panel-methods span {
+
+    display: block;
+
+    margin-bottom: 5px;
+
+    font-size: 7px;
+
+    letter-spacing: 1px;
+
+    color: #d8b45a;
+}
+
+
+.panel-methods strong {
+
+    font-family: "Cinzel", serif;
+
+    font-size: 9px;
+
+    color: #eee5ff;
+}
+
+
+.panel-actions a {
+
+    display: inline-block;
+
+    padding: 9px 18px;
+
+    border: 1px solid
+        rgba(216, 180, 90, 0.7);
+
+    border-radius: 6px;
+
+    color: #f8d978;
+
+    font-family: "Cinzel", serif;
+
+    font-size: 9px;
+
+    letter-spacing: 1px;
+
+    text-decoration: none;
+
+    transition: 0.3s ease;
+}
+
+
+.panel-actions a:hover {
+
+    background:
+        rgba(216, 180, 90, 0.12);
+
+    box-shadow:
+        0 0 15px
+        rgba(216, 180, 90, 0.35);
+}
+
+.research-panel-close {
+    position: absolute;
+
+    top: 15px;
+    right: 18px;
+
+    width: 32px;
+    height: 32px;
+
+    border: 1px solid rgba(216, 180, 90, 0.65);
+
+    border-radius: 50%;
+
+    background: rgba(10, 3, 30, 0.85);
+
+    color: #f8d978;
+
+    font-size: 16px;
+
+    line-height: 28px;
+
+    text-align: center;
+
+    cursor: pointer;
+
+    z-index: 50;
+
+    transition: 0.3s ease;
+}
+
+.research-panel-close:hover {
+    background: rgba(216, 180, 90, 0.15);
+
+    box-shadow:
+        0 0 15px rgba(216, 180, 90, 0.5);
+
+    transform: rotate(90deg);
+}
+
+/* =========================================================
+   MARY'S UNIVERSE — SKILLS GALAXY
+   Clean spherical constellation
+========================================================= */
+
+.skills-section {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    min-height: 700px;
+    overflow: hidden;
+    background: #02020d;
+    user-select: none;
+}
+
+/* Galaxy background */
+.skills-galaxy-bg {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    z-index: 0;
+}
+
+/* Soft dark veil */
+.skills-overlay {
+    position: absolute;
+    inset: 0;
+    background:
+        radial-gradient(
+            circle at 50% 58%,
+            rgba(95, 35, 160, 0.12),
+            transparent 42%
+        ),
+        rgba(0, 0, 20, 0.30);
+    z-index: 1;
+    pointer-events: none;
+}
+
+/* =========================================================
+   HEADING
+========================================================= */
+
+.skills-heading {
+    position: absolute;
+    top: 76px;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    z-index: 100;
+    pointer-events: none;
+}
+
+.skills-heading h2 {
+    margin: 0;
+
+    font-family: "Cinzel", serif;
+    font-size: 44px;
+    letter-spacing: 5px;
+
+    color: #f8d978;
+
+    text-shadow:
+        0 0 8px rgba(248, 217, 120, 0.45),
+        0 0 24px rgba(248, 217, 120, 0.28);
+}
+
+.skills-heading p {
+    margin-top: 8px;
+
+    color: #e6dcf5;
+
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    letter-spacing: 0.8px;
+}
+
+/* =========================================================
+   GLOBE STAGE
+========================================================= */
+
+.skill-globe-stage {
+    position: absolute;
+    inset: 0;
+
+    z-index: 10;
+
+    overflow: hidden;
+
+    /*
+       IMPORTANT:
+       Vertical page scrolling remains possible.
+       Horizontal movement is handled by JS.
+    */
+    touch-action: pan-y;
+
+    cursor: grab;
+}
+
+.skill-globe-stage.dragging {
+    cursor: grabbing;
+}
+
+/* =========================================================
+   CONNECTION SVG
+========================================================= */
+
+.skill-connections {
+    position: absolute;
+    inset: 0;
+
+    width: 100%;
+    height: 100%;
+
+    overflow: visible;
+
+    pointer-events: none;
+
+    z-index: 20;
+
+    /*
+       Slight atmospheric glow.
+    */
+    filter:
+        drop-shadow(
+            0 0 3px rgba(174, 110, 255, 0.40)
+        );
+}
+
+/*
+   The actual constellation lines.
+
+   NOT too thin.
+   NOT white.
+   NOT overpowering.
+*/
+.skill-connection {
+    stroke: rgba(205, 163, 255, 0.72);
+    stroke-width: 1.6;
+    fill: none;
+
+    stroke-linecap: round;
+
+    opacity: 0;
+
+    transition:
+        opacity 0.18s ease;
+}
+
+/* =========================================================
+   GLOBE CONTAINER
+========================================================= */
+
+.skill-globe {
+    position: absolute;
+    inset: 0;
+
+    width: 100%;
+    height: 100%;
+
+    z-index: 30;
+
+    pointer-events: none;
+}
+
+/* =========================================================
+   ✦ MARY'S UNIVERSE — COSMIC CRYSTAL SKILL HEXAGONS ✦
+   CSS ONLY — DOES NOT CHANGE GLOBE MOVEMENT
+   ========================================================= */
+
+/* =========================================================
+   SKILL HEXAGON — BETTER TEXT FIT
+   ========================================================= */
+
+.skill-node {
+    position: absolute;
+
+    width: 116px;
+    height: 116px;
+
+    transform-style: preserve-3d;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    transition:
+        opacity 0.45s ease,
+        filter 0.45s ease;
+
+    cursor: grab;
+
+    filter:
+        drop-shadow(
+            0 0 8px rgba(139, 92, 246, 0.22)
+        );
+
+    z-index: 10;
+}
+
+
+/* =========================================================
+   HEXAGON
+   ========================================================= */
+
+.skill-node .hexagon {
+
+    position: relative;
+
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    justify-content: center;
+
+    text-align: center;
+
+    padding: 0 10px;
+    box-sizing: border-box;
+
+    background:
+        linear-gradient(
+            145deg,
+            rgba(83, 39, 145, 0.92),
+            rgba(38, 17, 75, 0.96) 55%,
+            rgba(18, 10, 45, 0.98)
+        );
+
+    clip-path:
+        polygon(
+            25% 3%,
+            75% 3%,
+            100% 50%,
+            75% 97%,
+            25% 97%,
+            0% 50%
+        );
+
+    filter:
+        drop-shadow(
+            0 0 7px rgba(146, 92, 246, 0.35)
+        );
+
+    box-shadow:
+        inset 0 0 28px rgba(169, 112, 255, 0.16),
+        inset 0 0 5px rgba(255, 218, 120, 0.22);
+
+    transition:
+        filter 0.35s ease,
+        transform 0.35s ease;
+}
+
+
+/* =========================================================
+   ICON
+   ========================================================= */
+
+.skill-node .skill-icon {
+
+    position: relative;
+
+    z-index: 3;
+
+    font-size: 19px;
+
+    line-height: 1;
+
+    margin-bottom: 7px;
+
+    color: #ffe58a;
+
+    text-shadow:
+        0 0 5px rgba(255, 222, 130, 0.85),
+        0 0 12px rgba(177, 112, 255, 0.55);
+
+    flex-shrink: 0;
+}
+
+
+/* =========================================================
+   SKILL NAME
+   ========================================================= */
+
+.skill-node .skill-name {
+
+    position: relative;
+
+    z-index: 3;
+
+    width: 90%;
+
+    color: #fff8e5;
+
+    font-family:
+        Georgia,
+        "Times New Roman",
+        serif;
+
+    font-size: 10px;
+
+    font-weight: 700;
+
+    letter-spacing: 0.45px;
+
+    line-height: 1.12;
+
+    text-transform: uppercase;
+
+    text-align: center;
+
+    overflow-wrap: normal;
+
+    word-break: normal;
+
+    text-shadow:
+        0 1px 4px rgba(0,0,0,0.8),
+        0 0 7px rgba(255,255,255,0.15);
+}
+
+
+/* =========================================================
+   LONG NAMES
+   ========================================================= */
+
+/* HYPOTHESIS TEST */
+
+.skill-node[data-skill="Hypothesis Test"]
+.skill-node .skill-name {
+
+    font-size: 9.5px;
+
+    letter-spacing: 0.3px;
+}
+
+
+/* PROBLEM SOLVING */
+
+.skill-node[data-skill="Problem Solving"]
+.skill-node .skill-name {
+
+    font-size: 9.5px;
+
+    letter-spacing: 0.25px;
+}
+
+
+/* MACHINE LEARNING */
+
+.skill-node[data-skill="Machine Learning"]
+.skill-node .skill-name {
+
+    font-size: 9px;
+
+    letter-spacing: 0.15px;
+}
+
+
+/* DATA CLEANING */
+
+.skill-node[data-skill="Data Cleaning"]
+.skill-node .skill-name {
+
+    font-size: 9.5px;
+
+    letter-spacing: 0.25px;
+}
+
+
+/* COMMUNICATION */
+
+.skill-node[data-skill="Communication"]
+.skill-node .skill-name {
+
+    font-size: 9px;
+
+    letter-spacing: 0.15px;
+}
+
+
+/* DEEP LEARNING */
+
+.skill-node[data-skill="Deep Learning"]
+.skill-node .skill-name {
+
+    font-size: 9.5px;
+
+    letter-spacing: 0.2px;
+}
+
+
+/* =========================================================
+   CATEGORY
+   ========================================================= */
+
+.skill-node .skill-category {
+
+    position: relative;
+
+    z-index: 3;
+
+    margin-top: 4px;
+
+    width: 88%;
+
+    color:
+        rgba(225, 208, 255, 0.68);
+
+    font-family:
+        "Segoe UI",
+        Arial,
+        sans-serif;
+
+    font-size: 6.5px;
+
+    font-weight: 500;
+
+    letter-spacing: 1px;
+
+    line-height: 1.05;
+
+    text-transform: uppercase;
+
+    text-align: center;
+}
+
+
+/* =========================================================
+   CORE — KEEP IT SPECIAL
+   ========================================================= */
+
+.skill-node.core-node {
+
+    width: 150px;
+    height: 150px;
+
+    z-index: 10000 !important;
+
+    filter:
+        drop-shadow(
+            0 0 14px rgba(169, 103, 255, 0.55)
+        )
+        drop-shadow(
+            0 0 28px rgba(255, 211, 105, 0.18)
+        );
+}
+
+
+/* =========================================================
+   CORE TEXT
+   ========================================================= */
+
+.skill-node.core-node .skill-name {
+
+    width: auto;
+
+    font-size: 17px;
+
+    letter-spacing: 2px;
+}
+
+
+.skill-node.core-node .skill-category {
+
+    width: auto;
+
+    font-size: 8px;
+
+    letter-spacing: 1.8px;
+}
+
+/* =========================================================
+   GOLDEN EDGE
+   ========================================================= */
+
+.skill-node .hexagon::before {
+
+    content: "";
+
+    position: absolute;
+
+    inset: 0;
+
+    background:
+        linear-gradient(
+            135deg,
+            rgba(255, 222, 135, 0.95),
+            rgba(177, 112, 255, 0.55),
+            rgba(255, 222, 135, 0.72)
+        );
+
+    clip-path:
+        polygon(
+            25% 0%,
+            75% 0%,
+            100% 50%,
+            75% 100%,
+            25% 100%,
+            0% 50%,
+
+            25% 4%,
+            73% 4%,
+            96% 50%,
+            73% 96%,
+            25% 96%,
+            4% 50%
+        );
+
+    opacity: 0.8;
+
+    pointer-events: none;
+}
+
+/* =========================================================
+   HOVER
+   ========================================================= */
+
+.skill-node:hover {
+
+    filter:
+        drop-shadow(
+            0 0 13px rgba(184, 125, 255, 0.65)
+        );
+
+    z-index: 9000 !important;
+}
+
+
+.skill-node:hover .hexagon {
+
+    filter:
+        brightness(1.14)
+        drop-shadow(
+            0 0 10px rgba(202, 153, 255, 0.45)
+        );
+}
+
+
+.skill-node:hover .skill-icon {
+
+    transform:
+        scale(1.08);
+
+    text-shadow:
+        0 0 7px rgba(255, 228, 139, 1),
+        0 0 18px rgba(185, 120, 255, 0.8);
+}
+
+
+/* =========================================================
+   CORE — SPECIAL TREATMENT
+   ========================================================= */
+
+.skill-node.core-node {
+
+    width: 150px;
+    height: 150px;
+
+    z-index: 10000 !important;
+
+    filter:
+        drop-shadow(
+            0 0 14px rgba(169, 103, 255, 0.55)
+        )
+        drop-shadow(
+            0 0 28px rgba(255, 211, 105, 0.18)
+        );
+}
+
+
+.skill-node.core-node .hexagon {
+
+    background:
+        radial-gradient(
+            circle at 50% 42%,
+            rgba(116, 57, 190, 0.98),
+            rgba(49, 20, 95, 0.98) 58%,
+            rgba(22, 9, 53, 1)
+        );
+
+    box-shadow:
+        inset 0 0 38px rgba(185, 113, 255, 0.25),
+        inset 0 0 12px rgba(255, 220, 130, 0.20);
+}
+
+
+.skill-node.core-node .skill-icon {
+
+    font-size: 27px;
+
+    color: #ffe58a;
+
+    margin-bottom: 10px;
+
+    text-shadow:
+        0 0 8px rgba(255, 224, 123, 1),
+        0 0 22px rgba(255, 201, 86, 0.7);
+}
+
+
+.skill-node.core-node .skill-name {
+
+    font-size: 17px;
+
+    letter-spacing: 2px;
+
+    color: #fff1bd;
+
+    text-shadow:
+        0 0 8px rgba(255, 221, 125, 0.45);
+}
+
+
+.skill-node.core-node .skill-category {
+
+    font-size: 8px;
+
+    letter-spacing: 1.8px;
+
+    color:
+        rgba(255, 236, 181, 0.72);
+}
+
+
+/* =========================================================
+   CORE SOFT PULSE
+   ========================================================= */
+
+@keyframes coreCosmicPulse {
+
+    0%,
+    100% {
+
+        filter:
+            drop-shadow(
+                0 0 12px rgba(169, 103, 255, 0.5)
+            )
+            drop-shadow(
+                0 0 25px rgba(255, 211, 105, 0.15)
+            );
+    }
+
+    50% {
+
+        filter:
+            drop-shadow(
+                0 0 18px rgba(185, 117, 255, 0.68)
+            )
+            drop-shadow(
+                0 0 32px rgba(255, 211, 105, 0.25)
+            );
+    }
+}
+
+
+.skill-node.core-node {
+
+    animation:
+        coreCosmicPulse 4.5s ease-in-out infinite;
+}
+
+
+/* =========================================================
+   DRAGGING
+   ========================================================= */
+
+#skillGlobeStage.dragging {
+
+    cursor: grabbing;
+}
+
+
+#skillGlobeStage.dragging .skill-node {
+
+    transition: none;
+}
+
+
+/* =========================================================
+   CONNECTIONS
+   ========================================================= */
+
+#skillConnections {
+
+    overflow: visible;
+
+    pointer-events: none;
+}
+
+
+#skillConnections line,
+#skillConnections .skill-connection,
+#skillConnections .connection-line {
+
+    stroke:
+        rgba(215, 185, 255, 0.68);
+
+    stroke-width: 1.8;
+
+    stroke-linecap: round;
+
+    fill: none;
+
+    filter:
+        drop-shadow(
+            0 0 3px rgba(166, 111, 255, 0.42)
+        );
+
+    transition:
+        opacity 0.35s ease,
+        stroke 0.35s ease;
+}
+
+
+/* Core connections slightly stronger */
+
+#skillConnections .core-connection {
+
+    stroke:
+        rgba(255, 218, 126, 0.72);
+
+    stroke-width: 2;
+}
+
+
+/* =========================================================
+   RESPONSIVE
+   ========================================================= */
+
+@media (max-width: 700px) {
+
+    .skill-node {
+
+        width: 88px;
+        height: 88px;
+    }
+
+
+    .skill-node .skill-icon {
+
+        font-size: 17px;
+
+        margin-bottom: 5px;
+    }
+
+
+    .skill-node .skill-name {
+
+        font-size: 9px;
+
+        letter-spacing: 0.45px;
+    }
+
+
+    .skill-node .skill-category {
+
+        font-size: 6px;
+
+        letter-spacing: 0.8px;
+    }
+
+
+    .skill-node.core-node {
+
+        width: 125px;
+        height: 125px;
+    }
+
+
+    .skill-node.core-node .skill-icon {
+
+        font-size: 23px;
+    }
+
+
+    .skill-node.core-node .skill-name {
+
+        font-size: 14px;
+    }
+}
+
+/* Golden luminous edge */
+.hexagon::after {
+    content: "";
+
+    position: absolute;
+    inset: 0;
+
+    clip-path:
+        polygon(
+            50% 0%,
+            100% 25%,
+            100% 75%,
+            50% 100%,
+            0% 75%,
+            0% 25%
+        );
+
+    background:
+        linear-gradient(
+            135deg,
+            rgba(248, 217, 120, 0.85),
+            rgba(248, 217, 120, 0.10) 38%,
+            rgba(175, 90, 255, 0.08) 65%,
+            rgba(248, 217, 120, 0.72)
+        );
+
+    opacity: 0.75;
+
+    pointer-events: none;
+    z-index: 0;
+}
+
+/* Inner surface so the border stays elegant */
+.hexagon::before {
+    content: "";
+
+    position: absolute;
+
+    inset: 2px;
+
+    clip-path:
+        polygon(
+            50% 0%,
+            100% 25%,
+            100% 75%,
+            50% 100%,
+            0% 75%,
+            0% 25%
+        );
+
+    background:
+        radial-gradient(
+            circle at 50% 38%,
+            rgba(103, 48, 180, 0.96),
+            rgba(30, 10, 67, 0.98)
+        );
+
+    z-index: 1;
+
+    pointer-events: none;
+}
+
+/* =========================================================
+   ICON
+========================================================= */
+
+.skill-icon {
+    position: relative;
+    z-index: 3;
+
+    display: block;
+
+    margin-bottom: 5px;
+
+    font-family: "Poppins", sans-serif;
+
+    font-size: 18px;
+    line-height: 1;
+
+    color: #f8d978;
+
+    text-shadow:
+        0 0 8px rgba(248, 217, 120, 0.90),
+        0 0 16px rgba(169, 91, 255, 0.60);
+}
+
+/* =========================================================
+   SKILL NAME
+========================================================= */
+
+.skill-name {
+    position: relative;
+    z-index: 3;
+
+    width: 72px;
+
+    font-family: "Cinzel", serif;
+
+    font-size: 8px;
+    font-weight: 600;
+
+    line-height: 1.15;
+
+    letter-spacing: 0.35px;
+
+    color: #f7f1ff;
+
+    text-align: center;
+
+    text-transform: uppercase;
+
+    text-shadow:
+        0 2px 5px rgba(0, 0, 0, 0.95);
+}
+
+/* =========================================================
+   CATEGORY
+========================================================= */
+
+.skill-category {
+    position: relative;
+    z-index: 3;
+
+    width: 70px;
+
+    margin-top: 3px;
+
+    font-family: "Poppins", sans-serif;
+
+    font-size: 6px;
+    line-height: 1;
+
+    letter-spacing: 0.35px;
+
+    color: rgba(221, 202, 247, 0.72);
+
+    text-align: center;
+
+    text-transform: uppercase;
+}
+
+/* =========================================================
+   FRONT NODE
+========================================================= */
+
+.skill-node.front .hexagon {
+    filter:
+        brightness(1.10)
+        drop-shadow(
+            0 0 9px rgba(166, 86, 255, 0.65)
+        )
+        drop-shadow(
+            0 0 16px rgba(248, 217, 120, 0.18)
+        );
+}
+
+/* =========================================================
+   HOVER
+========================================================= */
+
+.skill-node:hover .hexagon {
+    filter:
+        brightness(1.18)
+        drop-shadow(
+            0 0 14px rgba(248, 217, 120, 0.68)
+        );
+}
+
+/* =========================================================
+   CORE
+========================================================= */
+
+.core-node {
+    position: absolute;
+
+    width: 150px;
+    height: 166px;
+
+    z-index: 9000 !important;
+
+    pointer-events: none;
+
+    opacity: 1 !important;
+
+    transform:
+        translate(-50%, -50%);
+}
+
+.core-node .hexagon {
+    width: 150px;
+    height: 166px;
+
+    background:
+        radial-gradient(
+            circle at 50% 40%,
+            rgba(139, 67, 232, 1),
+            rgba(73, 25, 135, 1) 48%,
+            rgba(20, 5, 48, 1) 100%
+        );
+
+    filter:
+        brightness(1.08)
+        drop-shadow(
+            0 0 15px rgba(172, 91, 255, 0.90)
+        )
+        drop-shadow(
+            0 0 32px rgba(248, 217, 120, 0.28)
+        );
+
+    box-shadow:
+        inset 0 0 35px rgba(248, 217, 120, 0.18);
+}
+
+/* Stronger Core edge */
+.core-node .hexagon::after {
+    opacity: 1;
+
+    background:
+        linear-gradient(
+            135deg,
+            #f8d978,
+            rgba(248, 217, 120, 0.20) 38%,
+            rgba(183, 91, 255, 0.16) 62%,
+            #f8d978
+        );
+}
+
+/* Core icon */
+.core-node .skill-icon {
+    font-size: 30px;
+
+    margin-bottom: 9px;
+
+    text-shadow:
+        0 0 10px rgba(248, 217, 120, 1),
+        0 0 22px rgba(248, 217, 120, 0.65);
+}
+
+/* Core title */
+.core-node .skill-name {
+    width: auto;
+
+    font-size: 17px;
+
+    letter-spacing: 2.5px;
+
+    color: #f8d978;
+
+    text-shadow:
+        0 0 10px rgba(248, 217, 120, 0.85),
+        0 2px 5px rgba(0, 0, 0, 0.9);
+}
+
+/* Core subtitle */
+.core-node .skill-category {
+    width: auto;
+
+    font-size: 6.5px;
+
+    letter-spacing: 1.2px;
+
+    color: rgba(244, 231, 255, 0.75);
+}
+
+/* =========================================================
+   CENTRAL NEBULA
+   NO BORDER.
+   NO VISIBLE CIRCLE.
+========================================================= */
+
+.core-glow {
+    position: absolute;
+
+    left: 50%;
+    top: 57%;
+
+    width: 330px;
+    height: 330px;
+
+    transform:
+        translate(-50%, -50%);
+
+    border-radius: 50%;
+
+    background:
+        radial-gradient(
+            circle,
+            rgba(157, 79, 255, 0.20),
+            rgba(157, 79, 255, 0.07) 38%,
+            transparent 72%
+        );
+
+    filter: blur(32px);
+
+    pointer-events: none;
+
+    z-index: 2;
+}
+
+/* =========================================================
+   HINT
+========================================================= */
+
+.skills-hint {
+    position: absolute;
+
+    left: 50%;
+    bottom: 24px;
+
+    transform:
+        translateX(-50%);
+
+    z-index: 10000;
+
+    padding:
+        9px 20px;
+
+    border:
+        1px solid rgba(212, 175, 85, 0.55);
+
+    border-radius: 24px;
+
+    background:
+        rgba(5, 2, 20, 0.82);
+
+    backdrop-filter:
+        blur(8px);
+
+    color: #f8d978;
+
+    font-family: "Cinzel", serif;
+
+    font-size: 10px;
+
+    letter-spacing: 1px;
+
+    white-space: nowrap;
+
+    box-shadow:
+        0 0 15px rgba(160, 90, 255, 0.25);
+
+    pointer-events: none;
+}
+
+/* =========================================================
+   MOBILE
+========================================================= */
+
+@media (max-width: 900px) {
+
+    .skills-heading {
+        top: 66px;
+    }
+
+    .skills-heading h2 {
+        font-size: 38px;
+    }
+
+    .skills-heading p {
+        font-size: 12px;
+    }
+
+    .core-node {
+        width: 118px;
+        height: 132px;
+    }
+
+    .core-node .hexagon {
+        width: 118px;
+        height: 132px;
+    }
+
+    .skill-node {
+        width: 70px;
+        height: 79px;
+    }
+
+    .hexagon {
+        width: 70px;
+        height: 79px;
+    }
+}
+
+/* =========================================================
+   MOBILE RESEARCH — 3 CARDS PER ROW
+   ========================================================= */
+
+@media (max-width: 700px) {
+
+    .research-section {
+        min-height: 980px;
+        height: 980px;
+        padding: 0;
+        overflow: hidden;
+    }
+
+    /* -------------------------
+       HEADING
+       ------------------------- */
+
+    .research-heading {
+        position: absolute;
+        top: 78px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 92%;
+        z-index: 4;
+    }
+
+    .research-heading h2 {
+        font-size: clamp(32px, 9vw, 42px);
+        letter-spacing: 4px;
+    }
+
+    .research-heading p {
+        font-size: 9px;
+        letter-spacing: 2.5px;
+        line-height: 1.6;
+        margin: 8px auto;
+        max-width: 340px;
+    }
+
+    /* -------------------------
+       ALL RESEARCH CARDS
+       ------------------------- */
+
+    .research-card {
+        position: absolute !important;
+
+        width: 100px;
+        height: 145px;
+
+        top: auto !important;
+        left: auto !important;
+        right: auto !important;
+        bottom: auto !important;
+
+        margin: 0 !important;
+        transform: none !important;
+
+        z-index: 3;
+    }
+
+    /* -------------------------
+       ROW 1
+       ------------------------- */
+
+    .research-card:not(
+        .card-two,
+        .card-three,
+        .card-four,
+        .card-five,
+        .card-six,
+        .card-seven
+    ) {
+        top: 205px !important;
+        left: calc(50% - 158px) !important;
+    }
+
+    .research-card.card-two {
+        top: 205px !important;
+        left: calc(50% - 50px) !important;
+    }
+
+    .research-card.card-three {
+        top: 205px !important;
+        left: calc(50% + 58px) !important;
+    }
+
+    /* -------------------------
+       ROW 2
+       ------------------------- */
+
+    .research-card.card-four {
+        top: 375px !important;
+        left: calc(50% + 58px) !important;
+    }
+
+    .research-card.card-five {
+        top: 375px !important;
+        left: calc(50% - 50px) !important;
+    }
+
+    .research-card.card-six {
+        top: 375px !important;
+        left: calc(50% - 158px) !important;
+    }
+
+    /* -------------------------
+       ROW 3 — CENTER CARD
+       ------------------------- */
+
+    .research-card.card-seven {
+        top: 545px !important;
+        left: 50% !important;
+        transform: translateX(-50%) !important;
+    }
+
+    /* -------------------------
+       CARD IMAGE
+       ------------------------- */
+
+    .research-card-front img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    /* -------------------------
+       SCORE
+       ------------------------- */
+
+    .research-score {
+        bottom: 28px;
+        left: 50%;
+        transform: translateX(-50%);
+        white-space: nowrap;
+    }
+}

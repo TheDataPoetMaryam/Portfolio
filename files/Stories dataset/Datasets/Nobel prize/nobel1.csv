@@ -1,0 +1,707 @@
+ID,year,category_master,prize,prize_share,laureate_id,laureate_type,organization_name,organization_city,organization_country
+19011,1901,1,The Nobel Prize in Chemistry 1901,"44,197",160,Individual,Berlin University,Berlin,Germany
+19013,1901,3,The Nobel Prize in Literature 1901,"44,197",569,Individual,NA,NA,NA
+19014,1901,4,The Nobel Prize in Physiology or Medicine 1901,"44,197",293,Individual,Marburg University,Marburg,Germany
+19015,1901,5,The Nobel Peace Prize 1901,"44,228",462,Individual,NA,NA,NA
+19015,1901,5,The Nobel Peace Prize 1901,"44,228",463,Individual,NA,NA,NA
+19016,1901,6,The Nobel Prize in Physics 1901,"44,197",1,Individual,Munich University,Munich,Germany
+19021,1902,1,The Nobel Prize in Chemistry 1902,"44,197",161,Individual,Berlin University,Berlin,Germany
+19023,1902,3,The Nobel Prize in Literature 1902,"44,197",571,Individual,NA,NA,NA
+19024,1902,4,The Nobel Prize in Physiology or Medicine 1902,"44,197",294,Individual,University College,Liverpool,United Kingdom
+19025,1902,5,The Nobel Peace Prize 1902,"44,228",464,Individual,NA,NA,NA
+19025,1902,5,The Nobel Peace Prize 1902,"44,228",465,Individual,NA,NA,NA
+19026,1902,6,The Nobel Prize in Physics 1902,"44,228",2,Individual,Leiden University,Leiden,Netherlands
+19026,1902,6,The Nobel Prize in Physics 1902,"44,228",3,Individual,Amsterdam University,Amsterdam,Netherlands
+19031,1903,1,The Nobel Prize in Chemistry 1903,"44,197",162,Individual,Stockholm University,Stockholm,Sweden
+19033,1903,3,The Nobel Prize in Literature 1903,"44,197",572,Individual,NA,NA,NA
+19034,1903,4,The Nobel Prize in Physiology or Medicine 1903,"44,197",295,Individual,Finsen Medical Light Institute,Copenhagen,Denmark
+19035,1903,5,The Nobel Peace Prize 1903,"44,197",466,Individual,NA,NA,NA
+19036,1903,6,The Nobel Prize in Physics 1903,"44,228",4,Individual,École Polytechnique,Paris,France
+19036,1903,6,The Nobel Prize in Physics 1903,"44,287",5,Individual,École municipale de physique et de chimie industrielles (Municipal School of Industrial Physics and Chemistry),Paris,France
+19036,1903,6,The Nobel Prize in Physics 1903,"44,287",6,Individual,NA,NA,NA
+19041,1904,1,The Nobel Prize in Chemistry 1904,"44,197",163,Individual,University College,London,United Kingdom
+19043,1904,3,The Nobel Prize in Literature 1904,"44,228",573,Individual,NA,NA,NA
+19043,1904,3,The Nobel Prize in Literature 1904,"44,228",574,Individual,NA,NA,NA
+19044,1904,4,The Nobel Prize in Physiology or Medicine 1904,"44,197",296,Individual,Military Medical Academy,St. Petersburg,Russia
+19045,1904,5,The Nobel Peace Prize 1904,"44,197",467,Organization,NA,NA,NA
+19046,1904,6,The Nobel Prize in Physics 1904,"44,197",8,Individual,Royal Institution of Great Britain,London,United Kingdom
+19051,1905,1,The Nobel Prize in Chemistry 1905,"44,197",164,Individual,Munich University,Munich,Germany
+19053,1905,3,The Nobel Prize in Literature 1905,"44,197",575,Individual,NA,NA,NA
+19054,1905,4,The Nobel Prize in Physiology or Medicine 1905,"44,197",297,Individual,Institute for Infectious Diseases,Berlin,Germany
+19055,1905,5,The Nobel Peace Prize 1905,"44,197",468,Individual,NA,NA,NA
+19056,1905,6,The Nobel Prize in Physics 1905,"44,197",9,Individual,Kiel University,Kiel,Germany
+19061,1906,1,The Nobel Prize in Chemistry 1906,"44,197",165,Individual,Sorbonne University,Paris,France
+19063,1906,3,The Nobel Prize in Literature 1906,"44,197",576,Individual,NA,NA,NA
+19064,1906,4,The Nobel Prize in Physiology or Medicine 1906,"44,228",298,Individual,Pavia University,Pavia,Italy
+19064,1906,4,The Nobel Prize in Physiology or Medicine 1906,"44,228",299,Individual,Madrid University,Madrid,Spain
+19065,1906,5,The Nobel Peace Prize 1906,"44,197",470,Individual,NA,NA,NA
+19066,1906,6,The Nobel Prize in Physics 1906,"44,197",10,Individual,University of Cambridge,Cambridge,United Kingdom
+19071,1907,1,The Nobel Prize in Chemistry 1907,"44,197",166,Individual,Landwirtschaftliche Hochschule (Agricultural College),Berlin,Germany
+19073,1907,3,The Nobel Prize in Literature 1907,"44,197",577,Individual,NA,NA,NA
+19074,1907,4,The Nobel Prize in Physiology or Medicine 1907,"44,197",300,Individual,Institut Pasteur,Paris,France
+19075,1907,5,The Nobel Peace Prize 1907,"44,228",471,Individual,NA,NA,NA
+19075,1907,5,The Nobel Peace Prize 1907,"44,228",472,Individual,Sorbonne University,Paris,France
+19076,1907,6,The Nobel Prize in Physics 1907,"44,197",11,Individual,University of Chicago,"Chicago, IL",United States of America
+19081,1908,1,The Nobel Prize in Chemistry 1908,"44,197",167,Individual,Victoria University,Manchester,United Kingdom
+19083,1908,3,The Nobel Prize in Literature 1908,"44,197",578,Individual,NA,NA,NA
+19084,1908,4,The Nobel Prize in Physiology or Medicine 1908,"44,228",301,Individual,Institut Pasteur,Paris,France
+19084,1908,4,The Nobel Prize in Physiology or Medicine 1908,"44,228",302,Individual,Goettingen University,Göttingen,Germany
+19085,1908,5,The Nobel Peace Prize 1908,"44,228",473,Individual,NA,NA,NA
+19085,1908,5,The Nobel Peace Prize 1908,"44,228",474,Individual,NA,NA,NA
+19086,1908,6,The Nobel Prize in Physics 1908,"44,197",12,Individual,Sorbonne University,Paris,France
+19091,1909,1,The Nobel Prize in Chemistry 1909,"44,197",168,Individual,Leipzig University,Leipzig,Germany
+19093,1909,3,The Nobel Prize in Literature 1909,"44,197",579,Individual,NA,NA,NA
+19094,1909,4,The Nobel Prize in Physiology or Medicine 1909,"44,197",303,Individual,Berne University,Berne,Switzerland
+19095,1909,5,The Nobel Peace Prize 1909,"44,228",475,Individual,NA,NA,NA
+19095,1909,5,The Nobel Peace Prize 1909,"44,228",476,Individual,NA,NA,NA
+19096,1909,6,The Nobel Prize in Physics 1909,"44,228",13,Individual,Marconi Wireless Telegraph Co. Ltd.,London,United Kingdom
+19096,1909,6,The Nobel Prize in Physics 1909,"44,228",14,Individual,Strasbourg University,Strasbourg,"Alsace (then Germany, now France)"
+19101,1910,1,The Nobel Prize in Chemistry 1910,"44,197",169,Individual,Goettingen University,Göttingen,Germany
+19103,1910,3,The Nobel Prize in Literature 1910,"44,197",580,Individual,NA,NA,NA
+19104,1910,4,The Nobel Prize in Physiology or Medicine 1910,"44,197",304,Individual,University of Heidelberg,Heidelberg,Germany
+19105,1910,5,The Nobel Peace Prize 1910,"44,197",477,Organization,NA,NA,NA
+19106,1910,6,The Nobel Prize in Physics 1910,"44,197",15,Individual,Amsterdam University,Amsterdam,Netherlands
+19111,1911,1,The Nobel Prize in Chemistry 1911,"44,197",6,Individual,Sorbonne University,Paris,France
+19113,1911,3,The Nobel Prize in Literature 1911,"44,197",581,Individual,NA,NA,NA
+19114,1911,4,The Nobel Prize in Physiology or Medicine 1911,"44,197",305,Individual,Uppsala University,Uppsala,Sweden
+19115,1911,5,The Nobel Peace Prize 1911,"44,228",478,Individual,NA,NA,NA
+19115,1911,5,The Nobel Peace Prize 1911,"44,228",479,Individual,NA,NA,NA
+19116,1911,6,The Nobel Prize in Physics 1911,"44,197",16,Individual,Würzburg University,Würzburg,Germany
+19121,1912,1,The Nobel Prize in Chemistry 1912,"44,228",172,Individual,Nancy University,Nancy,France
+19121,1912,1,The Nobel Prize in Chemistry 1912,"44,228",173,Individual,Toulouse University,Toulouse,France
+19123,1912,3,The Nobel Prize in Literature 1912,"44,197",582,Individual,NA,NA,NA
+19124,1912,4,The Nobel Prize in Physiology or Medicine 1912,"44,197",306,Individual,Rockefeller Institute for Medical Research,"New York, NY",United States of America
+19125,1912,5,The Nobel Peace Prize 1912,"44,197",480,Individual,NA,NA,NA
+19126,1912,6,The Nobel Prize in Physics 1912,"44,197",17,Individual,Swedish Gas-Accumulator Co.,Lidingö-Stockholm,Sweden
+19131,1913,1,The Nobel Prize in Chemistry 1913,"44,197",174,Individual,University of Zurich,Zurich,Switzerland
+19133,1913,3,The Nobel Prize in Literature 1913,"44,197",583,Individual,NA,NA,NA
+19134,1913,4,The Nobel Prize in Physiology or Medicine 1913,"44,197",307,Individual,Sorbonne University,Paris,France
+19135,1913,5,The Nobel Peace Prize 1913,"44,197",481,Individual,NA,NA,NA
+19136,1913,6,The Nobel Prize in Physics 1913,"44,197",18,Individual,Leiden University,Leiden,Netherlands
+19141,1914,1,The Nobel Prize in Chemistry 1914,"44,197",175,Individual,Harvard University,"Cambridge, MA",United States of America
+19144,1914,4,The Nobel Prize in Physiology or Medicine 1914,"44,197",308,Individual,Vienna University,Vienna,Austria
+19146,1914,6,The Nobel Prize in Physics 1914,"44,197",19,Individual,Frankfurt-on-the-Main University,Frankfurt-on-the-Main,Germany
+19151,1915,1,The Nobel Prize in Chemistry 1915,"44,197",176,Individual,Munich University,Munich,Germany
+19153,1915,3,The Nobel Prize in Literature 1915,"44,197",584,Individual,NA,NA,NA
+19156,1915,6,The Nobel Prize in Physics 1915,"44,228",20,Individual,University College,London,United Kingdom
+19156,1915,6,The Nobel Prize in Physics 1915,"44,228",21,Individual,Victoria University,Manchester,United Kingdom
+19163,1916,3,The Nobel Prize in Literature 1916,"44,197",585,Individual,NA,NA,NA
+19173,1917,3,The Nobel Prize in Literature 1917,"44,228",586,Individual,NA,NA,NA
+19173,1917,3,The Nobel Prize in Literature 1917,"44,228",587,Individual,NA,NA,NA
+19175,1917,5,The Nobel Peace Prize 1917,"44,197",482,Organization,NA,NA,NA
+19176,1917,6,The Nobel Prize in Physics 1917,"44,197",22,Individual,Edinburgh University,Edinburgh,United Kingdom
+19181,1918,1,The Nobel Prize in Chemistry 1918,"44,197",177,Individual,Kaiser-Wilhelm-Institut (now Fritz-Haber-Institut) für physikalische Chemie und Electrochemie,Berlin-Dahlem,Germany
+19186,1918,6,The Nobel Prize in Physics 1918,"44,197",23,Individual,Berlin University,Berlin,Germany
+19193,1919,3,The Nobel Prize in Literature 1919,"44,197",588,Individual,NA,NA,NA
+19194,1919,4,The Nobel Prize in Physiology or Medicine 1919,"44,197",309,Individual,Brussels University,Brussels,Belgium
+19195,1919,5,The Nobel Peace Prize 1919,"44,197",483,Individual,NA,NA,NA
+19196,1919,6,The Nobel Prize in Physics 1919,"44,197",24,Individual,Greifswald University,Greifswald,Germany
+19201,1920,1,The Nobel Prize in Chemistry 1920,"44,197",178,Individual,Berlin University,Berlin,Germany
+19203,1920,3,The Nobel Prize in Literature 1920,"44,197",589,Individual,NA,NA,NA
+19204,1920,4,The Nobel Prize in Physiology or Medicine 1920,"44,197",310,Individual,Copenhagen University,Copenhagen,Denmark
+19205,1920,5,The Nobel Peace Prize 1920,"44,197",484,Individual,NA,NA,NA
+19206,1920,6,The Nobel Prize in Physics 1920,"44,197",25,Individual,Bureau International des Poids et Mesures (International Bureau of Weights and Measures),Sèvres,France
+19211,1921,1,The Nobel Prize in Chemistry 1921,"44,197",179,Individual,University of Oxford,Oxford,United Kingdom
+19213,1921,3,The Nobel Prize in Literature 1921,"44,197",590,Individual,NA,NA,NA
+19215,1921,5,The Nobel Peace Prize 1921,"44,228",485,Individual,NA,NA,NA
+19215,1921,5,The Nobel Peace Prize 1921,"44,228",486,Individual,NA,NA,NA
+19216,1921,6,The Nobel Prize in Physics 1921,"44,197",26,Individual,Kaiser-Wilhelm-Institut (now Max-Planck-Institut) für Physik,Berlin,Germany
+19221,1922,1,The Nobel Prize in Chemistry 1922,"44,197",180,Individual,University of Cambridge,Cambridge,United Kingdom
+19223,1922,3,The Nobel Prize in Literature 1922,"44,197",592,Individual,NA,NA,NA
+19224,1922,4,The Nobel Prize in Physiology or Medicine 1922,"44,228",311,Individual,London University,London,United Kingdom
+19224,1922,4,The Nobel Prize in Physiology or Medicine 1922,"44,228",312,Individual,Kiel University,Kiel,Germany
+19225,1922,5,The Nobel Peace Prize 1922,"44,197",487,Individual,NA,NA,NA
+19226,1922,6,The Nobel Prize in Physics 1922,"44,197",27,Individual,Copenhagen University,Copenhagen,Denmark
+19231,1923,1,The Nobel Prize in Chemistry 1923,"44,197",181,Individual,Graz University,Graz,Austria
+19233,1923,3,The Nobel Prize in Literature 1923,"44,197",593,Individual,NA,NA,NA
+19234,1923,4,The Nobel Prize in Physiology or Medicine 1923,"44,228",313,Individual,University of Toronto,Toronto,Canada
+19234,1923,4,The Nobel Prize in Physiology or Medicine 1923,"44,228",314,Individual,University of Toronto,Toronto,Canada
+19236,1923,6,The Nobel Prize in Physics 1923,"44,197",28,Individual,California Institute of Technology (Caltech),"Pasadena, CA",United States of America
+19243,1924,3,The Nobel Prize in Literature 1924,"44,197",594,Individual,NA,NA,NA
+19244,1924,4,The Nobel Prize in Physiology or Medicine 1924,"44,197",315,Individual,Leiden University,Leiden,Netherlands
+19246,1924,6,The Nobel Prize in Physics 1924,"44,197",29,Individual,Uppsala University,Uppsala,Sweden
+19251,1925,1,The Nobel Prize in Chemistry 1925,"44,197",182,Individual,Goettingen University,Göttingen,Germany
+19253,1925,3,The Nobel Prize in Literature 1925,"44,197",596,Individual,NA,NA,NA
+19255,1925,5,The Nobel Peace Prize 1925,"44,228",488,Individual,NA,NA,NA
+19255,1925,5,The Nobel Peace Prize 1925,"44,228",489,Individual,NA,NA,NA
+19256,1925,6,The Nobel Prize in Physics 1925,"44,228",30,Individual,Goettingen University,Göttingen,Germany
+19256,1925,6,The Nobel Prize in Physics 1925,"44,228",31,Individual,Halle University,Halle,Germany
+19261,1926,1,The Nobel Prize in Chemistry 1926,"44,197",183,Individual,Uppsala University,Uppsala,Sweden
+19263,1926,3,The Nobel Prize in Literature 1926,"44,197",597,Individual,NA,NA,NA
+19264,1926,4,The Nobel Prize in Physiology or Medicine 1926,"44,197",316,Individual,Copenhagen University,Copenhagen,Denmark
+19265,1926,5,The Nobel Peace Prize 1926,"44,228",490,Individual,NA,NA,NA
+19265,1926,5,The Nobel Peace Prize 1926,"44,228",491,Individual,NA,NA,NA
+19266,1926,6,The Nobel Prize in Physics 1926,"44,197",32,Individual,Sorbonne University,Paris,France
+19271,1927,1,The Nobel Prize in Chemistry 1927,"44,197",184,Individual,Munich University,Munich,Germany
+19273,1927,3,The Nobel Prize in Literature 1927,"44,197",600,Individual,NA,NA,NA
+19274,1927,4,The Nobel Prize in Physiology or Medicine 1927,"44,197",317,Individual,Vienna University,Vienna,Austria
+19275,1927,5,The Nobel Peace Prize 1927,"44,228",492,Individual,NA,NA,NA
+19275,1927,5,The Nobel Peace Prize 1927,"44,228",493,Individual,NA,NA,NA
+19276,1927,6,The Nobel Prize in Physics 1927,"44,228",33,Individual,University of Chicago,"Chicago, IL",United States of America
+19276,1927,6,The Nobel Prize in Physics 1927,"44,228",34,Individual,University of Cambridge,Cambridge,United Kingdom
+19281,1928,1,The Nobel Prize in Chemistry 1928,"44,197",185,Individual,Goettingen University,Göttingen,Germany
+19283,1928,3,The Nobel Prize in Literature 1928,"44,197",601,Individual,NA,NA,NA
+19284,1928,4,The Nobel Prize in Physiology or Medicine 1928,"44,197",318,Individual,Institut Pasteur,Tunis,NA
+19286,1928,6,The Nobel Prize in Physics 1928,"44,197",35,Individual,London University,London,United Kingdom
+19291,1929,1,The Nobel Prize in Chemistry 1929,"44,228",186,Individual,London University,London,United Kingdom
+19291,1929,1,The Nobel Prize in Chemistry 1929,"44,228",187,Individual,Stockholm University,Stockholm,Sweden
+19293,1929,3,The Nobel Prize in Literature 1929,"44,197",602,Individual,NA,NA,NA
+19294,1929,4,The Nobel Prize in Physiology or Medicine 1929,"44,228",319,Individual,Utrecht University,Utrecht,Netherlands
+19294,1929,4,The Nobel Prize in Physiology or Medicine 1929,"44,228",320,Individual,University of Cambridge,Cambridge,United Kingdom
+19295,1929,5,The Nobel Peace Prize 1929,"44,197",494,Individual,NA,NA,NA
+19296,1929,6,The Nobel Prize in Physics 1929,"44,197",36,Individual,"Sorbonne University, Institut Henri Poincaré",Paris,France
+19301,1930,1,The Nobel Prize in Chemistry 1930,"44,197",188,Individual,Technische Hochschule (Institute of Technology),Munich,Germany
+19303,1930,3,The Nobel Prize in Literature 1930,"44,197",603,Individual,NA,NA,NA
+19304,1930,4,The Nobel Prize in Physiology or Medicine 1930,"44,197",321,Individual,Rockefeller Institute for Medical Research,"New York, NY",United States of America
+19305,1930,5,The Nobel Peace Prize 1930,"44,197",495,Individual,NA,NA,NA
+19306,1930,6,The Nobel Prize in Physics 1930,"44,197",37,Individual,Calcutta University,Calcutta,India
+19311,1931,1,The Nobel Prize in Chemistry 1931,"44,228",189,Individual,University of Heidelberg,Heidelberg,Germany
+19311,1931,1,The Nobel Prize in Chemistry 1931,"44,228",190,Individual,University of Heidelberg,Heidelberg,Germany
+19313,1931,3,The Nobel Prize in Literature 1931,"44,197",604,Individual,NA,NA,NA
+19314,1931,4,The Nobel Prize in Physiology or Medicine 1931,"44,197",322,Individual,Kaiser-Wilhelm-Institut (now Max-Planck-Institut) für Biologie,Berlin-Dahlem,Germany
+19315,1931,5,The Nobel Peace Prize 1931,"44,228",496,Individual,NA,NA,NA
+19315,1931,5,The Nobel Peace Prize 1931,"44,228",497,Individual,Columbia University,"New York, NY",United States of America
+19321,1932,1,The Nobel Prize in Chemistry 1932,"44,197",191,Individual,General Electric Company,"Schenectady, NY",United States of America
+19323,1932,3,The Nobel Prize in Literature 1932,"44,197",605,Individual,NA,NA,NA
+19324,1932,4,The Nobel Prize in Physiology or Medicine 1932,"44,228",323,Individual,University of Oxford,Oxford,United Kingdom
+19324,1932,4,The Nobel Prize in Physiology or Medicine 1932,"44,228",324,Individual,University of Cambridge,Cambridge,United Kingdom
+19326,1932,6,The Nobel Prize in Physics 1932,"44,197",38,Individual,Leipzig University,Leipzig,Germany
+19333,1933,3,The Nobel Prize in Literature 1933,"44,197",606,Individual,NA,NA,NA
+19334,1933,4,The Nobel Prize in Physiology or Medicine 1933,"44,197",325,Individual,California Institute of Technology (Caltech),"Pasadena, CA",United States of America
+19335,1933,5,The Nobel Peace Prize 1933,"44,197",498,Individual,NA,NA,NA
+19336,1933,6,The Nobel Prize in Physics 1933,"44,228",39,Individual,Berlin University,Berlin,Germany
+19336,1933,6,The Nobel Prize in Physics 1933,"44,228",40,Individual,University of Cambridge,Cambridge,United Kingdom
+19341,1934,1,The Nobel Prize in Chemistry 1934,"44,197",192,Individual,Columbia University,"New York, NY",United States of America
+19343,1934,3,The Nobel Prize in Literature 1934,"44,197",607,Individual,NA,NA,NA
+19344,1934,4,The Nobel Prize in Physiology or Medicine 1934,"44,256",326,Individual,University of Rochester,"Rochester, NY",United States of America
+19344,1934,4,The Nobel Prize in Physiology or Medicine 1934,"44,256",327,Individual,Harvard University,"Cambridge, MA",United States of America
+19344,1934,4,The Nobel Prize in Physiology or Medicine 1934,"44,256",328,Individual,Harvard University,"Cambridge, MA",United States of America
+19345,1934,5,The Nobel Peace Prize 1934,"44,197",499,Individual,NA,NA,NA
+19351,1935,1,The Nobel Prize in Chemistry 1935,"44,228",193,Individual,Institut du Radium,Paris,France
+19351,1935,1,The Nobel Prize in Chemistry 1935,"44,228",194,Individual,Institut du Radium,Paris,France
+19354,1935,4,The Nobel Prize in Physiology or Medicine 1935,"44,197",329,Individual,University of Freiburg im Breisgau,Breisgau,Germany
+19355,1935,5,The Nobel Peace Prize 1935,"44,197",500,Individual,NA,NA,NA
+19356,1935,6,The Nobel Prize in Physics 1935,"44,197",41,Individual,Liverpool University,Liverpool,United Kingdom
+19361,1936,1,The Nobel Prize in Chemistry 1936,"44,197",195,Individual,Berlin University,Berlin,Germany
+19363,1936,3,The Nobel Prize in Literature 1936,"44,197",608,Individual,NA,NA,NA
+19364,1936,4,The Nobel Prize in Physiology or Medicine 1936,"44,228",330,Individual,National Institute for Medical Research,London,United Kingdom
+19364,1936,4,The Nobel Prize in Physiology or Medicine 1936,"44,228",331,Individual,Graz University,Graz,Austria
+19365,1936,5,The Nobel Peace Prize 1936,"44,197",501,Individual,NA,NA,NA
+19366,1936,6,The Nobel Prize in Physics 1936,"44,228",42,Individual,Innsbruck University,Innsbruck,Austria
+19366,1936,6,The Nobel Prize in Physics 1936,"44,228",43,Individual,California Institute of Technology (Caltech),"Pasadena, CA",United States of America
+19371,1937,1,The Nobel Prize in Chemistry 1937,"44,228",196,Individual,Birmingham University,Birmingham,United Kingdom
+19371,1937,1,The Nobel Prize in Chemistry 1937,"44,228",197,Individual,University of Zurich,Zurich,Switzerland
+19373,1937,3,The Nobel Prize in Literature 1937,"44,197",609,Individual,NA,NA,NA
+19374,1937,4,The Nobel Prize in Physiology or Medicine 1937,"44,197",332,Individual,Szeged University,Szeged,Hungary
+19375,1937,5,The Nobel Peace Prize 1937,"44,197",502,Individual,NA,NA,NA
+19376,1937,6,The Nobel Prize in Physics 1937,"44,228",44,Individual,Bell Telephone Laboratories,"New York, NY",United States of America
+19376,1937,6,The Nobel Prize in Physics 1937,"44,228",45,Individual,London University,London,United Kingdom
+19381,1938,1,The Nobel Prize in Chemistry 1938,"44,197",198,Individual,Kaiser-Wilhelm-Institut (now Max-Planck Institut) für Medizinische Forschung,Heidelberg,Germany
+19383,1938,3,The Nobel Prize in Literature 1938,"44,197",610,Individual,NA,NA,NA
+19384,1938,4,The Nobel Prize in Physiology or Medicine 1938,"44,197",333,Individual,Ghent University,Ghent,Belgium
+19385,1938,5,The Nobel Peace Prize 1938,"44,197",503,Organization,NA,NA,NA
+19386,1938,6,The Nobel Prize in Physics 1938,"44,197",46,Individual,Rome University,Rome,Italy
+19391,1939,1,The Nobel Prize in Chemistry 1939,"44,228",199,Individual,Kaiser-Wilhelm-Institut (now Max-Planck-Institut) für Biochemie,Berlin-Dahlem,Germany
+19391,1939,1,The Nobel Prize in Chemistry 1939,"44,228",200,Individual,Eidgenössische Technische Hochschule (Swiss Federal Institute of Technology),Zurich,Switzerland
+19393,1939,3,The Nobel Prize in Literature 1939,"44,197",613,Individual,NA,NA,NA
+19394,1939,4,The Nobel Prize in Physiology or Medicine 1939,"44,197",334,Individual,Munster University,Munster,Germany
+19396,1939,6,The Nobel Prize in Physics 1939,"44,197",47,Individual,University of California,"Berkeley, CA",United States of America
+19431,1943,1,The Nobel Prize in Chemistry 1943,"44,197",201,Individual,Stockholm University,Stockholm,Sweden
+19434,1943,4,The Nobel Prize in Physiology or Medicine 1943,"44,228",335,Individual,Polytechnic Institute,Copenhagen,Denmark
+19434,1943,4,The Nobel Prize in Physiology or Medicine 1943,"44,228",336,Individual,Saint Louis University,"St. Louis, MO",United States of America
+19436,1943,6,The Nobel Prize in Physics 1943,"44,197",48,Individual,Carnegie Institute of Technology,"Pittsburgh, PA",United States of America
+19441,1944,1,The Nobel Prize in Chemistry 1944,"44,197",202,Individual,Kaiser-Wilhelm-Institut (now Max-Planck Institut) für Chemie,Berlin-Dahlem,Germany
+19443,1944,3,The Nobel Prize in Literature 1944,"44,197",614,Individual,NA,NA,NA
+19444,1944,4,The Nobel Prize in Physiology or Medicine 1944,"44,228",337,Individual,Washington University,"St. Louis, MO",United States of America
+19444,1944,4,The Nobel Prize in Physiology or Medicine 1944,"44,228",338,Individual,Rockefeller Institute for Medical Research,"New York, NY",United States of America
+19445,1944,5,The Nobel Peace Prize 1944,"44,197",482,Organization,NA,NA,NA
+19446,1944,6,The Nobel Prize in Physics 1944,"44,197",49,Individual,Columbia University,"New York, NY",United States of America
+19451,1945,1,The Nobel Prize in Chemistry 1945,"44,197",203,Individual,University of Helsinki,Helsinki,Finland
+19453,1945,3,The Nobel Prize in Literature 1945,"44,197",615,Individual,NA,NA,NA
+19454,1945,4,The Nobel Prize in Physiology or Medicine 1945,"44,256",339,Individual,London University,London,United Kingdom
+19454,1945,4,The Nobel Prize in Physiology or Medicine 1945,"44,256",340,Individual,University of Oxford,Oxford,United Kingdom
+19454,1945,4,The Nobel Prize in Physiology or Medicine 1945,"44,256",341,Individual,University of Oxford,Oxford,United Kingdom
+19455,1945,5,The Nobel Peace Prize 1945,"44,197",505,Individual,NA,NA,NA
+19456,1945,6,The Nobel Prize in Physics 1945,"44,197",50,Individual,Princeton University,"Princeton, NJ",United States of America
+19461,1946,1,The Nobel Prize in Chemistry 1946,"44,228",204,Individual,Cornell University,"Ithaca, NY",United States of America
+19461,1946,1,The Nobel Prize in Chemistry 1946,"44,287",205,Individual,Rockefeller Institute for Medical Research,"Princeton, NJ",United States of America
+19461,1946,1,The Nobel Prize in Chemistry 1946,"44,287",206,Individual,Rockefeller Institute for Medical Research,"Princeton, NJ",United States of America
+19463,1946,3,The Nobel Prize in Literature 1946,"44,197",617,Individual,NA,NA,NA
+19464,1946,4,The Nobel Prize in Physiology or Medicine 1946,"44,197",342,Individual,Indiana University,"Bloomington, IN",United States of America
+19465,1946,5,The Nobel Peace Prize 1946,"44,228",506,Individual,NA,NA,NA
+19465,1946,5,The Nobel Peace Prize 1946,"44,228",507,Individual,NA,NA,NA
+19466,1946,6,The Nobel Prize in Physics 1946,"44,197",51,Individual,Harvard University,"Cambridge, MA",United States of America
+19471,1947,1,The Nobel Prize in Chemistry 1947,"44,197",207,Individual,University of Oxford,Oxford,United Kingdom
+19473,1947,3,The Nobel Prize in Literature 1947,"44,197",618,Individual,NA,NA,NA
+19474,1947,4,The Nobel Prize in Physiology or Medicine 1947,"44,287",343,Individual,Washington University,"St. Louis, MO",United States of America
+19474,1947,4,The Nobel Prize in Physiology or Medicine 1947,"44,287",344,Individual,Washington University,"St. Louis, MO",United States of America
+19474,1947,4,The Nobel Prize in Physiology or Medicine 1947,"44,228",345,Individual,Instituto de Biologia y Medicina Experimental (Institute for Biology and Experimental Medicine),Buenos Aires,Argentina
+19475,1947,5,The Nobel Peace Prize 1947,"44,228",508,Organization,NA,NA,NA
+19475,1947,5,The Nobel Peace Prize 1947,"44,228",509,Organization,NA,NA,NA
+19476,1947,6,The Nobel Prize in Physics 1947,"44,197",52,Individual,Department of Scientific and Industrial Research,London,United Kingdom
+19481,1948,1,The Nobel Prize in Chemistry 1948,"44,197",208,Individual,Uppsala University,Uppsala,Sweden
+19483,1948,3,The Nobel Prize in Literature 1948,"44,197",619,Individual,NA,NA,NA
+19484,1948,4,The Nobel Prize in Physiology or Medicine 1948,"44,197",346,Individual,Laboratorium der Farben-Fabriken J.R. Geigy A.G. (Laboratory of the J.R. Geigy Dye-Factory Co.),Basel,Switzerland
+19486,1948,6,The Nobel Prize in Physics 1948,"44,197",53,Individual,Victoria University,Manchester,United Kingdom
+19491,1949,1,The Nobel Prize in Chemistry 1949,"44,197",209,Individual,University of California,"Berkeley, CA",United States of America
+19493,1949,3,The Nobel Prize in Literature 1949,"44,197",620,Individual,NA,NA,NA
+19494,1949,4,The Nobel Prize in Physiology or Medicine 1949,"44,228",347,Individual,University of Zurich,Zurich,Switzerland
+19494,1949,4,The Nobel Prize in Physiology or Medicine 1949,"44,228",348,Individual,University of Lisbon,Lisbon,Portugal
+19495,1949,5,The Nobel Peace Prize 1949,"44,197",510,Individual,NA,NA,NA
+19496,1949,6,The Nobel Prize in Physics 1949,"44,197",54,Individual,Kyoto Imperial University,Kyoto,Japan
+19501,1950,1,The Nobel Prize in Chemistry 1950,"44,228",210,Individual,Kiel University,Kiel,Federal Republic of Germany
+19501,1950,1,The Nobel Prize in Chemistry 1950,"44,228",211,Individual,Cologne University,Cologne,Federal Republic of Germany
+19503,1950,3,The Nobel Prize in Literature 1950,"44,197",621,Individual,NA,NA,NA
+19504,1950,4,The Nobel Prize in Physiology or Medicine 1950,"44,256",349,Individual,Mayo Clinic,"Rochester, MN",United States of America
+19504,1950,4,The Nobel Prize in Physiology or Medicine 1950,"44,256",350,Individual,Basel University,Basel,Switzerland
+19504,1950,4,The Nobel Prize in Physiology or Medicine 1950,"44,256",351,Individual,Mayo Clinic,"Rochester, MN",United States of America
+19505,1950,5,The Nobel Peace Prize 1950,"44,197",511,Individual,Harvard University,"Cambridge, MA",United States of America
+19506,1950,6,The Nobel Prize in Physics 1950,"44,197",55,Individual,Bristol University,Bristol,United Kingdom
+19511,1951,1,The Nobel Prize in Chemistry 1951,"44,228",212,Individual,University of California,"Berkeley, CA",United States of America
+19511,1951,1,The Nobel Prize in Chemistry 1951,"44,228",213,Individual,University of California,"Berkeley, CA",United States of America
+19513,1951,3,The Nobel Prize in Literature 1951,"44,197",622,Individual,NA,NA,NA
+19514,1951,4,The Nobel Prize in Physiology or Medicine 1951,"44,197",352,Individual,"Laboratories of the Division of Medicine and Public Health, Rockefeller Foundation","New York, NY",United States of America
+19515,1951,5,The Nobel Peace Prize 1951,"44,197",512,Individual,NA,NA,NA
+19516,1951,6,The Nobel Prize in Physics 1951,"44,228",56,Individual,Atomic Energy Research Establishment,"Harwell, Berkshire",United Kingdom
+19516,1951,6,The Nobel Prize in Physics 1951,"44,228",57,Individual,Trinity College,Dublin,Ireland
+19521,1952,1,The Nobel Prize in Chemistry 1952,"44,228",214,Individual,National Institute for Medical Research,London,United Kingdom
+19521,1952,1,The Nobel Prize in Chemistry 1952,"44,228",215,Individual,Rowett Research Institute,Bucksburn (Scotland),United Kingdom
+19523,1952,3,The Nobel Prize in Literature 1952,"44,197",623,Individual,NA,NA,NA
+19524,1952,4,The Nobel Prize in Physiology or Medicine 1952,"44,197",353,Individual,Rutgers University,"New Brunswick, NJ",United States of America
+19525,1952,5,The Nobel Peace Prize 1952,"44,197",513,Individual,NA,NA,NA
+19526,1952,6,The Nobel Prize in Physics 1952,"44,228",58,Individual,Stanford University,"Stanford, CA",United States of America
+19526,1952,6,The Nobel Prize in Physics 1952,"44,228",59,Individual,Harvard University,"Cambridge, MA",United States of America
+19531,1953,1,The Nobel Prize in Chemistry 1953,"44,197",216,Individual,University of Freiburg,Breisgau,Federal Republic of Germany
+19533,1953,3,The Nobel Prize in Literature 1953,"44,197",624,Individual,NA,NA,NA
+19534,1953,4,The Nobel Prize in Physiology or Medicine 1953,"44,228",354,Individual,Sheffield University,Sheffield,United Kingdom
+19534,1953,4,The Nobel Prize in Physiology or Medicine 1953,"44,228",355,Individual,Harvard Medical School,"Boston, MA",United States of America
+19535,1953,5,The Nobel Peace Prize 1953,"44,197",514,Individual,NA,NA,NA
+19536,1953,6,The Nobel Prize in Physics 1953,"44,197",60,Individual,Groningen University,Groningen,Netherlands
+19541,1954,1,The Nobel Prize in Chemistry 1954,"44,197",217,Individual,California Institute of Technology (Caltech),"Pasadena, CA",United States of America
+19543,1954,3,The Nobel Prize in Literature 1954,"44,197",625,Individual,NA,NA,NA
+19544,1954,4,The Nobel Prize in Physiology or Medicine 1954,"44,256",356,Individual,Harvard Medical School,"Boston, MA",United States of America
+19544,1954,4,The Nobel Prize in Physiology or Medicine 1954,"44,256",357,Individual,"Research Division of Infectious Diseases, Children's Medical Center","Boston, MA",United States of America
+19544,1954,4,The Nobel Prize in Physiology or Medicine 1954,"44,256",358,Individual,Western Reserve University,"Cleveland, OH",United States of America
+19545,1954,5,The Nobel Peace Prize 1954,"44,197",515,Organization,NA,NA,NA
+19546,1954,6,The Nobel Prize in Physics 1954,"44,228",61,Individual,Edinburgh University,Edinburgh,United Kingdom
+19546,1954,6,The Nobel Prize in Physics 1954,"44,228",62,Individual,University of Heidelberg,Heidelberg,Federal Republic of Germany
+19551,1955,1,The Nobel Prize in Chemistry 1955,"44,197",218,Individual,Cornell University,"Ithaca, NY",United States of America
+19553,1955,3,The Nobel Prize in Literature 1955,"44,197",626,Individual,NA,NA,NA
+19554,1955,4,The Nobel Prize in Physiology or Medicine 1955,"44,197",359,Individual,"Karolinska Institutet, Nobel Medical Institute",Stockholm,Sweden
+19556,1955,6,The Nobel Prize in Physics 1955,"44,228",63,Individual,Stanford University,"Stanford, CA",United States of America
+19556,1955,6,The Nobel Prize in Physics 1955,"44,228",64,Individual,Columbia University,"New York, NY",United States of America
+19561,1956,1,The Nobel Prize in Chemistry 1956,"44,228",219,Individual,University of Oxford,Oxford,United Kingdom
+19561,1956,1,The Nobel Prize in Chemistry 1956,"44,228",220,Individual,Institute for Chemical Physics of the Academy of Sciences of the USSR,Moscow,Union of Soviet Socialist Republics
+19563,1956,3,The Nobel Prize in Literature 1956,"44,197",627,Individual,NA,NA,NA
+19564,1956,4,The Nobel Prize in Physiology or Medicine 1956,"44,256",360,Individual,"Columbia University Division, Cardio-Pulmonary Laboratory, Bellevue Hospital","New York, NY",United States of America
+19564,1956,4,The Nobel Prize in Physiology or Medicine 1956,"44,256",361,Individual,Mainz University,Mainz,Federal Republic of Germany
+19564,1956,4,The Nobel Prize in Physiology or Medicine 1956,"44,256",362,Individual,Columbia University,"New York, NY",United States of America
+19566,1956,6,The Nobel Prize in Physics 1956,"44,256",65,Individual,"Semiconductor Laboratory of Beckman Instruments, Inc.","Mountain View, CA",United States of America
+19566,1956,6,The Nobel Prize in Physics 1956,"44,256",66,Individual,University of Illinois,"Urbana, IL",United States of America
+19566,1956,6,The Nobel Prize in Physics 1956,"44,256",67,Individual,Bell Telephone Laboratories,"Murray Hill, NJ",United States of America
+19571,1957,1,The Nobel Prize in Chemistry 1957,"44,197",221,Individual,University of Cambridge,Cambridge,United Kingdom
+19573,1957,3,The Nobel Prize in Literature 1957,"44,197",628,Individual,NA,NA,NA
+19574,1957,4,The Nobel Prize in Physiology or Medicine 1957,"44,197",363,Individual,Istituto Superiore di Sanità (Chief Institute of Public Health),Rome,Italy
+19575,1957,5,The Nobel Peace Prize 1957,"44,197",516,Individual,NA,NA,NA
+19576,1957,6,The Nobel Prize in Physics 1957,"44,228",68,Individual,Institute for Advanced Study,"Princeton, NJ",United States of America
+19576,1957,6,The Nobel Prize in Physics 1957,"44,228",69,Individual,Columbia University,"New York, NY",United States of America
+19581,1958,1,The Nobel Prize in Chemistry 1958,"44,197",222,Individual,University of Cambridge,Cambridge,United Kingdom
+19583,1958,3,The Nobel Prize in Literature 1958,"44,197",629,Individual,NA,NA,NA
+19584,1958,4,The Nobel Prize in Physiology or Medicine 1958,"44,287",364,Individual,California Institute of Technology (Caltech),"Pasadena, CA",United States of America
+19584,1958,4,The Nobel Prize in Physiology or Medicine 1958,"44,287",365,Individual,Rockefeller Institute for Medical Research,"New York, NY",United States of America
+19584,1958,4,The Nobel Prize in Physiology or Medicine 1958,"44,228",366,Individual,University of Wisconsin,"Madison, WI",United States of America
+19585,1958,5,The Nobel Peace Prize 1958,"44,197",517,Individual,NA,NA,NA
+19586,1958,6,The Nobel Prize in Physics 1958,"44,256",70,Individual,P.N. Lebedev Physical Institute,Moscow,Union of Soviet Socialist Republics
+19586,1958,6,The Nobel Prize in Physics 1958,"44,256",71,Individual,University of Moscow,Moscow,Union of Soviet Socialist Republics
+19586,1958,6,The Nobel Prize in Physics 1958,"44,256",721,Individual,University of Moscow,Moscow,Union of Soviet Socialist Republics
+19591,1959,1,The Nobel Prize in Chemistry 1959,"44,197",223,Individual,Polarographic Institute of the Czechoslovak Academy of Science,Prague,Czechoslovakia
+19593,1959,3,The Nobel Prize in Literature 1959,"44,197",630,Individual,NA,NA,NA
+19594,1959,4,The Nobel Prize in Physiology or Medicine 1959,"44,228",367,Individual,"New York University, College of Medicine","New York, NY",United States of America
+19594,1959,4,The Nobel Prize in Physiology or Medicine 1959,"44,228",368,Individual,Stanford University,"Stanford, CA",United States of America
+19595,1959,5,The Nobel Peace Prize 1959,"44,197",518,Individual,NA,NA,NA
+19596,1959,6,The Nobel Prize in Physics 1959,"44,228",72,Individual,University of California,"Berkeley, CA",United States of America
+19596,1959,6,The Nobel Prize in Physics 1959,"44,228",73,Individual,University of California,"Berkeley, CA",United States of America
+19601,1960,1,The Nobel Prize in Chemistry 1960,"44,197",224,Individual,University of California,"Los Angeles, CA",United States of America
+19603,1960,3,The Nobel Prize in Literature 1960,"44,197",631,Individual,NA,NA,NA
+19604,1960,4,The Nobel Prize in Physiology or Medicine 1960,"44,228",369,Individual,Walter and Eliza Hall Institute for Medical Research,Melbourne,Australia
+19604,1960,4,The Nobel Prize in Physiology or Medicine 1960,"44,228",370,Individual,University College,London,United Kingdom
+19605,1960,5,The Nobel Peace Prize 1960,"44,197",519,Individual,NA,NA,NA
+19606,1960,6,The Nobel Prize in Physics 1960,"44,197",74,Individual,University of California,"Berkeley, CA",United States of America
+19611,1961,1,The Nobel Prize in Chemistry 1961,"44,197",225,Individual,University of California,"Berkeley, CA",United States of America
+19613,1961,3,The Nobel Prize in Literature 1961,"44,197",633,Individual,NA,NA,NA
+19614,1961,4,The Nobel Prize in Physiology or Medicine 1961,"44,197",371,Individual,Harvard University,"Cambridge, MA",United States of America
+19615,1961,5,The Nobel Peace Prize 1961,"44,197",520,Individual,NA,NA,NA
+19616,1961,6,The Nobel Prize in Physics 1961,"44,228",75,Individual,Stanford University,"Stanford, CA",United States of America
+19616,1961,6,The Nobel Prize in Physics 1961,"44,228",76,Individual,Technical University,Munich,Federal Republic of Germany
+19621,1962,1,The Nobel Prize in Chemistry 1962,"44,228",226,Individual,MRC Laboratory of Molecular Biology,Cambridge,United Kingdom
+19621,1962,1,The Nobel Prize in Chemistry 1962,"44,228",227,Individual,MRC Laboratory of Molecular Biology,Cambridge,United Kingdom
+19623,1962,3,The Nobel Prize in Literature 1962,"44,197",634,Individual,NA,NA,NA
+19624,1962,4,The Nobel Prize in Physiology or Medicine 1962,"44,256",372,Individual,MRC Laboratory of Molecular Biology,Cambridge,United Kingdom
+19624,1962,4,The Nobel Prize in Physiology or Medicine 1962,"44,256",373,Individual,Harvard University,"Cambridge, MA",United States of America
+19624,1962,4,The Nobel Prize in Physiology or Medicine 1962,"44,256",374,Individual,London University,London,United Kingdom
+19625,1962,5,The Nobel Peace Prize 1962,"44,197",217,Individual,California Institute of Technology (Caltech),"Pasadena, CA",United States of America
+19626,1962,6,The Nobel Prize in Physics 1962,"44,197",77,Individual,Academy of Sciences,Moscow,Union of Soviet Socialist Republics
+19631,1963,1,The Nobel Prize in Chemistry 1963,"44,228",228,Individual,Max-Planck-Institut für Kohlenforschung (Max-Planck-Institute for Carbon Research),Mülheim/Ruhr,Federal Republic of Germany
+19631,1963,1,The Nobel Prize in Chemistry 1963,"44,228",229,Individual,Institute of Technology,Milan,Italy
+19633,1963,3,The Nobel Prize in Literature 1963,"44,197",635,Individual,NA,NA,NA
+19634,1963,4,The Nobel Prize in Physiology or Medicine 1963,"44,256",375,Individual,Australian National University,Canberra,Australia
+19634,1963,4,The Nobel Prize in Physiology or Medicine 1963,"44,256",376,Individual,University of Cambridge,Cambridge,United Kingdom
+19634,1963,4,The Nobel Prize in Physiology or Medicine 1963,"44,256",377,Individual,University College,London,United Kingdom
+19635,1963,5,The Nobel Peace Prize 1963,"44,228",482,Organization,NA,NA,NA
+19635,1963,5,The Nobel Peace Prize 1963,"44,228",523,Organization,NA,NA,NA
+19636,1963,6,The Nobel Prize in Physics 1963,"44,228",78,Individual,Princeton University,"Princeton, NJ",United States of America
+19636,1963,6,The Nobel Prize in Physics 1963,"44,287",79,Individual,University of California,"San Diego, CA",United States of America
+19636,1963,6,The Nobel Prize in Physics 1963,"44,287",80,Individual,University of Heidelberg,Heidelberg,Federal Republic of Germany
+19641,1964,1,The Nobel Prize in Chemistry 1964,"44,197",230,Individual,"University of Oxford, Royal Society",Oxford,United Kingdom
+19643,1964,3,The Nobel Prize in Literature 1964,"44,197",637,Individual,NA,NA,NA
+19644,1964,4,The Nobel Prize in Physiology or Medicine 1964,"44,228",378,Individual,Harvard University,"Cambridge, MA",United States of America
+19644,1964,4,The Nobel Prize in Physiology or Medicine 1964,"44,228",379,Individual,Max-Planck-Institut für Zellchemie,Munich,Federal Republic of Germany
+19645,1964,5,The Nobel Peace Prize 1964,"44,197",524,Individual,NA,NA,NA
+19646,1964,6,The Nobel Prize in Physics 1964,"44,228",81,Individual,Massachusetts Institute of Technology (MIT),"Cambridge, MA",United States of America
+19646,1964,6,The Nobel Prize in Physics 1964,"44,287",82,Individual,P.N. Lebedev Physical Institute,Moscow,Union of Soviet Socialist Republics
+19646,1964,6,The Nobel Prize in Physics 1964,"44,287",83,Individual,P.N. Lebedev Physical Institute,Moscow,Union of Soviet Socialist Republics
+19651,1965,1,The Nobel Prize in Chemistry 1965,"44,197",231,Individual,Harvard University,"Cambridge, MA",United States of America
+19653,1965,3,The Nobel Prize in Literature 1965,"44,197",638,Individual,NA,NA,NA
+19654,1965,4,The Nobel Prize in Physiology or Medicine 1965,"44,256",380,Individual,Institut Pasteur,Paris,France
+19654,1965,4,The Nobel Prize in Physiology or Medicine 1965,"44,256",381,Individual,Institut Pasteur,Paris,France
+19654,1965,4,The Nobel Prize in Physiology or Medicine 1965,"44,256",382,Individual,Institut Pasteur,Paris,France
+19655,1965,5,The Nobel Peace Prize 1965,"44,197",525,Organization,NA,NA,NA
+19656,1965,6,The Nobel Prize in Physics 1965,"44,256",84,Individual,Tokyo University of Education,Tokyo,Japan
+19656,1965,6,The Nobel Prize in Physics 1965,"44,256",85,Individual,Harvard University,"Cambridge, MA",United States of America
+19656,1965,6,The Nobel Prize in Physics 1965,"44,256",86,Individual,California Institute of Technology (Caltech),"Pasadena, CA",United States of America
+19661,1966,1,The Nobel Prize in Chemistry 1966,"44,197",232,Individual,University of Chicago,"Chicago, IL",United States of America
+19663,1966,3,The Nobel Prize in Literature 1966,"44,228",639,Individual,NA,NA,NA
+19663,1966,3,The Nobel Prize in Literature 1966,"44,228",640,Individual,NA,NA,NA
+19664,1966,4,The Nobel Prize in Physiology or Medicine 1966,"44,228",383,Individual,Rockefeller University,"New York, NY",United States of America
+19664,1966,4,The Nobel Prize in Physiology or Medicine 1966,"44,228",384,Individual,"University of Chicago, Ben May Laboratory for Cancer Research","Chicago, IL",United States of America
+19666,1966,6,The Nobel Prize in Physics 1966,"44,197",87,Individual,École Normale Supérieure,Paris,France
+19671,1967,1,The Nobel Prize in Chemistry 1967,"44,228",233,Individual,Max-Planck-Institut für Physikalische Chemie,Göttingen,Federal Republic of Germany
+19671,1967,1,The Nobel Prize in Chemistry 1967,"44,287",234,Individual,Institute of Physical Chemistry,Cambridge,United Kingdom
+19671,1967,1,The Nobel Prize in Chemistry 1967,"44,287",235,Individual,Royal Institution of Great Britain,London,United Kingdom
+19673,1967,3,The Nobel Prize in Literature 1967,"44,197",641,Individual,NA,NA,NA
+19674,1967,4,The Nobel Prize in Physiology or Medicine 1967,"44,256",385,Individual,Karolinska Institutet,Stockholm,Sweden
+19674,1967,4,The Nobel Prize in Physiology or Medicine 1967,"44,256",386,Individual,Rockefeller University,"New York, NY",United States of America
+19674,1967,4,The Nobel Prize in Physiology or Medicine 1967,"44,256",387,Individual,Harvard University,"Cambridge, MA",United States of America
+19676,1967,6,The Nobel Prize in Physics 1967,"44,197",88,Individual,Cornell University,"Ithaca, NY",United States of America
+19681,1968,1,The Nobel Prize in Chemistry 1968,"44,197",236,Individual,Yale University,"New Haven, CT",United States of America
+19683,1968,3,The Nobel Prize in Literature 1968,"44,197",642,Individual,NA,NA,NA
+19684,1968,4,The Nobel Prize in Physiology or Medicine 1968,"44,256",388,Individual,Cornell University,"Ithaca, NY",United States of America
+19684,1968,4,The Nobel Prize in Physiology or Medicine 1968,"44,256",389,Individual,University of Wisconsin,"Madison, WI",United States of America
+19684,1968,4,The Nobel Prize in Physiology or Medicine 1968,"44,256",390,Individual,National Institutes of Health,"Bethesda, MD",United States of America
+19685,1968,5,The Nobel Peace Prize 1968,"44,197",526,Individual,NA,NA,NA
+19686,1968,6,The Nobel Prize in Physics 1968,"44,197",89,Individual,University of California,"Berkeley, CA",United States of America
+19691,1969,1,The Nobel Prize in Chemistry 1969,"44,228",237,Individual,Imperial College,London,United Kingdom
+19691,1969,1,The Nobel Prize in Chemistry 1969,"44,228",238,Individual,University of Oslo,Oslo,Norway
+19692,1969,2,The Sveriges Riksbank Prize in Economic Sciences 1969,"44,228",677,Individual,University of Oslo,Oslo,Norway
+19692,1969,2,The Sveriges Riksbank Prize in Economic Sciences 1969,"44,228",678,Individual,The Netherlands School of Economics,Rotterdam,Netherlands
+19693,1969,3,The Nobel Prize in Literature 1969,"44,197",643,Individual,NA,NA,NA
+19694,1969,4,The Nobel Prize in Physiology or Medicine 1969,"44,256",391,Individual,California Institute of Technology (Caltech),"Pasadena, CA",United States of America
+19694,1969,4,The Nobel Prize in Physiology or Medicine 1969,"44,256",392,Individual,Carnegie Institution of Washington,"Long Island, New York, NY",United States of America
+19694,1969,4,The Nobel Prize in Physiology or Medicine 1969,"44,256",393,Individual,Massachusetts Institute of Technology (MIT),"Cambridge, MA",United States of America
+19695,1969,5,The Nobel Peace Prize 1969,"44,197",527,Organization,NA,NA,NA
+19696,1969,6,The Nobel Prize in Physics 1969,"44,197",90,Individual,California Institute of Technology (Caltech),"Pasadena, CA",United States of America
+19701,1970,1,The Nobel Prize in Chemistry 1970,"44,197",239,Individual,Institute for Biochemical Research,Buenos Aires,Argentina
+19702,1970,2,The Sveriges Riksbank Prize in Economic Sciences 1970,"44,197",679,Individual,Massachusetts Institute of Technology (MIT),"Cambridge, MA",United States of America
+19703,1970,3,The Nobel Prize in Literature 1970,"44,197",644,Individual,NA,NA,NA
+19704,1970,4,The Nobel Prize in Physiology or Medicine 1970,"44,256",394,Individual,University College,London,United Kingdom
+19704,1970,4,The Nobel Prize in Physiology or Medicine 1970,"44,256",395,Individual,Karolinska Institutet,Stockholm,Sweden
+19704,1970,4,The Nobel Prize in Physiology or Medicine 1970,"44,256",396,Individual,National Institutes of Health,"Bethesda, MD",United States of America
+19705,1970,5,The Nobel Peace Prize 1970,"44,197",528,Individual,NA,NA,NA
+19706,1970,6,The Nobel Prize in Physics 1970,"44,228",91,Individual,Royal Institute of Technology,Stockholm,Sweden
+19706,1970,6,The Nobel Prize in Physics 1970,"44,228",92,Individual,University of Grenoble,Grenoble,France
+19711,1971,1,The Nobel Prize in Chemistry 1971,"44,197",240,Individual,National Research Council of Canada,Ottawa,Canada
+19712,1971,2,The Sveriges Riksbank Prize in Economic Sciences 1971,"44,197",680,Individual,Harvard University,"Cambridge, MA",United States of America
+19713,1971,3,The Nobel Prize in Literature 1971,"44,197",645,Individual,NA,NA,NA
+19714,1971,4,The Nobel Prize in Physiology or Medicine 1971,"44,197",397,Individual,Vanderbilt University,"Nashville, TN",United States of America
+19715,1971,5,The Nobel Peace Prize 1971,"44,197",529,Individual,NA,NA,NA
+19716,1971,6,The Nobel Prize in Physics 1971,"44,197",93,Individual,Imperial College,London,United Kingdom
+19721,1972,1,The Nobel Prize in Chemistry 1972,"44,228",241,Individual,National Institutes of Health,"Bethesda, MD",United States of America
+19721,1972,1,The Nobel Prize in Chemistry 1972,"44,287",242,Individual,Rockefeller University,"New York, NY",United States of America
+19721,1972,1,The Nobel Prize in Chemistry 1972,"44,287",243,Individual,Rockefeller University,"New York, NY",United States of America
+19722,1972,2,The Sveriges Riksbank Prize in Economic Sciences 1972,"44,228",681,Individual,All Souls College,Oxford,United Kingdom
+19722,1972,2,The Sveriges Riksbank Prize in Economic Sciences 1972,"44,228",682,Individual,Harvard University,"Cambridge, MA",United States of America
+19723,1972,3,The Nobel Prize in Literature 1972,"44,197",647,Individual,NA,NA,NA
+19724,1972,4,The Nobel Prize in Physiology or Medicine 1972,"44,228",398,Individual,Rockefeller University,"New York, NY",United States of America
+19724,1972,4,The Nobel Prize in Physiology or Medicine 1972,"44,228",399,Individual,University of Oxford,Oxford,United Kingdom
+19726,1972,6,The Nobel Prize in Physics 1972,"44,256",66,Individual,University of Illinois,"Urbana, IL",United States of America
+19726,1972,6,The Nobel Prize in Physics 1972,"44,256",95,Individual,Brown University,"Providence, RI",United States of America
+19726,1972,6,The Nobel Prize in Physics 1972,"44,256",96,Individual,University of Pennsylvania,"Philadelphia, PA",United States of America
+19731,1973,1,The Nobel Prize in Chemistry 1973,"44,228",244,Individual,Technical University,Munich,Federal Republic of Germany
+19731,1973,1,The Nobel Prize in Chemistry 1973,"44,228",245,Individual,Imperial College,London,United Kingdom
+19732,1973,2,The Sveriges Riksbank Prize in Economic Sciences 1973,"44,197",683,Individual,Harvard University,"Cambridge, MA",United States of America
+19733,1973,3,The Nobel Prize in Literature 1973,"44,197",648,Individual,NA,NA,NA
+19734,1973,4,The Nobel Prize in Physiology or Medicine 1973,"44,256",400,Individual,Zoologisches Institut der Universität München,Munich,Federal Republic of Germany
+19734,1973,4,The Nobel Prize in Physiology or Medicine 1973,"44,256",401,Individual,"Konrad-Lorenz-Institut der Österreichischen Akademie der Wissen­schaften, Forschungsstelle für Ethologie",Altenberg; Grünau im Almtal,Austria
+19734,1973,4,The Nobel Prize in Physiology or Medicine 1973,"44,256",402,Individual,University of Oxford,Oxford,United Kingdom
+19735,1973,5,The Nobel Peace Prize 1973,"44,228",530,Individual,NA,NA,NA
+19735,1973,5,The Nobel Peace Prize 1973,"44,228",531,Organization,NA,NA,NA
+19736,1973,6,The Nobel Prize in Physics 1973,"44,287",97,Individual,IBM Thomas J. Watson Research Center,"Yorktown Heights, NY",United States of America
+19736,1973,6,The Nobel Prize in Physics 1973,"44,287",98,Individual,General Electric Company,"Schenectady, NY",United States of America
+19736,1973,6,The Nobel Prize in Physics 1973,"44,228",99,Individual,University of Cambridge,Cambridge,United Kingdom
+19741,1974,1,The Nobel Prize in Chemistry 1974,"44,197",246,Individual,Stanford University,"Stanford, CA",United States of America
+19742,1974,2,The Sveriges Riksbank Prize in Economic Sciences 1974,"44,228",684,Individual,NA,NA,NA
+19742,1974,2,The Sveriges Riksbank Prize in Economic Sciences 1974,"44,228",685,Individual,NA,NA,NA
+19743,1974,3,The Nobel Prize in Literature 1974,"44,228",649,Individual,NA,NA,NA
+19743,1974,3,The Nobel Prize in Literature 1974,"44,228",650,Individual,NA,NA,NA
+19744,1974,4,The Nobel Prize in Physiology or Medicine 1974,"44,256",403,Individual,Université Catholique de Louvain,Louvain,Belgium
+19744,1974,4,The Nobel Prize in Physiology or Medicine 1974,"44,256",404,Individual,Rockefeller University,"New York, NY",United States of America
+19744,1974,4,The Nobel Prize in Physiology or Medicine 1974,"44,256",405,Individual,"Yale University, School of Medicine","New Haven, CT",United States of America
+19745,1974,5,The Nobel Peace Prize 1974,"44,228",532,Individual,NA,NA,NA
+19745,1974,5,The Nobel Peace Prize 1974,"44,228",533,Individual,NA,NA,NA
+19746,1974,6,The Nobel Prize in Physics 1974,"44,228",100,Individual,University of Cambridge,Cambridge,United Kingdom
+19746,1974,6,The Nobel Prize in Physics 1974,"44,228",101,Individual,University of Cambridge,Cambridge,United Kingdom
+19751,1975,1,The Nobel Prize in Chemistry 1975,"44,228",247,Individual,University of Sussex,Brighton,United Kingdom
+19751,1975,1,The Nobel Prize in Chemistry 1975,"44,228",248,Individual,Eidgenössische Technische Hochschule (Swiss Federal Institute of Technology),Zurich,Switzerland
+19752,1975,2,The Sveriges Riksbank Prize in Economic Sciences 1975,"44,228",686,Individual,Academy of Sciences,Moscow,Union of Soviet Socialist Republics
+19752,1975,2,The Sveriges Riksbank Prize in Economic Sciences 1975,"44,228",687,Individual,Yale University,"New Haven, CT",United States of America
+19753,1975,3,The Nobel Prize in Literature 1975,"44,197",651,Individual,NA,NA,NA
+19754,1975,4,The Nobel Prize in Physiology or Medicine 1975,"44,256",406,Individual,Massachusetts Institute of Technology (MIT),"Cambridge, MA",United States of America
+19754,1975,4,The Nobel Prize in Physiology or Medicine 1975,"44,256",407,Individual,Imperial Cancer Research Fund Laboratory,London,United Kingdom
+19754,1975,4,The Nobel Prize in Physiology or Medicine 1975,"44,256",408,Individual,University of Wisconsin,"Madison, WI",United States of America
+19755,1975,5,The Nobel Peace Prize 1975,"44,197",534,Individual,NA,NA,NA
+19756,1975,6,The Nobel Prize in Physics 1975,"44,256",102,Individual,Niels Bohr Institute,Copenhagen,Denmark
+19756,1975,6,The Nobel Prize in Physics 1975,"44,256",103,Individual,Nordita,Copenhagen,Denmark
+19756,1975,6,The Nobel Prize in Physics 1975,"44,256",104,Individual,Columbia University,"New York, NY",United States of America
+19761,1976,1,The Nobel Prize in Chemistry 1976,"44,197",249,Individual,Harvard University,"Cambridge, MA",United States of America
+19762,1976,2,The Sveriges Riksbank Prize in Economic Sciences 1976,"44,197",688,Individual,University of Chicago,"Chicago, IL",United States of America
+19763,1976,3,The Nobel Prize in Literature 1976,"44,197",652,Individual,NA,NA,NA
+19764,1976,4,The Nobel Prize in Physiology or Medicine 1976,"44,228",409,Individual,The Institute for Cancer Research,"Philadelphia, PA",United States of America
+19764,1976,4,The Nobel Prize in Physiology or Medicine 1976,"44,228",410,Individual,National Institutes of Health,"Bethesda, MD",United States of America
+19765,1976,5,The Nobel Peace Prize 1976,"44,228",535,Individual,NA,NA,NA
+19765,1976,5,The Nobel Peace Prize 1976,"44,228",536,Individual,NA,NA,NA
+19766,1976,6,The Nobel Prize in Physics 1976,"44,228",105,Individual,Stanford Linear Accelerator Center,"Stanford, CA",United States of America
+19766,1976,6,The Nobel Prize in Physics 1976,"44,228",106,Individual,Massachusetts Institute of Technology (MIT),"Cambridge, MA",United States of America
+19771,1977,1,The Nobel Prize in Chemistry 1977,"44,197",250,Individual,Université Libre de Bruxelles,Brussels,Belgium
+19772,1977,2,The Sveriges Riksbank Prize in Economic Sciences 1977,"44,228",689,Individual,Stockholm School of Economics,Stockholm,Sweden
+19772,1977,2,The Sveriges Riksbank Prize in Economic Sciences 1977,"44,228",690,Individual,University of Cambridge,Cambridge,United Kingdom
+19773,1977,3,The Nobel Prize in Literature 1977,"44,197",653,Individual,NA,NA,NA
+19774,1977,4,The Nobel Prize in Physiology or Medicine 1977,"44,287",411,Individual,The Salk Institute,"San Diego, CA",United States of America
+19774,1977,4,The Nobel Prize in Physiology or Medicine 1977,"44,287",412,Individual,Veterans Administration Hospital,"New Orleans, LA",United States of America
+19774,1977,4,The Nobel Prize in Physiology or Medicine 1977,"44,228",413,Individual,Veterans Administration Hospital,"Bronx, NY",United States of America
+19775,1977,5,The Nobel Peace Prize 1977,"44,197",537,Organization,NA,NA,NA
+19776,1977,6,The Nobel Prize in Physics 1977,"44,256",107,Individual,Bell Telephone Laboratories,"Murray Hill, NJ",United States of America
+19776,1977,6,The Nobel Prize in Physics 1977,"44,256",108,Individual,University of Cambridge,Cambridge,United Kingdom
+19776,1977,6,The Nobel Prize in Physics 1977,"44,256",109,Individual,Harvard University,"Cambridge, MA",United States of America
+19781,1978,1,The Nobel Prize in Chemistry 1978,"44,197",251,Individual,Glynn Research Laboratories,Bodmin,United Kingdom
+19782,1978,2,The Sveriges Riksbank Prize in Economic Sciences 1978,"44,197",691,Individual,Carnegie Mellon University,"Pittsburgh, PA",United States of America
+19783,1978,3,The Nobel Prize in Literature 1978,"44,197",654,Individual,NA,NA,NA
+19784,1978,4,The Nobel Prize in Physiology or Medicine 1978,"44,256",414,Individual,Biozentrum der Universität,Basel,Switzerland
+19784,1978,4,The Nobel Prize in Physiology or Medicine 1978,"44,256",415,Individual,Johns Hopkins University School of Medicine,"Baltimore, MD",United States of America
+19784,1978,4,The Nobel Prize in Physiology or Medicine 1978,"44,256",416,Individual,Johns Hopkins University School of Medicine,"Baltimore, MD",United States of America
+19785,1978,5,The Nobel Peace Prize 1978,"44,228",538,Individual,NA,NA,NA
+19785,1978,5,The Nobel Peace Prize 1978,"44,228",539,Individual,NA,NA,NA
+19786,1978,6,The Nobel Prize in Physics 1978,"44,228",110,Individual,Academy of Sciences,Moscow,Union of Soviet Socialist Republics
+19786,1978,6,The Nobel Prize in Physics 1978,"44,287",111,Individual,Bell Laboratories,"Holmdel, NJ",United States of America
+19786,1978,6,The Nobel Prize in Physics 1978,"44,287",112,Individual,Bell Laboratories,"Holmdel, NJ",United States of America
+19791,1979,1,The Nobel Prize in Chemistry 1979,"44,228",252,Individual,Purdue University,"West Lafayette, IN",United States of America
+19791,1979,1,The Nobel Prize in Chemistry 1979,"44,228",253,Individual,University of Heidelberg,Heidelberg,Federal Republic of Germany
+19792,1979,2,The Sveriges Riksbank Prize in Economic Sciences 1979,"44,228",692,Individual,University of Chicago,"Chicago, IL",United States of America
+19792,1979,2,The Sveriges Riksbank Prize in Economic Sciences 1979,"44,228",693,Individual,Princeton University,"Princeton, NJ",United States of America
+19793,1979,3,The Nobel Prize in Literature 1979,"44,197",655,Individual,NA,NA,NA
+19794,1979,4,The Nobel Prize in Physiology or Medicine 1979,"44,228",417,Individual,Tufts University,"Medford, MA",United States of America
+19794,1979,4,The Nobel Prize in Physiology or Medicine 1979,"44,228",418,Individual,"Central Research Laboratories, EMI",London,United Kingdom
+19795,1979,5,The Nobel Peace Prize 1979,"44,197",540,Organization,NA,NA,NA
+19796,1979,6,The Nobel Prize in Physics 1979,"44,256",113,Individual,"Harvard University, Lyman Laboratory","Cambridge, MA",United States of America
+19796,1979,6,The Nobel Prize in Physics 1979,"44,256",114,Individual,International Centre for Theoretical Physics,Trieste,Italy
+19796,1979,6,The Nobel Prize in Physics 1979,"44,256",115,Individual,Harvard University,"Cambridge, MA",United States of America
+19801,1980,1,The Nobel Prize in Chemistry 1980,"44,287",222,Individual,MRC Laboratory of Molecular Biology,Cambridge,United Kingdom
+19801,1980,1,The Nobel Prize in Chemistry 1980,"44,228",254,Individual,Stanford University,"Stanford, CA",United States of America
+19801,1980,1,The Nobel Prize in Chemistry 1980,"44,287",255,Individual,"Harvard University, Biological Laboratories","Cambridge, MA",United States of America
+19802,1980,2,The Sveriges Riksbank Prize in Economic Sciences 1980,"44,197",694,Individual,University of Pennsylvania,"Philadelphia, PA",United States of America
+19803,1980,3,The Nobel Prize in Literature 1980,"44,197",657,Individual,NA,NA,NA
+19804,1980,4,The Nobel Prize in Physiology or Medicine 1980,"44,256",419,Individual,Harvard Medical School,"Boston, MA",United States of America
+19804,1980,4,The Nobel Prize in Physiology or Medicine 1980,"44,256",420,Individual,"Université de Paris, Laboratoire Immuno-Hématologie",Paris,France
+19804,1980,4,The Nobel Prize in Physiology or Medicine 1980,"44,256",421,Individual,Jackson Laboratory,"Bar Harbor, ME",United States of America
+19805,1980,5,The Nobel Peace Prize 1980,"44,197",541,Individual,NA,NA,NA
+19806,1980,6,The Nobel Prize in Physics 1980,"44,228",116,Individual,University of Chicago,"Chicago, IL",United States of America
+19806,1980,6,The Nobel Prize in Physics 1980,"44,228",117,Individual,Princeton University,"Princeton, NJ",United States of America
+19811,1981,1,The Nobel Prize in Chemistry 1981,"44,228",257,Individual,Kyoto University,Kyoto,Japan
+19811,1981,1,The Nobel Prize in Chemistry 1981,"44,228",258,Individual,Cornell University,"Ithaca, NY",United States of America
+19812,1981,2,The Sveriges Riksbank Prize in Economic Sciences 1981,"44,197",695,Individual,Yale University,"New Haven, CT",United States of America
+19813,1981,3,The Nobel Prize in Literature 1981,"44,197",658,Individual,NA,NA,NA
+19814,1981,4,The Nobel Prize in Physiology or Medicine 1981,"44,228",422,Individual,California Institute of Technology (Caltech),"Pasadena, CA",United States of America
+19814,1981,4,The Nobel Prize in Physiology or Medicine 1981,"44,287",423,Individual,Harvard Medical School,"Boston, MA",United States of America
+19814,1981,4,The Nobel Prize in Physiology or Medicine 1981,"44,287",424,Individual,Harvard Medical School,"Boston, MA",United States of America
+19815,1981,5,The Nobel Peace Prize 1981,"44,197",515,Organization,NA,NA,NA
+19816,1981,6,The Nobel Prize in Physics 1981,"44,287",118,Individual,Harvard University,"Cambridge, MA",United States of America
+19816,1981,6,The Nobel Prize in Physics 1981,"44,287",119,Individual,Stanford University,"Stanford, CA",United States of America
+19816,1981,6,The Nobel Prize in Physics 1981,"44,228",120,Individual,Uppsala University,Uppsala,Sweden
+19821,1982,1,The Nobel Prize in Chemistry 1982,"44,197",259,Individual,MRC Laboratory of Molecular Biology,Cambridge,United Kingdom
+19822,1982,2,The Sveriges Riksbank Prize in Economic Sciences 1982,"44,197",696,Individual,University of Chicago,"Chicago, IL",United States of America
+19823,1982,3,The Nobel Prize in Literature 1982,"44,197",659,Individual,NA,NA,NA
+19824,1982,4,The Nobel Prize in Physiology or Medicine 1982,"44,256",425,Individual,Karolinska Institutet,Stockholm,Sweden
+19824,1982,4,The Nobel Prize in Physiology or Medicine 1982,"44,256",426,Individual,Karolinska Institutet,Stockholm,Sweden
+19824,1982,4,The Nobel Prize in Physiology or Medicine 1982,"44,256",427,Individual,The Wellcome Research Laboratories,Beckenham,United Kingdom
+19825,1982,5,The Nobel Peace Prize 1982,"44,228",543,Individual,NA,NA,NA
+19825,1982,5,The Nobel Peace Prize 1982,"44,228",544,Individual,NA,NA,NA
+19826,1982,6,The Nobel Prize in Physics 1982,"44,197",121,Individual,Cornell University,"Ithaca, NY",United States of America
+19831,1983,1,The Nobel Prize in Chemistry 1983,"44,197",260,Individual,Stanford University,"Stanford, CA",United States of America
+19832,1983,2,The Sveriges Riksbank Prize in Economic Sciences 1983,"44,197",697,Individual,University of California,"Berkeley, CA",United States of America
+19833,1983,3,The Nobel Prize in Literature 1983,"44,197",660,Individual,NA,NA,NA
+19834,1983,4,The Nobel Prize in Physiology or Medicine 1983,"44,197",428,Individual,Cold Spring Harbor Laboratory,"Cold Spring Harbor, NY",United States of America
+19835,1983,5,The Nobel Peace Prize 1983,"44,197",545,Individual,NA,NA,NA
+19836,1983,6,The Nobel Prize in Physics 1983,"44,228",122,Individual,University of Chicago,"Chicago, IL",United States of America
+19836,1983,6,The Nobel Prize in Physics 1983,"44,228",123,Individual,California Institute of Technology (Caltech),"Pasadena, CA",United States of America
+19841,1984,1,The Nobel Prize in Chemistry 1984,"44,197",261,Individual,Rockefeller University,"New York, NY",United States of America
+19842,1984,2,The Sveriges Riksbank Prize in Economic Sciences 1984,"44,197",698,Individual,University of Cambridge,Cambridge,United Kingdom
+19843,1984,3,The Nobel Prize in Literature 1984,"44,197",661,Individual,NA,NA,NA
+19844,1984,4,The Nobel Prize in Physiology or Medicine 1984,"44,256",429,Individual,Basel Institute for Immunology,Basel,Switzerland
+19844,1984,4,The Nobel Prize in Physiology or Medicine 1984,"44,256",430,Individual,Basel Institute for Immunology,Basel,Switzerland
+19844,1984,4,The Nobel Prize in Physiology or Medicine 1984,"44,256",431,Individual,MRC Laboratory of Molecular Biology,Cambridge,United Kingdom
+19845,1984,5,The Nobel Peace Prize 1984,"44,197",546,Individual,NA,NA,NA
+19846,1984,6,The Nobel Prize in Physics 1984,"44,228",124,Individual,CERN,Geneva,Switzerland
+19846,1984,6,The Nobel Prize in Physics 1984,"44,228",125,Individual,CERN,Geneva,Switzerland
+19851,1985,1,The Nobel Prize in Chemistry 1985,"44,228",262,Individual,The Medical Foundation of Buffalo,"Buffalo, NY",United States of America
+19851,1985,1,The Nobel Prize in Chemistry 1985,"44,228",263,Individual,US Naval Research Laboratory,"Washington, DC",United States of America
+19852,1985,2,The Sveriges Riksbank Prize in Economic Sciences 1985,"44,197",699,Individual,Massachusetts Institute of Technology (MIT),"Cambridge, MA",United States of America
+19853,1985,3,The Nobel Prize in Literature 1985,"44,197",662,Individual,NA,NA,NA
+19854,1985,4,The Nobel Prize in Physiology or Medicine 1985,"44,228",432,Individual,University of Texas Southwestern Medical Center at Dallas,"Dallas, TX",United States of America
+19854,1985,4,The Nobel Prize in Physiology or Medicine 1985,"44,228",433,Individual,University of Texas Southwestern Medical Center at Dallas,"Dallas, TX",United States of America
+19855,1985,5,The Nobel Peace Prize 1985,"44,197",547,Organization,NA,NA,NA
+19856,1985,6,The Nobel Prize in Physics 1985,"44,197",126,Individual,Max-Planck-Institut für Festkörperforschung,Stuttgart,Federal Republic of Germany
+19861,1986,1,The Nobel Prize in Chemistry 1986,"44,256",264,Individual,Harvard University,"Cambridge, MA",United States of America
+19861,1986,1,The Nobel Prize in Chemistry 1986,"44,256",265,Individual,University of California,"Berkeley, CA",United States of America
+19861,1986,1,The Nobel Prize in Chemistry 1986,"44,256",266,Individual,University of Toronto,Toronto,Canada
+19862,1986,2,The Sveriges Riksbank Prize in Economic Sciences 1986,"44,197",700,Individual,Center for Study of Public Choice,"Fairfax, VA",United States of America
+19863,1986,3,The Nobel Prize in Literature 1986,"44,197",663,Individual,NA,NA,NA
+19864,1986,4,The Nobel Prize in Physiology or Medicine 1986,"44,228",434,Individual,Vanderbilt University School of Medicine,"Nashville, TN",United States of America
+19864,1986,4,The Nobel Prize in Physiology or Medicine 1986,"44,228",435,Individual,Institute of Cell Biology of the C.N.R.,Rome,Italy
+19865,1986,5,The Nobel Peace Prize 1986,"44,197",548,Individual,NA,NA,NA
+19866,1986,6,The Nobel Prize in Physics 1986,"44,228",127,Individual,Fritz-Haber-Institut der Max-Planck-Gesellschaft,Berlin,Federal Republic of Germany
+19866,1986,6,The Nobel Prize in Physics 1986,"44,287",128,Individual,IBM Zurich Research Laboratory,Rüschlikon,Switzerland
+19866,1986,6,The Nobel Prize in Physics 1986,"44,287",129,Individual,IBM Zurich Research Laboratory,Rüschlikon,Switzerland
+19871,1987,1,The Nobel Prize in Chemistry 1987,"44,256",267,Individual,University of California,"Los Angeles, CA",United States of America
+19871,1987,1,The Nobel Prize in Chemistry 1987,"44,256",268,Individual,Université Louis Pasteur,Strasbourg,France
+19871,1987,1,The Nobel Prize in Chemistry 1987,"44,256",269,Individual,Du Pont,"Wilmington, DE",United States of America
+19872,1987,2,The Sveriges Riksbank Prize in Economic Sciences 1987,"44,197",701,Individual,Massachusetts Institute of Technology (MIT),"Cambridge, MA",United States of America
+19873,1987,3,The Nobel Prize in Literature 1987,"44,197",664,Individual,NA,NA,NA
+19874,1987,4,The Nobel Prize in Physiology or Medicine 1987,"44,197",436,Individual,Massachusetts Institute of Technology (MIT),"Cambridge, MA",United States of America
+19875,1987,5,The Nobel Peace Prize 1987,"44,197",549,Individual,NA,NA,NA
+19876,1987,6,The Nobel Prize in Physics 1987,"44,228",130,Individual,IBM Zurich Research Laboratory,Rüschlikon,Switzerland
+19876,1987,6,The Nobel Prize in Physics 1987,"44,228",131,Individual,IBM Zurich Research Laboratory,Rüschlikon,Switzerland
+19881,1988,1,The Nobel Prize in Chemistry 1988,"44,256",270,Individual,University of Texas Southwestern Medical Center at Dallas,"Dallas, TX",United States of America
+19881,1988,1,The Nobel Prize in Chemistry 1988,"44,256",271,Individual,Max-Planck-Institut für Biochemie,Martinsried,Federal Republic of Germany
+19881,1988,1,The Nobel Prize in Chemistry 1988,"44,256",272,Individual,Max-Planck-Institut für Biophysik,Frankfurt-on-the-Main,Federal Republic of Germany
+19882,1988,2,The Sveriges Riksbank Prize in Economic Sciences 1988,"44,197",702,Individual,École Nationale Supérieur des Mines de Paris,Paris,France
+19883,1988,3,The Nobel Prize in Literature 1988,"44,197",665,Individual,NA,NA,NA
+19884,1988,4,The Nobel Prize in Physiology or Medicine 1988,"44,256",437,Individual,"London University, King's College Hospital Medical School",London,United Kingdom
+19884,1988,4,The Nobel Prize in Physiology or Medicine 1988,"44,256",438,Individual,Wellcome Research Laboratories,"Research Triangle Park, NC",United States of America
+19884,1988,4,The Nobel Prize in Physiology or Medicine 1988,"44,256",439,Individual,Wellcome Research Laboratories,"Research Triangle Park, NC",United States of America
+19885,1988,5,The Nobel Peace Prize 1988,"44,197",550,Organization,NA,NA,NA
+19886,1988,6,The Nobel Prize in Physics 1988,"44,256",132,Individual,Fermi National Accelerator Laboratory,"Batavia, IL",United States of America
+19886,1988,6,The Nobel Prize in Physics 1988,"44,256",133,Individual,"Digital Pathways, Inc.","Mountain View, CA",United States of America
+19886,1988,6,The Nobel Prize in Physics 1988,"44,256",134,Individual,CERN,Geneva,Switzerland
+19891,1989,1,The Nobel Prize in Chemistry 1989,"44,228",273,Individual,Yale University,"New Haven, CT",United States of America
+19891,1989,1,The Nobel Prize in Chemistry 1989,"44,228",274,Individual,University of Colorado,"Boulder, CO",United States of America
+19892,1989,2,The Sveriges Riksbank Prize in Economic Sciences 1989,"44,197",703,Individual,University of Oslo,Oslo,Norway
+19893,1989,3,The Nobel Prize in Literature 1989,"44,197",666,Individual,NA,NA,NA
+19894,1989,4,The Nobel Prize in Physiology or Medicine 1989,"44,228",440,Individual,University of California School of Medicine,"San Francisco, CA",United States of America
+19894,1989,4,The Nobel Prize in Physiology or Medicine 1989,"44,228",441,Individual,University of California School of Medicine,"San Francisco, CA",United States of America
+19895,1989,5,The Nobel Peace Prize 1989,"44,197",551,Organization,NA,NA,NA
+19896,1989,6,The Nobel Prize in Physics 1989,"44,228",135,Individual,Harvard University,"Cambridge, MA",United States of America
+19896,1989,6,The Nobel Prize in Physics 1989,"44,287",136,Individual,University of Washington,"Seattle, WA",United States of America
+19896,1989,6,The Nobel Prize in Physics 1989,"44,287",137,Individual,University of Bonn,Bonn,Federal Republic of Germany
+19901,1990,1,The Nobel Prize in Chemistry 1990,"44,197",275,Individual,Harvard University,"Cambridge, MA",United States of America
+19902,1990,2,The Sveriges Riksbank Prize in Economic Sciences 1990,"44,256",704,Individual,City University of New York,"New York, NY",United States of America
+19902,1990,2,The Sveriges Riksbank Prize in Economic Sciences 1990,"44,256",705,Individual,University of Chicago,"Chicago, IL",United States of America
+19902,1990,2,The Sveriges Riksbank Prize in Economic Sciences 1990,"44,256",706,Individual,Stanford University,"Stanford, CA",United States of America
+19903,1990,3,The Nobel Prize in Literature 1990,"44,197",667,Individual,NA,NA,NA
+19904,1990,4,The Nobel Prize in Physiology or Medicine 1990,"44,228",442,Individual,Brigham and Women's Hospital,"Boston, MA",United States of America
+19904,1990,4,The Nobel Prize in Physiology or Medicine 1990,"44,228",443,Individual,Fred Hutchinson Cancer Research Center,"Seattle, WA",United States of America
+19905,1990,5,The Nobel Peace Prize 1990,"44,197",552,Individual,NA,NA,NA
+19906,1990,6,The Nobel Prize in Physics 1990,"44,256",138,Individual,Massachusetts Institute of Technology (MIT),"Cambridge, MA",United States of America
+19906,1990,6,The Nobel Prize in Physics 1990,"44,256",139,Individual,Massachusetts Institute of Technology (MIT),"Cambridge, MA",United States of America
+19906,1990,6,The Nobel Prize in Physics 1990,"44,256",140,Individual,Stanford University,"Stanford, CA",United States of America
+19911,1991,1,The Nobel Prize in Chemistry 1991,"44,197",276,Individual,Eidgenössische Technische Hochschule (Swiss Federal Institute of Technology),Zurich,Switzerland
+19912,1991,2,The Sveriges Riksbank Prize in Economic Sciences 1991,"44,197",707,Individual,University of Chicago,"Chicago, IL",United States of America
+19913,1991,3,The Nobel Prize in Literature 1991,"44,197",668,Individual,NA,NA,NA
+19914,1991,4,The Nobel Prize in Physiology or Medicine 1991,"44,228",444,Individual,Max-Planck-Institut für Biophysikalische Chemie,Göttingen,Federal Republic of Germany
+19914,1991,4,The Nobel Prize in Physiology or Medicine 1991,"44,228",445,Individual,Max-Planck-Institut für medizinische Forschung,Heidelberg,Federal Republic of Germany
+19915,1991,5,The Nobel Peace Prize 1991,"44,197",553,Organization,NA,NA,NA
+19916,1991,6,The Nobel Prize in Physics 1991,"44,197",141,Individual,Collège de France,Paris,France
+19921,1992,1,The Nobel Prize in Chemistry 1992,"44,197",277,Individual,California Institute of Technology (Caltech),"Pasadena, CA",United States of America
+19922,1992,2,The Sveriges Riksbank Prize in Economic Sciences 1992,"44,197",708,Individual,University of Chicago,"Chicago, IL",United States of America
+19923,1992,3,The Nobel Prize in Literature 1992,"44,197",669,Individual,NA,NA,NA
+19924,1992,4,The Nobel Prize in Physiology or Medicine 1992,"44,228",446,Individual,University of Washington,"Seattle, WA",United States of America
+19924,1992,4,The Nobel Prize in Physiology or Medicine 1992,"44,228",447,Individual,University of Washington,"Seattle, WA",United States of America
+19925,1992,5,The Nobel Peace Prize 1992,"44,197",554,Individual,NA,NA,NA
+19926,1992,6,The Nobel Prize in Physics 1992,"44,197",142,Individual,École Supérieure de Physique et Chimie,Paris,France
+19931,1993,1,The Nobel Prize in Chemistry 1993,"44,228",278,Individual,NA,"La Jolla, CA",United States of America
+19931,1993,1,The Nobel Prize in Chemistry 1993,"44,228",279,Individual,University of British Columbia,Vancouver,Canada
+19932,1993,2,The Sveriges Riksbank Prize in Economic Sciences 1993,"44,228",709,Individual,University of Chicago,"Chicago, IL",United States of America
+19932,1993,2,The Sveriges Riksbank Prize in Economic Sciences 1993,"44,228",710,Individual,Washington University,"St. Louis, MO",United States of America
+19933,1993,3,The Nobel Prize in Literature 1993,"44,197",670,Individual,NA,NA,NA
+19934,1993,4,The Nobel Prize in Physiology or Medicine 1993,"44,228",448,Individual,New England Biolabs,"Beverly, MA",United States of America
+19934,1993,4,The Nobel Prize in Physiology or Medicine 1993,"44,228",449,Individual,"Massachusetts Institute of Technology (MIT), Center for Cancer Research","Cambridge, MA",United States of America
+19935,1993,5,The Nobel Peace Prize 1993,"44,228",555,Individual,NA,NA,NA
+19935,1993,5,The Nobel Peace Prize 1993,"44,228",556,Individual,NA,NA,NA
+19936,1993,6,The Nobel Prize in Physics 1993,"44,228",143,Individual,Princeton University,"Princeton, NJ",United States of America
+19936,1993,6,The Nobel Prize in Physics 1993,"44,228",144,Individual,Princeton University,"Princeton, NJ",United States of America
+19941,1994,1,The Nobel Prize in Chemistry 1994,"44,197",280,Individual,University of Southern California,"Los Angeles, CA",United States of America
+19942,1994,2,The Sveriges Riksbank Prize in Economic Sciences 1994,"44,256",711,Individual,University of California,"Berkeley, CA",United States of America
+19942,1994,2,The Sveriges Riksbank Prize in Economic Sciences 1994,"44,256",712,Individual,Princeton University,"Princeton, NJ",United States of America
+19942,1994,2,The Sveriges Riksbank Prize in Economic Sciences 1994,"44,256",713,Individual,Rheinische Friedrich-Wilhelms-Universität,Bonn,Federal Republic of Germany
+19943,1994,3,The Nobel Prize in Literature 1994,"44,197",671,Individual,NA,NA,NA
+19944,1994,4,The Nobel Prize in Physiology or Medicine 1994,"44,228",450,Individual,University of Texas Southwestern Medical Center at Dallas,"Dallas, TX",United States of America
+19944,1994,4,The Nobel Prize in Physiology or Medicine 1994,"44,228",451,Individual,National Institute of Environmental Health Sciences,"Research Triangle Park, NC",United States of America
+19945,1994,5,The Nobel Peace Prize 1994,"44,256",557,Individual,NA,NA,NA
+19945,1994,5,The Nobel Peace Prize 1994,"44,256",558,Individual,NA,NA,NA
+19945,1994,5,The Nobel Peace Prize 1994,"44,256",559,Individual,NA,NA,NA
+19946,1994,6,The Nobel Prize in Physics 1994,"44,228",145,Individual,McMaster University,"Hamilton, Ontario",Canada
+19946,1994,6,The Nobel Prize in Physics 1994,"44,228",146,Individual,Massachusetts Institute of Technology (MIT),"Cambridge, MA",United States of America
+19951,1995,1,The Nobel Prize in Chemistry 1995,"44,256",281,Individual,Max-Planck-Institut für Chemie,Mainz,Federal Republic of Germany
+19951,1995,1,The Nobel Prize in Chemistry 1995,"44,256",282,Individual,Massachusetts Institute of Technology (MIT),"Cambridge, MA",United States of America
+19951,1995,1,The Nobel Prize in Chemistry 1995,"44,256",283,Individual,University of California,"Irvine, CA",United States of America
+19952,1995,2,The Sveriges Riksbank Prize in Economic Sciences 1995,"44,197",714,Individual,University of Chicago,"Chicago, IL",United States of America
+19953,1995,3,The Nobel Prize in Literature 1995,"44,197",672,Individual,NA,NA,NA
+19954,1995,4,The Nobel Prize in Physiology or Medicine 1995,"44,256",452,Individual,California Institute of Technology (Caltech),"Pasadena, CA",United States of America
+19954,1995,4,The Nobel Prize in Physiology or Medicine 1995,"44,256",453,Individual,Max-Planck-Institut für Entwicklungsbiologie,Tübingen,Federal Republic of Germany
+19954,1995,4,The Nobel Prize in Physiology or Medicine 1995,"44,256",454,Individual,Princeton University,"Princeton, NJ",United States of America
+19955,1995,5,The Nobel Peace Prize 1995,"44,228",560,Individual,NA,NA,NA
+19955,1995,5,The Nobel Peace Prize 1995,"44,228",561,Organization,NA,NA,NA
+19956,1995,6,The Nobel Prize in Physics 1995,"44,228",147,Individual,Stanford University,"Stanford, CA",United States of America
+19956,1995,6,The Nobel Prize in Physics 1995,"44,228",148,Individual,University of California,"Irvine, CA",United States of America
+19961,1996,1,The Nobel Prize in Chemistry 1996,"44,256",284,Individual,Rice University,"Houston, TX",United States of America
+19961,1996,1,The Nobel Prize in Chemistry 1996,"44,256",285,Individual,University of Sussex,Brighton,United Kingdom
+19961,1996,1,The Nobel Prize in Chemistry 1996,"44,256",286,Individual,Rice University,"Houston, TX",United States of America
+19962,1996,2,The Sveriges Riksbank Prize in Economic Sciences 1996,"44,228",715,Individual,University of Cambridge,Cambridge,United Kingdom
+19962,1996,2,The Sveriges Riksbank Prize in Economic Sciences 1996,"44,228",716,Individual,Columbia University,"New York, NY",United States of America
+19963,1996,3,The Nobel Prize in Literature 1996,"44,197",673,Individual,NA,NA,NA
+19964,1996,4,The Nobel Prize in Physiology or Medicine 1996,"44,228",455,Individual,St. Jude Children's Research Hospital,"Memphis, TN",United States of America
+19964,1996,4,The Nobel Prize in Physiology or Medicine 1996,"44,228",456,Individual,"University of Zurich, Institute of Experimental Immunology",Zurich,Switzerland
+19965,1996,5,The Nobel Peace Prize 1996,"44,228",562,Individual,NA,NA,NA
+19965,1996,5,The Nobel Peace Prize 1996,"44,228",563,Individual,NA,NA,NA
+19966,1996,6,The Nobel Prize in Physics 1996,"44,256",149,Individual,Cornell University,"Ithaca, NY",United States of America
+19966,1996,6,The Nobel Prize in Physics 1996,"44,256",150,Individual,Stanford University,"Stanford, CA",United States of America
+19966,1996,6,The Nobel Prize in Physics 1996,"44,256",151,Individual,Cornell University,"Ithaca, NY",United States of America
+19971,1997,1,The Nobel Prize in Chemistry 1997,"44,287",287,Individual,University of California,"Los Angeles, CA",United States of America
+19971,1997,1,The Nobel Prize in Chemistry 1997,"44,287",288,Individual,MRC Laboratory of Molecular Biology,Cambridge,United Kingdom
+19971,1997,1,The Nobel Prize in Chemistry 1997,"44,228",289,Individual,Aarhus University,Aarhus,Denmark
+19972,1997,2,The Sveriges Riksbank Prize in Economic Sciences 1997,"44,228",717,Individual,Harvard University,"Cambridge, MA",United States of America
+19972,1997,2,The Sveriges Riksbank Prize in Economic Sciences 1997,"44,228",718,Individual,Long Term Capital Management,"Greenwich, CT",United States of America
+19973,1997,3,The Nobel Prize in Literature 1997,"44,197",674,Individual,NA,NA,NA
+19974,1997,4,The Nobel Prize in Physiology or Medicine 1997,"44,197",457,Individual,University of California School of Medicine,"San Francisco, CA",United States of America
+19975,1997,5,The Nobel Peace Prize 1997,"44,228",564,Organization,NA,NA,NA
+19975,1997,5,The Nobel Peace Prize 1997,"44,228",565,Individual,NA,NA,NA
+19976,1997,6,The Nobel Prize in Physics 1997,"44,256",152,Individual,Stanford University,"Stanford, CA",United States of America
+19976,1997,6,The Nobel Prize in Physics 1997,"44,256",153,Individual,Collège de France,Paris,France
+19976,1997,6,The Nobel Prize in Physics 1997,"44,256",154,Individual,National Institute of Standards and Technology,"Gaithersburg, MD",United States of America
+19981,1998,1,The Nobel Prize in Chemistry 1998,"44,228",290,Individual,University of California,"Santa Barbara, CA",United States of America
+19981,1998,1,The Nobel Prize in Chemistry 1998,"44,228",291,Individual,Northwestern University,"Evanston, IL",United States of America
+19982,1998,2,The Sveriges Riksbank Prize in Economic Sciences 1998,"44,197",719,Individual,Trinity College,Cambridge,United Kingdom
+19983,1998,3,The Nobel Prize in Literature 1998,"44,197",675,Individual,NA,NA,NA
+19984,1998,4,The Nobel Prize in Physiology or Medicine 1998,"44,256",458,Individual,SUNY Health Science Center,"Brooklyn, NY",United States of America
+19984,1998,4,The Nobel Prize in Physiology or Medicine 1998,"44,256",459,Individual,University of California School of Medicine,"Los Angeles, CA",United States of America
+19984,1998,4,The Nobel Prize in Physiology or Medicine 1998,"44,256",460,Individual,University of Texas Medical School at Houston,"Houston, TX",United States of America
+19985,1998,5,The Nobel Peace Prize 1998,"44,228",566,Individual,NA,NA,NA
+19985,1998,5,The Nobel Peace Prize 1998,"44,228",567,Individual,NA,NA,NA
+19986,1998,6,The Nobel Prize in Physics 1998,"44,256",155,Individual,Stanford University,"Stanford, CA",United States of America
+19986,1998,6,The Nobel Prize in Physics 1998,"44,256",156,Individual,Columbia University,"New York, NY",United States of America
+19986,1998,6,The Nobel Prize in Physics 1998,"44,256",157,Individual,Princeton University,"Princeton, NJ",United States of America
+19991,1999,1,The Nobel Prize in Chemistry 1999,"44,197",292,Individual,California Institute of Technology (Caltech),"Pasadena, CA",United States of America
+19992,1999,2,The Sveriges Riksbank Prize in Economic Sciences 1999,"44,197",720,Individual,Columbia University,"New York, NY",United States of America
+19993,1999,3,The Nobel Prize in Literature 1999,"44,197",676,Individual,NA,NA,NA
+19994,1999,4,The Nobel Prize in Physiology or Medicine 1999,"44,197",461,Individual,Rockefeller University,"New York, NY",United States of America
+19995,1999,5,The Nobel Peace Prize 1999,"44,197",568,Organization,NA,NA,NA
+19996,1999,6,The Nobel Prize in Physics 1999,"44,228",158,Individual,Utrecht University,Utrecht,Netherlands
+19996,1999,6,The Nobel Prize in Physics 1999,"44,228",159,Individual,NA,Bilthoven,Netherlands

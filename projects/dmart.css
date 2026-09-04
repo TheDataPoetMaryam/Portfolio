@@ -1,0 +1,644 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+
+    height:100vh;
+
+    background:
+    radial-gradient(circle at 75% 25%,
+    rgba(135,70,255,.45),
+    transparent 35%),
+
+    radial-gradient(circle at 25% 55%,
+    rgba(80,20,170,.35),
+    transparent 40%),
+
+    linear-gradient(
+    #01030b,
+    #060016,
+    #01030b);
+
+    color:white;
+
+    font-family:'Poppins',sans-serif;
+    overflow: hidden;
+}
+
+
+/* GALAXY STARS */
+
+body::before{
+
+    content:"";
+
+    position:fixed;
+
+    inset:0;
+
+    background-image:
+    radial-gradient(white 1px,transparent 1px);
+
+    background-size:65px 65px;
+
+    opacity:.35;
+
+    animation:starMove 50s linear infinite;
+
+    z-index:-1;
+
+}
+
+
+@keyframes starMove{
+
+    to{
+        background-position:600px 600px;
+    }
+
+}
+
+/* ================= NAV ================= */
+
+nav{
+    height:65px;
+    padding:
+    0 70px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.logo{
+    font-family:'Cinzel';
+    color:#ffd76b;
+    font-size:23px;
+}
+
+nav ul{
+    display:flex;
+    list-style:none;
+    gap:40px;
+}
+
+nav li{
+    list-style:none;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    font-size:14px;
+}
+
+nav a:hover{
+    color:#ffd76b;
+}
+
+.back-btn{
+    display:inline-block;
+
+    margin-left:65px;
+    margin-top:5px;
+    margin-bottom:10px;
+
+    padding:5px 18px;
+
+    border:1px solid rgba(255,215,107,.6);
+    border-radius:25px;
+
+    color:#ffd76b;
+    text-decoration:none;
+
+    background:rgba(0,0,0,.25);
+
+    transition:.3s;
+}
+
+.back-link:hover{
+    background:rgba(255,215,107,.12);
+    box-shadow:0 0 18px rgba(255,215,107,.25);
+    transform:translateX(-4px);
+}
+/* ================= HERO ================= */
+
+
+.project-hero{
+    height:60vh;
+    padding:10px 75px 0;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.tag{
+    color:#d9b8ff;
+    margin-bottom:0px;
+}
+
+h1{
+    font-family:'Cinzel';
+    font-size:46px;
+    line-height:.95;
+    letter-spacing:2px;
+    color:#ffd76b;
+    text-shadow:
+    0 0 15px #ffd76b,
+    0 0 45px #ffd76b66;
+}
+
+.subtitle{
+    margin:8px 0;
+    font-size:16px;
+    font-family:'Cinzel';
+}
+
+/* CHIPS */
+
+.chips span{
+    display:inline-block;
+    padding:6px 16px;
+    margin:4px;
+    border-radius:40px;
+    border:1px solid #ffd76b;
+    background:rgba(31, 4, 36, 0.05);
+    font-size:12px;
+
+}
+
+
+/* PLANET AREA */
+
+.planet-zone{
+    width:450px;
+    height:280px;
+    position:relative;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+/* ACTUAL PLANET */
+.planet{
+    width:350px;
+    position:absolute;
+    right:-600px;
+    top:-200px;
+    animation:planetFloat 6s infinite ease-in-out;
+    filter:drop-shadow(0 0 80px #8b5cff);
+}
+
+
+/* SNAPSHOT */
+
+.snapshot-card{
+    position:absolute;
+    right:-930px;
+    top:-190px;
+    width:330px;
+    height:225px;
+    overflow:hidden;
+    padding:15px;
+    background:rgba(3,3,20,.72);
+    border:1px solid rgba(255,215,107,.8);
+    border-radius:20px;
+    backdrop-filter:blur(18px);
+    box-shadow:0 0 35px rgba(255,215,107,.25);
+}
+
+.snapshot-card h3{
+    color:#ffd76b;
+    font-family:'Cinzel';
+    margin-bottom:12px;
+    font-size: 15px;
+}
+
+.snapshot-card p{
+    margin-bottom:8px;
+    font-size:12px;
+    line-height:1.4;
+}
+
+@keyframes planetFloat{
+    50%{
+        transform:
+        translateY(5px);
+    }
+}
+
+/* ================= GRID SIZING ================= */
+.archive-grid {
+    display: grid;
+    grid-template-columns: 5fr 5fr 5fr; 
+    gap: 22px;
+    padding: 0 65px;
+    margin-top: -230px;
+}
+
+.card-icon{
+
+    display:flex;
+
+    align-items:center;
+    justify-content:center;
+
+    width:25px;
+    height:25px;
+
+    font-size:22px;
+
+    transform:none;
+
+}
+
+/* ================= PROJECT OVERVIEW ================= */
+
+.overview-card{
+    height:160px;
+    padding:15px;
+}
+
+/* overview paragraph */
+
+.overview-card p{
+    font-size:12px;
+    line-height:1.5;
+    margin-top: 20px;
+}
+
+/* STATS INSIDE OVERVIEW */
+
+.overview-stats{
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    gap:10px;
+    margin-top:10px;
+}
+
+.mini-stat{
+
+    height:90px;
+
+    padding:10px 5px;
+
+    background:
+    linear-gradient(
+    145deg,
+    rgba(30,10,60,.8),
+    rgba(5,2,15,.9)
+    );
+
+    border:
+    1px solid rgba(139,92,255,.3);
+
+    border-radius:12px;
+
+    text-align:center;
+
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+
+}
+
+.mini-stat h4{
+
+    order:1;
+
+    color:#ffd76b;
+
+    font-size:16px;
+
+    margin-top:15px;
+
+}
+
+.stat-icon{
+    order:2;
+    font-size:18px;
+    margin-bottom:-10px;
+}
+
+
+.mini-stat p{
+    order:3;
+    font-size:8px;
+    line-height:1.15;
+    color:#aaa;
+    margin-bottom:20px;
+}
+
+/* ================= METHODOLOGY SUBGRID ================= */
+
+.method-subgrid{
+    display:grid;
+    grid-template-columns:
+    repeat(3,1fr);
+    gap:12px;
+    height:auto;
+    margin-top:15px;
+}
+
+.method-box{
+    height:200px;
+    border:1px solid rgba(255,215,107,.25);
+    border-radius:12px;
+    padding:20px 10px;
+    text-align:center;
+    background:
+    rgba(0,0,0,.35);
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    margin-bottom:100px;
+}
+
+.method-box h4{
+    color:#ffd76b;
+    font-size:11px;
+    line-height:1.3;
+    margin-bottom:8px;
+}
+
+.method-svg{
+    width:100%;
+    height:45px;
+    margin:
+    5px 0;
+    filter:
+    drop-shadow(0 0 12px rgba(139,92,255,.35));
+}
+
+.method-box p{
+    font-size:11px;
+    line-height:1.3;
+    color:#ccc;
+    margin-top:5px;
+}
+
+.method-box:hover .method-svg{
+    transform:
+    scale(1.08);
+}
+
+/* ================= RESULTS PREVIEW ================= */
+
+.results-card{
+    display:flex;
+    flex-direction:column;
+}
+
+
+/* GRAPH */
+
+.chart-placeholder{
+    height:250px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    margin-bottom:200px;
+}
+
+
+/* GRAPH SVG */
+
+.results-chart-svg{
+    width:100%;
+    height:250px !important;
+    filter:
+    drop-shadow(0 0 12px rgba(255,215,107,.15));
+}
+
+.chart-title{
+    font-size:11px;
+    color:#ccc;
+    text-align:left;
+    margin-top:10px; 
+    margin-bottom:10px;
+}
+
+/* NUMBERS UNDER GRAPH */
+
+.results-text-stats{
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    gap:15px;
+    margin-top:-15px;
+    text-align:center;
+}
+
+
+.results-text-stats h4{
+    color:#ffd76b;
+    font-size:18px;
+    margin-bottom:-5px;
+}
+
+
+.results-text-stats p{
+
+    font-size:10px;
+    line-height:1.2;
+    color:#aaa;
+
+}
+
+/* ================= BOTTOM GRID ================= */
+.bottom-grid {
+    display: grid;
+    grid-template-columns: 2fr 1fr; 
+    gap: 20px;
+    padding:0px 65px;
+    margin-top: -55px;
+    align-items:start;
+}
+
+.resources-card{
+    height:130;
+    min-height: 150px;
+    padding:auto;
+    display:flex;
+    flex-direction:column;
+    justify-content:flex-start;
+}
+
+.resource-buttons {
+    display: flex;
+    gap: 12px;
+    margin-top:12px;
+}
+
+.res-btn {
+    height:50px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 6px 12px;
+    background: transparent;
+    border: 1px solid rgba(255, 215, 107, 0.2);
+    border-radius: 12px;
+    text-decoration: none;
+    color: #d8d9e8;
+    transition: 0.3s;
+    flex: 1; /* Makes all buttons equal width */
+}
+
+.res-btn:hover {
+    border-color: #ffd76b;
+    background: rgba(255, 215, 107, 0.08);
+    transform: translateY(-3px);
+}
+
+.res-icon {
+    font-size: 22px;
+    margin-bottom:18px;
+}
+
+.res-text strong {
+    display: block;
+    font-size: 11px;
+    color: #ffd76b;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    margin-bottom: 2px;
+}
+
+.res-text span {
+    font-size: 10px;
+    color: #999;
+}
+
+.results-chart-svg {
+    width: 100%; 
+    height: 120px !important; /* Shrunk chart height */
+    filter: drop-shadow(0 0 10px rgba(255, 215, 107, 0.1));
+}
+
+/* ================= QUOTE CARD ================= */
+.quote-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+    position: relative;
+    border: 1px solid rgba(139, 92, 255, 0.2); /* Faint purple border */
+    border-radius: 18px;
+    background: rgba(10, 5, 25, 0.4);
+    height:115px;
+}
+
+.quote-content {
+    text-align: center;
+    font-style: italic;
+    color: #ccc;
+    line-height: 1.5;
+    font-family: 'Cinzel', serif;
+    font-size: 15px;
+    position: relative;
+}
+
+.quote-content::before {
+    content: "“";
+    position: absolute;
+    left: -35px;
+    top: -25px;
+    color: #8b5cff;
+    font-size: 60px;
+    font-family: serif;
+    opacity: 0.5;
+}
+
+.quote-content::after {
+    content: "”";
+    position: absolute;
+    right: -25px;
+    bottom: -50px;
+    color: #8b5cff;
+    font-size: 60px;
+    font-family: serif;
+    opacity: 0.5;
+}
+
+.glass-card {
+    background: rgba(2, 2, 20, 0.65);
+    border: 1px solid rgba(255, 215, 107, 0.3);
+    border-radius: 16px;
+    padding: 10px;
+    backdrop-filter: blur(15px);
+    box-shadow: 
+        inset 0 0 25px rgba(255, 255, 255, 0.02), 
+        0 0 25px rgba(255, 215, 107, 0.05);
+    display: flex;
+    flex-direction: column;
+    min-height:100;
+    height:260px;
+    margin-bottom: 70px;
+}
+
+h2 {
+    color: #ffd76b;
+    margin-bottom: -15px;
+    font-size: 15px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+}
+
+/* FORCE FIX RESOURCE CARD */
+
+.bottom-grid .resources-card{
+    height:115px !important;
+    min-height:0 !important;
+    padding:18px !important;
+    overflow:hidden;
+}
+
+
+/* remove extra stretching */
+.bottom-grid{
+    align-items:start !important;
+}
+
+
+/* resource button row */
+.resource-buttons{
+    height:70px;
+    margin-top:12px;
+}
+
+
+/* individual buttons */
+.res-btn{
+    height:55px;
+    padding:8px 15px;
+}
+/* =========================================================
+   MOBILE LANDSCAPE — 667 × 375
+   Keep the laptop composition. Scale the complete canvas
+   down to 1/6 and keep the scaled canvas filling the phone.
+   ========================================================= */
+
+@media (max-width: 900px) and (orientation: landscape) {
+
+    html {
+        width: 100% !important;
+        height: 100% !important;
+        overflow: hidden !important;
+    }
+
+    body {
+        width: 600% !important;
+        height: 600% !important;
+        min-height: 600% !important;
+        overflow: visible !important;
+
+        transform: scale(0.1666667) !important;
+        transform-origin: top left !important;
+    }
+}
