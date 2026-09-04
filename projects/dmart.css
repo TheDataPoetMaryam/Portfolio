@@ -618,27 +618,4 @@ h2 {
     height:55px;
     padding:8px 15px;
 }
-/* =========================================================
-   MOBILE LANDSCAPE — 667 × 375
-   Keep the laptop composition. Scale the complete canvas
-   down to 1/6 and keep the scaled canvas filling the phone.
-   ========================================================= */
 
-@media (max-width: 900px) and (orientation: landscape) {
-
-    html {
-        width: 100% !important;
-        height: 100% !important;
-        overflow: hidden !important;
-    }
-
-    body {
-        width: 600% !important;
-        height: 600% !important;
-        min-height: 600% !important;
-        overflow: visible !important;
-
-        transform: scale(0.1666667) !important;
-        transform-origin: top left !important;
-    }
-}
